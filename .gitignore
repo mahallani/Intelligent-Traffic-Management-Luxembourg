@@ -1,0 +1,29 @@
+# LuST external SUMO scenario
+LuSTScenario/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# SUMO generated files
+*.log
+*.tripinfo.xml
+*.emission.xml
+*.fcd.xml
+*.netstate.xml
+*.vehroute.xml
+*.stat.xml
+
+# OS
+.DS_Store
+Thumbs.db
