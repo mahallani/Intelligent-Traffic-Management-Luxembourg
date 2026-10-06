@@ -1,5 +1,4 @@
 # LuST external SUMO scenario
-LuSTScenario/
 
 # Python
 __pycache__/
@@ -27,3 +26,4 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+LuSTScenario/
