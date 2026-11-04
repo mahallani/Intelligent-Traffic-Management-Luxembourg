@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d2LogicalModel xmlns="http://datex2.eu/schema/2/2_0" modelBaseVersion="2">
+  <exchange>
+    <supplierIdentification>
+      <country>lu</country>
+      <nationalIdentifier>lu.cita</nationalIdentifier>
+    </supplierIdentification>
+  </exchange>
+  <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="en-us" xsi:type="MeasurementSiteTablePublication">
+    <publicationTime>2026-10-07T19:20:09+02:00</publicationTime>
+    <publicationCreator>
+      <country>lu</country>
+      <nationalIdentifier>lu.cita</nationalIdentifier>
+    </publicationCreator>
+    <headerInformation>
+      <confidentiality>noRestriction</confidentiality>
+      <informationStatus>real</informationStatus>
+    </headerInformation>
+    <measurementSiteTable id="31C932F1-1C75-4FCB-888A-727277191114" version="1">
+      <measurementSiteTableIdentification>Collection of weather stations of Luxembourg</measurementSiteTableIdentification>
+      <measurementSiteRecord id="A1PK16730GT" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">SVMS</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Uebersyren (Schuttrange)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A1PK16730GT</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.642794</latitude>
+            <longitude>6.281839</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Luxembourg</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A1</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>16730</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.642794</latitude>
+              <longitude>6.281839</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>249</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A1PK32572TG" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">SVMS</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Mertert</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A1PK32572TG</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.704053</latitude>
+            <longitude>6.470309</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Grevenmacher</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A1</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>32572</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.704053</latitude>
+              <longitude>6.470309</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>138</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A13PK38630PS" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">SVMS</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Burmerange (Schengen)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A13PK38630PS</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.483273</latitude>
+            <longitude>6.33755</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Remich</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A13</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>38630</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.483273</latitude>
+              <longitude>6.33755</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>260</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A13PK03310SP" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">SVMS</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Soleuvre (Sanem)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A13PK03310SP</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.538225</latitude>
+            <longitude>5.923418</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Esch-sur-Alzette</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A13</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>3310</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.538225</latitude>
+              <longitude>5.923418</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>308</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A4PK06500RH" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">SVMS</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Leudelange</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A4PK06500RH</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.559135</latitude>
+            <longitude>6.061082</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Esch-sur-Alzette</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A4</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>6500</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.559135</latitude>
+              <longitude>6.061082</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>322</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A6PK02183WG" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">SVMS</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Cessange (Luxembourg)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A6PK02183WG</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.581206</latitude>
+            <longitude>6.095565</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Luxembourg</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A6</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>2183</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.581206</latitude>
+              <longitude>6.095565</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>307</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A7PK20600FN" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">SVMS</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Essingen (Mersch)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A7PK20600FN</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.785852</latitude>
+            <longitude>6.098165</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Mersch</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A7</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>20600</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.785852</latitude>
+              <longitude>6.098165</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>285</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A7PK00600NF" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">SVMS</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Gréngewald (Niederanven)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A7PK00600NF</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.645337</latitude>
+            <longitude>6.187847</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Luxembourg</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A7</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>600</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.645337</latitude>
+              <longitude>6.187847</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>371</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A7PK05350NF" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">SVMS</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Heisdorf (Steinsel)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A7PK05350NF</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>360</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.680716</latitude>
+            <longitude>6.159455</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Luxembourg</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A7</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>5350</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.680716</latitude>
+              <longitude>6.159455</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>394</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A13PK13588PS-Webmet" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">Sterela MercuryNovaAws</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Schifflange</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A13PK13588PS-Webmet</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.511214</latitude>
+            <longitude>6.031931</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Esch-sur-Alzette</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A13</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>13588</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.511214</latitude>
+              <longitude>6.031931</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>298</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A13PK27235SP-Webmet" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">Sterela MercuryNovaAws</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Frisange</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A13PK27235SP-Webmet</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.50901</latitude>
+            <longitude>6.20498</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Esch-sur-Alzette</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A13</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>27235</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.50901</latitude>
+              <longitude>6.20498</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>272</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A1PK22030GT-Webmet" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">Sterela MercuryNovaAws</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Buchholz (Flaxweiler)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A1PK22030GT-Webmet</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.659491</latitude>
+            <longitude>6.347644</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Grevenmacher</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A1</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>22030</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.659491</latitude>
+              <longitude>6.347644</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>308</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A3PK04778VM-Webmet" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">Sterela MercuryAws</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Bivange (Roeser)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A3PK04778VM-Webmet</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="5">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.545928</latitude>
+            <longitude>6.122608</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Esch-sur-Alzette</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A3</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>4778</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.545928</latitude>
+              <longitude>6.122608</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>289</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A6PK18790GW-Webmet" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">Sterela MercuryNovaAws</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Kahler (Garnich)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A6PK18790GW-Webmet</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.63603</latitude>
+            <longitude>5.93303</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Capellen</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A6</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>18790</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.63603</latitude>
+              <longitude>5.93303</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>309</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="A6PK05953WG-Webmet" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">Sterela MercuryNovaAws</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Strassen</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>A6PK05953WG-Webmet</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.61123</latitude>
+            <longitude>6.08179</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Luxembourg</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>A6</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>5953</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.61123</latitude>
+              <longitude>6.08179</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>303</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="CRPK13544CHCR128RE-Webmet" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">Sterela MercuryNovaAws</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Kosselt (Beaufort)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>CRPK13544CHCR128RE-Webmet</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.847917</latitude>
+            <longitude>6.278333</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Echternach</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>CR</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>13544</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.847917</latitude>
+              <longitude>6.278333</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>409</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="CRPK12593ERCR325CL-Webmet" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">Sterela MercuryNovaAws</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Clervaux</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>CRPK12593ERCR325CL-Webmet</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>50.043581</latitude>
+            <longitude>6.021917</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Clervaux</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>CR</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>12593</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>50.043581</latitude>
+              <longitude>6.021917</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>347</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="CRPK12488ESCR308BO-Webmet" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">Sterela MercuryNovaAws</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Heiderscheid (Esch-sur-Sûre)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>CRPK12488ESCR308BO-Webmet</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.886361</latitude>
+            <longitude>5.97108</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Wiltz</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>CR</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>12488</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.886361</latitude>
+              <longitude>5.97108</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>512</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="N11PK12691LUN11EC-Webmet" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">Sterela MercuryNovaAws</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Junglinster</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>N11PK12691LUN11EC-Webmet</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>49.7027</latitude>
+            <longitude>6.25426</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Grevenmacher</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>N11</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>12691</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>49.7027</latitude>
+              <longitude>6.25426</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>329</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="N12PK70243LUN12ES-Webmet" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">Sterela MercuryNovaAws</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Hamiville (Wincrange)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>N12PK70243LUN12ES-Webmet</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>50.037972</latitude>
+            <longitude>5.887054</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Clervaux</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>N12</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>70243</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>50.037972</latitude>
+              <longitude>5.887054</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>485</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+      <measurementSiteRecord id="N7PK76424LUN7HU-Webmet" version="1">
+        <computationMethod>arithmeticAverageOfSamplesInATimePeriod</computationMethod>
+        <measurementEquipmentTypeUsed>
+          <values>
+            <value lang="en-us">Sterela MercuryNovaAws</value>
+          </values>
+        </measurementEquipmentTypeUsed>
+        <measurementSiteName>
+          <values>
+            <value lang="lu">Huldange (Troisvierges)</value>
+          </values>
+        </measurementSiteName>
+        <measurementSiteIdentification>N7PK76424LUN7HU-Webmet</measurementSiteIdentification>
+        <measurementSpecificCharacteristics index="0">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>humidityInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="1">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="2">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="3">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSpecificCharacteristics index="4">
+          <measurementSpecificCharacteristics>
+            <period>1</period>
+            <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+          </measurementSpecificCharacteristics>
+        </measurementSpecificCharacteristics>
+        <measurementSiteLocation xsi:type="Point">
+          <locationForDisplay>
+            <latitude>50.17903</latitude>
+            <longitude>6.02505</longitude>
+          </locationForDisplay>
+          <pointAlongLinearElement>
+            <administrativeAreaOfPoint>
+              <values>
+                <value lang="lu">Luxembourg</value>
+                <value lang="lu">Clervaux</value>
+              </values>
+            </administrativeAreaOfPoint>
+            <linearElement>
+              <roadNumber>N7</roadNumber>
+            </linearElement>
+            <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+              <distanceAlong>76424</distanceAlong>
+            </distanceAlongLinearElement>
+          </pointAlongLinearElement>
+          <pointByCoordinates>
+            <pointCoordinates>
+              <latitude>50.17903</latitude>
+              <longitude>6.02505</longitude>
+            </pointCoordinates>
+            <pointByCoordinatesExtension>
+              <pointByCoordinatesExtended>
+                <altitude>538</altitude>
+              </pointByCoordinatesExtended>
+            </pointByCoordinatesExtension>
+          </pointByCoordinates>
+        </measurementSiteLocation>
+        <measurementSiteRecordExtension>
+          <measurementSiteRecordExtendedRWIS>
+            <measurementSiteRecordType>automatic</measurementSiteRecordType>
+            <measurementSiteConstructionType>drainAsphalt</measurementSiteConstructionType>
+            <measurementEquipmentLocationType>freeTrackWithoutFurtherInformation</measurementEquipmentLocationType>
+          </measurementSiteRecordExtendedRWIS>
+        </measurementSiteRecordExtension>
+      </measurementSiteRecord>
+    </measurementSiteTable>
+  </payloadPublication>
+</d2LogicalModel>

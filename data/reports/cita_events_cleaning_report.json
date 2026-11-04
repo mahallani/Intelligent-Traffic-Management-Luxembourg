@@ -1,0 +1,137 @@
+{
+ "event_key": [
+  "creation_time",
+  "start_time",
+  "destination",
+  "latitude",
+  "longitude"
+ ],
+ "event_key_note": "reconstructed; raw XML situation/record ids were not collected",
+ "historical": {
+  "file": "data/historical/cita/events/cita_events_historical.csv",
+  "separator": ",",
+  "rows": 223,
+  "columns": [
+   "collection_time",
+   "event_type",
+   "creation_time",
+   "start_time",
+   "road",
+   "destination",
+   "latitude",
+   "longitude",
+   "impact",
+   "probability",
+   "lanes_restricted",
+   "operational_lanes",
+   "original_lanes",
+   "length_affected",
+   "comment",
+   "location_description"
+  ],
+  "missing_pct": {
+   "event_type": 78.5,
+   "impact": 100.0,
+   "original_lanes": 51.6,
+   "comment": 100.0,
+   "location_description": 100.0
+  },
+  "distinct_states_before_bool_normalisation": 19,
+  "distinct_events": 19,
+  "distinct_states": 19,
+  "rows_collapsed_identical_repeats": 204
+ },
+ "live": {
+  "file": "data/historical/cita/events/cita_events_live.csv",
+  "separator": ",",
+  "rows": 36402,
+  "columns": [
+   "collection_time",
+   "event_type",
+   "creation_time",
+   "version_time",
+   "start_time",
+   "validity",
+   "road",
+   "destination",
+   "latitude",
+   "longitude",
+   "impact",
+   "probability",
+   "safety_message",
+   "lanes_restricted",
+   "operational_lanes",
+   "original_lanes",
+   "length_affected",
+   "comment"
+  ],
+  "missing_pct": {
+   "event_type": 100.0,
+   "road": 100.0,
+   "impact": 100.0,
+   "original_lanes": 49.3,
+   "comment": 100.0
+  },
+  "safety_message_raw_values": {
+   "True": 36383,
+   "true": 19
+  },
+  "safety_message_uninterpretable": 0,
+  "distinct_states_before_bool_normalisation": 134,
+  "distinct_events": 64,
+  "distinct_states": 115,
+  "rows_collapsed_identical_repeats": 36287
+ },
+ "matching": {
+  "exact": 19,
+  "uncertain": 9
+ },
+ "enrichment_conflicts": 0,
+ "output": {
+  "states": 134,
+  "events": 64,
+  "states_per_event": {
+   "2": 31,
+   "1": 20,
+   "3": 8,
+   "5": 3,
+   "7": 1,
+   "6": 1
+  },
+  "road_provenance": {
+   "<NA>": 93,
+   "historical_exact_match": 22,
+   "original": 19
+  },
+  "event_type_provenance": {
+   "<NA>": 126,
+   "original": 4,
+   "historical_exact_match": 4
+  },
+  "safety_message": {
+   "True": 115,
+   "<NA>": 19
+  },
+  "flag_lanes_inconsistent": 0,
+  "missing_pct": {
+   "event_type": 94.0,
+   "road": 69.4,
+   "impact": 100.0,
+   "original_lanes": 47.0,
+   "comment": 100.0,
+   "location_description": 100.0,
+   "version_time_original": 14.2,
+   "validity": 14.2,
+   "safety_message": 14.2,
+   "road_provenance": 69.4,
+   "event_type_provenance": 94.0,
+   "version_time_utc": 14.2
+  }
+ },
+ "columns_decisions": {
+  "impact, comment": "kept although 100% empty in both sources (documented, not dropped)",
+  "event_type": "100% empty in live; 78.5% empty in historical -> filled only from an exact historical match",
+  "location_description": "100% empty in historical, absent from live",
+  "safety_message": "'True'/'true' -> boolean True; empty stays NA; historical has no such column -> NA"
+ }
+}

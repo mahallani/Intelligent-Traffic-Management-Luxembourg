@@ -1,0 +1,20 @@
+time_s;clock;event;tls;carrefour;detail;data_origin
+26400.0;07:20:00;insertion demandée;;;ambulance ajoutée en début d'avenue (--31070#8);SIMULATED_sumo_lust_kirchberg_4tls
+26417.0;07:20:17;départ;;;entrée dans le réseau sur --31070#8_0;SIMULATED_sumo_lust_kirchberg_4tls
+26431.0;07:20:31;approche;-28692;Carrefour 1;136 m, feu jaune pour l'ambulance;SIMULATED_sumo_lust_kirchberg_4tls
+26431.0;07:20:31;demande de priorité;-28692;Carrefour 1;phase 1 → phase cible 0;SIMULATED_sumo_lust_kirchberg_4tls
+26476.0;07:21:16;carrefour franchi;-28692;Carrefour 1;;SIMULATED_sumo_lust_kirchberg_4tls
+26476.0;07:21:16;fin de la priorité;-28692;Carrefour 1;vert tenu 11.0 s;SIMULATED_sumo_lust_kirchberg_4tls
+26481.0;07:21:21;approche;-23354;Carrefour 2;139 m, feu rouge pour l'ambulance;SIMULATED_sumo_lust_kirchberg_4tls
+26481.0;07:21:21;demande de priorité;-23354;Carrefour 2;phase 0 → phase cible 2;SIMULATED_sumo_lust_kirchberg_4tls
+26496.0;07:21:36;carrefour franchi;-23354;Carrefour 2;;SIMULATED_sumo_lust_kirchberg_4tls
+26496.0;07:21:36;fin de la priorité;-23354;Carrefour 2;vert tenu 10.0 s;SIMULATED_sumo_lust_kirchberg_4tls
+26506.0;07:21:46;approche;-20484;Carrefour 3;147 m, feu rouge pour l'ambulance;SIMULATED_sumo_lust_kirchberg_4tls
+26506.0;07:21:46;demande de priorité;-20484;Carrefour 3;phase 4 → phase cible 0;SIMULATED_sumo_lust_kirchberg_4tls
+26530.0;07:22:10;carrefour franchi;-20484;Carrefour 3;;SIMULATED_sumo_lust_kirchberg_4tls
+26530.0;07:22:10;fin de la priorité;-20484;Carrefour 3;vert tenu 19.0 s;SIMULATED_sumo_lust_kirchberg_4tls
+26547.0;07:22:27;approche;-29958;Carrefour 4;145 m, feu rouge pour l'ambulance;SIMULATED_sumo_lust_kirchberg_4tls
+26552.0;07:22:32;demande de priorité;-29958;Carrefour 4;phase 2 → phase cible 0;SIMULATED_sumo_lust_kirchberg_4tls
+26578.0;07:22:58;carrefour franchi;-29958;Carrefour 4;;SIMULATED_sumo_lust_kirchberg_4tls
+26578.0;07:22:58;fin de la priorité;-29958;Carrefour 4;vert tenu 11.0 s;SIMULATED_sumo_lust_kirchberg_4tls
+26606.0;07:23:26;sortie du réseau;;;trajet 189 s depuis le départ;SIMULATED_sumo_lust_kirchberg_4tls

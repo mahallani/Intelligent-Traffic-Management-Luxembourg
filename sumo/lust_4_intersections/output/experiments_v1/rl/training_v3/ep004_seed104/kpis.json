@@ -1,0 +1,68 @@
+{
+ "strategy": "S3_rl_qlearning",
+ "scale": 5.0,
+ "seed": 104,
+ "begin": 25200.0,
+ "end": 28800.0,
+ "backend": "libsumo",
+ "warmup_s": 300.0,
+ "programs_at_start": {
+  "-28692": "0",
+  "-23354": "0",
+  "-20484": "0",
+  "-29958": "0"
+ },
+ "wall_clock_s": 19.0,
+ "data_origin": "SIMULATED_sumo_lust_kirchberg_4tls",
+ "loaded": 3890,
+ "inserted": 3672,
+ "running_at_end": 235,
+ "waiting_insertion_at_end": 155,
+ "arrived": 3437,
+ "discarded_not_inserted": 63,
+ "teleports": 0,
+ "collisions": 0,
+ "completed_trips": 3437,
+ "unfinished_trips_at_end": 235,
+ "avg_travel_time_s": 155.29,
+ "avg_waiting_time_s": 55.05,
+ "avg_time_loss_s": 86.5,
+ "avg_depart_delay_s": 37.71,
+ "p95_travel_time_s": 393.0,
+ "total_waiting_time_all_h": 57.63,
+ "total_time_loss_all_h": 91.39,
+ "co2_kg": 1406.8,
+ "nox_g": 560.75,
+ "pmx_g": 124.178,
+ "fuel_kg": 455.22,
+ "avg_queue_veh": 58.83,
+ "max_queue_veh": 124,
+ "avg_queue_m": 480.4,
+ "avg_queue_veh_tls_-28692": 17.63,
+ "avg_queue_veh_tls_-23354": 1.55,
+ "avg_queue_veh_tls_-20484": 3.16,
+ "avg_queue_veh_tls_-29958": 36.49,
+ "actuator": {
+  "advance": 626,
+  "forced_max_green": 11,
+  "refused_min_green": 0,
+  "holds": 629
+ },
+ "controller": {
+  "decisions": 2251,
+  "unseen_states": 94,
+  "fallback_decisions": 828,
+  "explorations": 416,
+  "updates": 2247
+ },
+ "detection": {
+  "alerts": 33,
+  "rule": "halting >= 8 for >= 60 s"
+ },
+ "prediction": {
+  "forecast_horizon_s": 60.0,
+  "n_scored": 2832,
+  "mae_model_veh": 9.654,
+  "mae_persistence_veh": 7.582
+ }
+}

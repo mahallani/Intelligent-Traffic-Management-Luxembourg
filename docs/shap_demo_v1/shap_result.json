@@ -1,0 +1,227 @@
+{
+ "data_origin": "SIMULATED_sumo_lust_kirchberg_4tls",
+ "model": {
+  "type": "tabular Q-learning (S3), frozen table",
+  "file": "sumo/lust_4_intersections/output/experiments_v1/rl/qtable_v4_FROZEN_ep26_eval.json",
+  "episodes_trained": 26,
+  "train_scales": [
+   5.0
+  ]
+ },
+ "explained_output": "delta = Q(passer) - Q(garder)  (> 0: the table prefers to change the phase)",
+ "method": "exact interventional Shapley values (2^4 coalitions per background state, no sampling); signal and green phase fixed; background = states of the same signal and phase in the table, weighted by visits",
+ "decision": {
+  "run": "sumo/lust_4_intersections/output/app_runs/20261022_141518_S3_rl_qlearning_x1_seed1_ambulance_prio",
+  "tls": "-29958",
+  "time_s": 26941.0,
+  "clock": "07:29:01",
+  "from_phase": 2,
+  "to_phase": 3,
+  "green_duration_s": 5.0,
+  "source": "table apprise",
+  "action": "passer"
+ },
+ "state": {
+  "key": "-29958|1|0|3|0|0",
+  "green_phase_index": 1,
+  "file_servie": {
+   "class_index": 0,
+   "class": "0"
+  },
+  "file_autre": {
+   "class_index": 3,
+   "class": "6–10"
+  },
+  "en_mouvement": {
+   "class_index": 0,
+   "class": "0"
+  },
+  "durée_vert": {
+   "class_index": 0,
+   "class": "≤ 10 s"
+  }
+ },
+ "logged_check": {
+  "q_garder_logged": -4.651,
+  "q_passer_logged": -1.481,
+  "q_garder_table": -4.650686034349803,
+  "q_passer_table": -1.4806601410455167,
+  "visits_garder_passer": [
+   10,
+   79
+  ],
+  "ok": true
+ },
+ "delta": 3.1700258933042864,
+ "base_value": 2.8952790644276876,
+ "contributions": [
+  {
+   "variable": "file_servie",
+   "label": "véhicules arrêtés sur les voies au vert",
+   "class_index": 0,
+   "class": "0",
+   "shap": 0.0,
+   "background_classes_retained": {
+    "0": 1688.0
+   },
+   "warning": "constant in the retained background: contribution 0 by construction, NOT a proof that the variable has no effect"
+  },
+  {
+   "variable": "file_autre",
+   "label": "véhicules arrêtés sur une autre phase",
+   "class_index": 3,
+   "class": "6–10",
+   "shap": -0.4479986528946299,
+   "background_classes_retained": {
+    "0": 121.0,
+    "1–2": 56.0,
+    "3–5": 88.0,
+    "6–10": 133.0,
+    "> 10": 1290.0
+   },
+   "warning": null
+  },
+  {
+   "variable": "en_mouvement",
+   "label": "véhicules en mouvement au vert",
+   "class_index": 0,
+   "class": "0",
+   "shap": 0.5202473710523992,
+   "background_classes_retained": {
+    "0": 1223.0,
+    "1–2": 241.0,
+    "3–5": 181.0,
+    "> 5": 43.0
+   },
+   "warning": null
+  },
+  {
+   "variable": "durée_vert",
+   "label": "durée du vert écoulée",
+   "class_index": 0,
+   "class": "≤ 10 s",
+   "shap": 0.20249811071882945,
+   "background_classes_retained": {
+    "≤ 10 s": 1432.0,
+    "11–20 s": 256.0
+   },
+   "warning": null
+  }
+ ],
+ "sum_contributions": 0.2747468288765987,
+ "additivity": {
+  "base_plus_sum": 3.1700258933042864,
+  "delta": 3.1700258933042864,
+  "abs_error": 0.0,
+  "tolerance": 1e-09,
+  "ok": true
+ },
+ "background": {
+  "states_total": 36,
+  "states_retained": 29,
+  "states_excluded_missing_hybrid": 7,
+  "excluded_examples": [
+   {
+    "background": [
+     1,
+     3,
+     1,
+     0
+    ],
+    "missing_states": [
+     "-29958|1|1|3|0|0"
+    ]
+   },
+   {
+    "background": [
+     1,
+     3,
+     2,
+     0
+    ],
+    "missing_states": [
+     "-29958|1|1|3|0|0"
+    ]
+   },
+   {
+    "background": [
+     1,
+     4,
+     1,
+     0
+    ],
+    "missing_states": [
+     "-29958|1|1|3|0|0",
+     "-29958|1|1|4|0|0"
+    ]
+   },
+   {
+    "background": [
+     1,
+     4,
+     1,
+     1
+    ],
+    "missing_states": [
+     "-29958|1|1|3|0|0",
+     "-29958|1|1|3|0|1",
+     "-29958|1|1|3|1|1",
+     "-29958|1|1|4|0|0"
+    ]
+   },
+   {
+    "background": [
+     1,
+     4,
+     2,
+     0
+    ],
+    "missing_states": [
+     "-29958|1|1|3|0|0",
+     "-29958|1|1|4|0|0"
+    ]
+   },
+   {
+    "background": [
+     1,
+     4,
+     2,
+     1
+    ],
+    "missing_states": [
+     "-29958|1|1|3|0|0",
+     "-29958|1|1|3|0|1",
+     "-29958|1|1|3|2|1",
+     "-29958|1|1|4|0|0"
+    ]
+   },
+   {
+    "background": [
+     1,
+     4,
+     3,
+     0
+    ],
+    "missing_states": [
+     "-29958|1|1|3|0|0",
+     "-29958|1|1|3|3|0",
+     "-29958|1|1|4|0|0"
+    ]
+   }
+  ],
+  "visit_weight_total": 1703.0,
+  "visit_weight_retained": 1688.0,
+  "states_retained_unreliable": 22,
+  "hybrid_evaluations": 464,
+  "hybrid_evaluations_unreliable": 238,
+  "weighted_share_unreliable_evaluations": 0.1695053317535545
+ },
+ "limitations": [
+  "SHAP describes how the variables moved the OUTPUT OF THE TABLE (delta), not a causal effect on traffic.",
+  "Background = training distribution of the table (demand x5); the explained decision comes from a x1 run.",
+  "Variables are classes (bins), not exact vehicle counts.",
+  "A variable that is constant in the retained background gets 0 by construction (see 'warning').",
+  "Some table values used in the calculation are unreliable (fewer than 3 visits): their share is reported.",
+  "Only decisions taken by the learned table can be explained this way (not the fallback rule S2, not safety rules, not 'keep' decisions, which are not logged)."
+ ]
+}

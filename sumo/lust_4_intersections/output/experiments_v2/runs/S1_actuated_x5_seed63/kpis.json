@@ -1,0 +1,90 @@
+{
+ "strategy": "S1_actuated",
+ "scale": 5.0,
+ "seed": 63,
+ "begin": 25200.0,
+ "end": 28800.0,
+ "backend": "libsumo",
+ "stopped_early": false,
+ "forecasts_passed_to_decision": true,
+ "warmup_s": 300.0,
+ "programs_at_start": {
+  "-28692": "actuated_v1",
+  "-23354": "actuated_v1",
+  "-20484": "actuated_v1",
+  "-29958": "actuated_v1"
+ },
+ "wall_clock_s": 9.0,
+ "data_origin": "SIMULATED_sumo_lust_kirchberg_4tls",
+ "loaded": 3890,
+ "inserted": 3877,
+ "running_at_end": 170,
+ "waiting_insertion_at_end": 13,
+ "arrived": 3707,
+ "discarded_not_inserted": 0,
+ "teleports": 0,
+ "collisions": 0,
+ "completed_trips": 3707,
+ "unfinished_trips_at_end": 170,
+ "avg_travel_time_s": 115.25,
+ "avg_waiting_time_s": 22.8,
+ "avg_time_loss_s": 45.19,
+ "avg_depart_delay_s": 8.08,
+ "p95_travel_time_s": 218.0,
+ "total_waiting_time_all_h": 25.1,
+ "total_time_loss_all_h": 49.9,
+ "co2_kg": 1236.67,
+ "nox_g": 463.53,
+ "pmx_g": 118.492,
+ "fuel_kg": 400.12,
+ "avg_queue_veh": 24.23,
+ "max_queue_veh": 77,
+ "avg_queue_m": 203.7,
+ "avg_queue_veh_tls_-28692": 9.11,
+ "avg_queue_veh_tls_-23354": 0.88,
+ "avg_queue_veh_tls_-20484": 2.31,
+ "avg_queue_veh_tls_-29958": 11.93,
+ "actuator": {
+  "advance": 0,
+  "forced_max_green": 0,
+  "refused_min_green": 0,
+  "holds": 0
+ },
+ "safety": {
+  "transitions_checked": 2199,
+  "violations": {
+   "state_in_program": 0,
+   "green_to_red_without_yellow": 0,
+   "min_green": 0,
+   "yellow_duration": 0,
+   "max_green": 0
+  },
+  "total_violations": 0,
+  "examples": [],
+  "limits": {
+   "min_green_s": 5.0,
+   "max_green_s": 90.0
+  }
+ },
+ "controller": {},
+ "detection": {
+  "mode": "rules",
+  "gate_with_forecast": false,
+  "suppressed_by_forecast": 0,
+  "alerts": 9,
+  "alerts_congestion": 9,
+  "alerts_stalled": 0,
+  "rules": "congestion: halting >= 8 for >= 60 s; stalled: a vehicle stopped >= 150 s"
+ },
+ "prediction": {
+  "model": "cascade_model_v2.json",
+  "transform": "log1p",
+  "n_scored": 528,
+  "mae_cascade_5min": 3.914,
+  "mae_persistence_5min": 5.245,
+  "mae_cascade_10min": 3.68,
+  "mae_persistence_10min": 4.541,
+  "mae_cascade_15min": 3.543,
+  "mae_persistence_15min": 4.116
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "captures": [
+  {
+   "file": "a_attente.png",
+   "clock": "07:21:16",
+   "status": "running",
+   "amb": "en circulation",
+   "siren_label": "Sirène : en cours",
+   "audio": "function"
+  },
+  {
+   "file": "b_en_circulation.png",
+   "clock": "07:22:46",
+   "status": "running",
+   "amb": "en circulation",
+   "siren_label": "Sirène : en cours",
+   "audio": "function"
+  },
+  {
+   "file": "c_pause.png",
+   "clock": "07:22:46",
+   "status": "paused",
+   "amb": "en circulation",
+   "siren_label": "Sirène : silencieuse (ambulance absente, simulation arrêtée ou en pause)",
+   "audio": "function"
+  },
+  {
+   "file": "d_fin.png",
+   "clock": "07:59:56",
+   "status": "finished",
+   "amb": "arrivée",
+   "siren_label": "Sirène : silencieuse (ambulance absente, simulation arrêtée ou en pause)",
+   "audio": "function"
+  }
+ ],
+ "console": []
+}

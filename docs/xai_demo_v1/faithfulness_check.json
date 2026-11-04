@@ -1,0 +1,11 @@
+{
+ "run": "app_runs/20261022_141518_S3_rl_qlearning_x1_seed1_ambulance_prio",
+ "rows": 613,
+ "missing_explanation": 0,
+ "learned": 259,
+ "fallback": 280,
+ "safety": 74,
+ "other": 0,
+ "violations": [],
+ "violations_count": 0
+}

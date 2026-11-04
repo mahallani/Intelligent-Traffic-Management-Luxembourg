@@ -1,0 +1,16 @@
+lane;tls;start_s;raised_s;end_s;max_halting;data_origin
+--30444#0_0;-28692;25346.0;25406.0;25436.0;30;SIMULATED_sumo_lust_kirchberg_4tls
+--30444#0_0;-28692;25441.0;25501.0;25526.0;27;SIMULATED_sumo_lust_kirchberg_4tls
+--30444#0_0;-28692;25536.0;25596.0;25606.0;14;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;26936.0;26996.0;27006.0;11;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;27971.0;28031.0;28056.0;34;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;28086.0;28146.0;28216.0;24;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;28406.0;28466.0;28481.0;12;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_0;-29958;28411.0;28471.0;28476.0;8;SIMULATED_sumo_lust_kirchberg_4tls
+--31070#8_1;-28692;28481.0;28541.0;28551.0;11;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;28491.0;28551.0;28556.0;9;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;28561.0;28621.0;28646.0;27;SIMULATED_sumo_lust_kirchberg_4tls
+--31070#8_1;-28692;28576.0;28636.0;28661.0;26;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_0;-29958;28656.0;28716.0;28721.0;9;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;28656.0;28716.0;;29;SIMULATED_sumo_lust_kirchberg_4tls
+--31070#8_1;-28692;28671.0;28731.0;28746.0;19;SIMULATED_sumo_lust_kirchberg_4tls

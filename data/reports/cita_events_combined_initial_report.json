@@ -1,0 +1,24 @@
+{
+  "events_historical": {
+    "rows": 223,
+    "columns": [
+      "collection_time,event_type,creation_time,start_time,road,destination,latitude,longitude,impact,probability,lanes_restricted,operational_lanes,original_lanes,length_affected,comment,location_description",
+      "source_file"
+    ],
+    "exact_duplicate_rows": 0,
+    "missing_by_column": {
+      "collection_time,event_type,creation_time,start_time,road,destination,latitude,longitude,impact,probability,lanes_restricted,operational_lanes,original_lanes,length_affected,comment,location_description": 0
+    }
+  },
+  "events_live": {
+    "rows": 36402,
+    "columns": [
+      "collection_time,event_type,creation_time,version_time,start_time,validity,road,destination,latitude,longitude,impact,probability,safety_message,lanes_restricted,operational_lanes,original_lanes,length_affected,comment",
+      "source_file"
+    ],
+    "exact_duplicate_rows": 0,
+    "missing_by_column": {
+      "collection_time,event_type,creation_time,version_time,start_time,validity,road,destination,latitude,longitude,impact,probability,safety_message,lanes_restricted,operational_lanes,original_lanes,length_affected,comment": 0
+    }
+  }
+}

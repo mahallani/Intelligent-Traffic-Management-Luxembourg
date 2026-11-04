@@ -1,0 +1,485 @@
+{
+ "inventory": [
+  {
+   "folder": "sumo/lust_4_intersections/output/experiments_v1/prediction_data/train",
+   "use": "Entraîner la prédiction",
+   "runs": 36,
+   "incomplete_kept": 3,
+   "seeds": [
+    201,
+    202,
+    203
+   ],
+   "scales": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0
+   ],
+   "strategies": [
+    "S0_fixed_time",
+    "S2_demand_gap"
+   ],
+   "size_mb": 96.5
+  },
+  {
+   "folder": "sumo/lust_4_intersections/output/experiments_v1/prediction_data/test",
+   "use": "Tester la prédiction",
+   "runs": 12,
+   "incomplete_kept": 0,
+   "seeds": [
+    301,
+    302
+   ],
+   "scales": [
+    1.0,
+    3.0,
+    5.0
+   ],
+   "strategies": [
+    "S0_fixed_time",
+    "S2_demand_gap"
+   ],
+   "size_mb": 29.4
+  },
+  {
+   "folder": "sumo/lust_4_intersections/output/experiments_v1/prediction_data/holdout",
+   "use": "Contrôle final de la prédiction",
+   "runs": 36,
+   "incomplete_kept": 2,
+   "seeds": [
+    401,
+    402
+   ],
+   "scales": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0
+   ],
+   "strategies": [
+    "S0_fixed_time",
+    "S1_actuated",
+    "S2_demand_gap"
+   ],
+   "size_mb": 98.0
+  },
+  {
+   "folder": "sumo/lust_4_intersections/output/experiments_v1/rl/training_v4",
+   "use": "Entraîner l'agent RL",
+   "runs": 26,
+   "incomplete_kept": 0,
+   "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126
+   ],
+   "scales": [
+    5.0
+   ],
+   "strategies": [
+    "S3_rl_qlearning"
+   ],
+   "size_mb": 87.5
+  },
+  {
+   "folder": "sumo/lust_4_intersections/output/experiments_v1/runs",
+   "use": "1re comparaison des stratégies",
+   "runs": 43,
+   "incomplete_kept": 2,
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "scales": [
+    1.0,
+    5.0
+   ],
+   "strategies": [
+    "S0_fixed_time",
+    "S1_actuated",
+    "S2_demand_gap",
+    "S2F_forecast_gap",
+    "S2b_max_pressure",
+    "S3_rl_qlearning"
+   ],
+   "size_mb": 103.9
+  },
+  {
+   "folder": "sumo/lust_4_intersections/output/experiments_v2b/runs",
+   "use": "Évaluation finale des stratégies",
+   "runs": 96,
+   "incomplete_kept": 2,
+   "seeds": [
+    1,
+    2,
+    3,
+    61,
+    62,
+    63,
+    64,
+    65
+   ],
+   "scales": [
+    1.0,
+    5.0
+   ],
+   "strategies": [
+    "S0_fixed_time",
+    "S1_actuated",
+    "S2_demand_gap",
+    "S2F_forecast_gap",
+    "S2b_max_pressure",
+    "S3_rl_qlearning"
+   ],
+   "size_mb": 240.1
+  },
+  {
+   "folder": "sumo/lust_4_intersections/output/experiments_v1/detection_v2/discharge",
+   "use": "Évaluer la détection",
+   "runs": 27,
+   "incomplete_kept": 0,
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "scales": [
+    1.0,
+    3.0,
+    5.0
+   ],
+   "strategies": [
+    "S0_fixed_time"
+   ],
+   "size_mb": 66.4
+  },
+  {
+   "folder": "sumo/lust_4_intersections/output/experiments_v1/detection_v2/discharge_confirm_seeds11_12",
+   "use": "Confirmer la détection (graines neuves)",
+   "runs": 18,
+   "incomplete_kept": 1,
+   "seeds": [
+    11,
+    12
+   ],
+   "scales": [
+    1.0,
+    3.0,
+    5.0
+   ],
+   "strategies": [
+    "S0_fixed_time"
+   ],
+   "size_mb": 44.3
+  },
+  {
+   "folder": "sumo/lust_4_intersections/output/experiments_v1/emergency_v2",
+   "use": "Évaluer la priorité urgence",
+   "runs": 30,
+   "incomplete_kept": 1,
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "scales": [
+    5.0
+   ],
+   "strategies": [
+    "S0_fixed_time",
+    "S1_actuated",
+    "S2_demand_gap"
+   ],
+   "size_mb": 103.3
+  }
+ ],
+ "scenario": {
+  "edges": 73,
+  "lanes": 114,
+  "nodes": 33,
+  "tls_phases_program0": 24,
+  "cycle_s": {
+   "-28692": 96.0,
+   "-23354": 68.0,
+   "-20484": 82.0,
+   "-29958": 82.0
+  }
+ },
+ "demand": {
+  "vehicles_x1": 778,
+  "types": {
+   "passenger1": 326,
+   "passenger2b": 135,
+   "passenger2a": 129,
+   "passenger3": 88,
+   "passenger4": 41,
+   "passenger5": 40,
+   "bus": 19
+  },
+  "max_per_min": 25
+ },
+ "run_example": {
+  "run": "S0_fixed_time_x5_seed201",
+  "queue_rows": 720,
+  "queue_cols": [
+   "time_s",
+   "halting_total",
+   "queue_m_total",
+   "vehicles_in_network",
+   "halting_-28692",
+   "halting_-23354",
+   "halting_-20484",
+   "halting_-29958",
+   "data_origin"
+  ]
+ },
+ "prediction_splits": {
+  "train": {
+   "runs": 36,
+   "seeds": [
+    201,
+    202,
+    203
+   ],
+   "scales": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0
+   ],
+   "strategies": [
+    "S0_fixed_time",
+    "S2_demand_gap"
+   ],
+   "examples": 5616
+  },
+  "test": {
+   "runs": 12,
+   "seeds": [
+    301,
+    302
+   ],
+   "scales": [
+    1.0,
+    3.0,
+    5.0
+   ],
+   "strategies": [
+    "S0_fixed_time",
+    "S2_demand_gap"
+   ],
+   "examples": 1872
+  },
+  "holdout": {
+   "runs": 36,
+   "seeds": [
+    401,
+    402
+   ],
+   "scales": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0
+   ],
+   "strategies": [
+    "S0_fixed_time",
+    "S1_actuated",
+    "S2_demand_gap"
+   ],
+   "examples": 5616
+  }
+ },
+ "holdout": [
+  {
+   "horizon_min": "5",
+   "n": "5616",
+   "episodes": "36",
+   "MAE_cascade": "2.8",
+   "MAE_persistence": "3.494",
+   "MAE_profile": "4.137"
+  },
+  {
+   "horizon_min": "10",
+   "n": "5616",
+   "episodes": "36",
+   "MAE_cascade": "2.787",
+   "MAE_persistence": "3.438",
+   "MAE_profile": "4.221"
+  },
+  {
+   "horizon_min": "15",
+   "n": "5616",
+   "episodes": "36",
+   "MAE_cascade": "2.989",
+   "MAE_persistence": "3.407",
+   "MAE_profile": "4.605"
+  }
+ ],
+ "rl": {
+  "episodes": 26,
+  "first": {
+   "episode": "1",
+   "seed": "101",
+   "scale": "5.0",
+   "epsilon": "0.3",
+   "q_states": "755",
+   "decisions": "2269",
+   "explorations": "694",
+   "fallback_decisions": "1513",
+   "updates": "2265",
+   "arrived": "3588",
+   "avg_travel_time_s": "137.79",
+   "avg_waiting_time_s": "40.54",
+   "avg_queue_veh": "42.15",
+   "total_time_loss_all_h": "75.41",
+   "co2_kg": "1348.15",
+   "forced_max_green": "74",
+   "wall_clock_s": "17.0"
+  },
+  "last": {
+   "episode": "26",
+   "seed": "126",
+   "scale": "5.0",
+   "epsilon": "0.02",
+   "q_states": "1999",
+   "decisions": "2378",
+   "explorations": "59",
+   "fallback_decisions": "991",
+   "updates": "2374",
+   "arrived": "3689",
+   "avg_travel_time_s": "123.54",
+   "avg_waiting_time_s": "30.63",
+   "avg_queue_veh": "32.69",
+   "total_time_loss_all_h": "59.14",
+   "co2_kg": "1274.49",
+   "forced_max_green": "89",
+   "wall_clock_s": "15.4"
+  }
+ },
+ "qtable": {
+  "states": 1999,
+  "trusted": 341
+ },
+ "evaluation": [
+  {
+   "scale": "1.0",
+   "strategy": "S0_fixed_time",
+   "n": "5",
+   "avg_travel_time_s": "99.8",
+   "avg_travel_time_s_sd": "0.294"
+  },
+  {
+   "scale": "1.0",
+   "strategy": "S1_actuated",
+   "n": "5",
+   "avg_travel_time_s": "89.95",
+   "avg_travel_time_s_sd": "0.292"
+  },
+  {
+   "scale": "1.0",
+   "strategy": "S2_demand_gap",
+   "n": "5",
+   "avg_travel_time_s": "88.886",
+   "avg_travel_time_s_sd": "0.734"
+  },
+  {
+   "scale": "1.0",
+   "strategy": "S2F_forecast_gap",
+   "n": "5",
+   "avg_travel_time_s": "88.886",
+   "avg_travel_time_s_sd": "0.734"
+  },
+  {
+   "scale": "1.0",
+   "strategy": "S2b_max_pressure",
+   "n": "5",
+   "avg_travel_time_s": "105.636",
+   "avg_travel_time_s_sd": "0.721"
+  },
+  {
+   "scale": "1.0",
+   "strategy": "S3_rl_qlearning",
+   "n": "5",
+   "avg_travel_time_s": "88.87",
+   "avg_travel_time_s_sd": "0.499"
+  },
+  {
+   "scale": "5.0",
+   "strategy": "S0_fixed_time",
+   "n": "5",
+   "avg_travel_time_s": "134.938",
+   "avg_travel_time_s_sd": "1.124"
+  },
+  {
+   "scale": "5.0",
+   "strategy": "S1_actuated",
+   "n": "5",
+   "avg_travel_time_s": "113.402",
+   "avg_travel_time_s_sd": "1.344"
+  },
+  {
+   "scale": "5.0",
+   "strategy": "S2_demand_gap",
+   "n": "5",
+   "avg_travel_time_s": "120.652",
+   "avg_travel_time_s_sd": "2.194"
+  },
+  {
+   "scale": "5.0",
+   "strategy": "S2F_forecast_gap",
+   "n": "5",
+   "avg_travel_time_s": "119.406",
+   "avg_travel_time_s_sd": "0.67"
+  },
+  {
+   "scale": "5.0",
+   "strategy": "S2b_max_pressure",
+   "n": "5",
+   "avg_travel_time_s": "136.498",
+   "avg_travel_time_s_sd": "2.693"
+  },
+  {
+   "scale": "5.0",
+   "strategy": "S3_rl_qlearning",
+   "n": "5",
+   "avg_travel_time_s": "122.736",
+   "avg_travel_time_s_sd": "1.568"
+  }
+ ]
+}

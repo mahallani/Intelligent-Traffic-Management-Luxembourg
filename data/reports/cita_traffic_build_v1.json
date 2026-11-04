@@ -1,0 +1,251 @@
+{
+ "generated_utc": "2026-10-10T20:40:39+00:00",
+ "script": "scripts/data_pipeline/build_cita_traffic_v1.py",
+ "parser_version": "v2.1-2026-10-10",
+ "inputs": [
+  {
+   "file": "data/raw/cita/trafficstatus_a1.xml",
+   "kind": "raw_xml",
+   "rows": 40
+  },
+  {
+   "file": "data/raw/cita/trafficstatus_a13.xml",
+   "kind": "raw_xml",
+   "rows": 51
+  },
+  {
+   "file": "data/raw/cita/trafficstatus_a3.xml",
+   "kind": "raw_xml",
+   "rows": 29
+  },
+  {
+   "file": "data/raw/cita/trafficstatus_a4.xml",
+   "kind": "raw_xml",
+   "rows": 25
+  },
+  {
+   "file": "data/raw/cita/trafficstatus_a6.xml",
+   "kind": "raw_xml",
+   "rows": 36
+  },
+  {
+   "file": "data/raw/cita/trafficstatus_a7.xml",
+   "kind": "raw_xml",
+   "rows": 48
+  },
+  {
+   "file": "data/raw/cita/trafficstatus_b40.xml",
+   "kind": "raw_xml",
+   "rows": 18
+  },
+  {
+   "file": "data/interim/cita/validation_20261010/cita_traffic_sites_v2_validation.csv",
+   "kind": "collector_v2_csv",
+   "rows": 245
+  },
+  {
+   "file": "data/historical/cita/traffic/cita_traffic_historical.csv",
+   "kind": "legacy_csv_diagnostic_only"
+  },
+  {
+   "file": "data/historical/cita/traffic/cita_traffic_historical_fixed.csv",
+   "kind": "legacy_csv_diagnostic_only"
+  },
+  {
+   "file": "data/historical/cita/traffic/cita_traffic_live.csv",
+   "kind": "legacy_csv_diagnostic_only"
+  }
+ ],
+ "outputs": {
+  "reference": "data/processed/cita_traffic/cita_traffic_reference_v1.csv",
+  "legacy": "data/interim/cita/cita_traffic_legacy_diagnostic_v1.csv",
+  "report": "data/reports/cita_traffic_build_v1.json"
+ },
+ "reference": {
+  "rows": 492,
+  "columns": [
+   "measurement_timestamp",
+   "measurement_timestamp_utc",
+   "collection_timestamp",
+   "collection_timestamp_utc",
+   "collection_timestamp_origin",
+   "sensor_id",
+   "sensor_version",
+   "road",
+   "road_number",
+   "direction",
+   "latitude",
+   "longitude",
+   "distance_along_m",
+   "alertc_primary_location",
+   "alertc_secondary_location",
+   "alertc_direction",
+   "speed_kmh",
+   "occupancy_percent",
+   "vehicle_flow_rate",
+   "flow_period_s",
+   "equipment",
+   "measured_values",
+   "source_publication_time",
+   "source_url",
+   "source_file",
+   "source_raw_xml",
+   "parser_version",
+   "n_sightings",
+   "data_origin",
+   "quality_flags"
+  ],
+  "sensors": 247,
+  "roads": {
+   "A13": 100,
+   "A7": 96,
+   "A1": 80,
+   "A6": 72,
+   "A3": 58,
+   "A4": 50,
+   "B40": 36
+  },
+  "distinct_measurement_times_utc": [
+   "2026-10-07T16:53:00Z",
+   "2026-10-07T16:58:00Z",
+   "2026-10-10T20:33:00Z"
+  ],
+  "coverage_utc": [
+   "2026-10-07 16:53:00+00:00",
+   "2026-10-10 20:33:00+00:00"
+  ],
+  "missing_pct": {
+   "speed_kmh": 5.89,
+   "occupancy_percent": 4.47,
+   "vehicle_flow_rate": 0.0,
+   "latitude": 6.3,
+   "longitude": 6.3,
+   "direction": 11.99
+  },
+  "bbox": {
+   "latitude": [
+    49.47144,
+    49.81487
+   ],
+   "longitude": [
+    5.9029856,
+    6.4897113
+   ]
+  },
+  "collection_lag_min": {
+   "count": 492.0,
+   "mean": 5.11,
+   "std": 1.97,
+   "min": 2.85,
+   "25%": 4.12,
+   "50%": 4.12,
+   "75%": 7.86,
+   "max": 7.89
+  },
+  "dedup": {
+   "input_rows": 492,
+   "output_rows": 492,
+   "identical_repeats_collapsed": 0,
+   "keys_with_contradictions": 0,
+   "rows_in_contradiction": 0
+  },
+  "quality_flag_counts": {
+   "speed_missing": 29,
+   "occupancy_missing": 22,
+   "flow_missing": 0,
+   "location_missing": 31,
+   "speed_above_130": 7,
+   "speed_implausible_gt200": 0,
+   "speed_zero_with_flow": 0,
+   "occupancy_out_of_range": 0,
+   "flow_negative": 0,
+   "flow_period_not_3600": 0,
+   "outside_luxembourg_bbox": 0,
+   "measurement_ts_unparseable": 0,
+   "measurement_after_collection": 0,
+   "collection_lag_over_15min": 0,
+   "collection_ts_from_file_mtime": 247,
+   "conflict_same_key": 0
+  },
+  "absent_columns": {
+   "vehicle_flow": "not published by the CITA feed (only vehicleFlowRate in veh/h); NOT created"
+  }
+ },
+ "legacy_diagnostic": {
+  "rows": 34483,
+  "per_file": {
+   "data/historical/cita/traffic/cita_traffic_historical.csv": {
+    "input_rows": 2717,
+    "distinct_value_rows": 683,
+    "identical_repeats_collapsed": 2034,
+    "rows_in_key_contradiction": 9,
+    "key_for_contradictions": "road+timestamp+latitude+longitude"
+   },
+   "data/historical/cita/traffic/cita_traffic_historical_fixed.csv": {
+    "input_rows": 106808,
+    "distinct_value_rows": 1875,
+    "identical_repeats_collapsed": 104933,
+    "rows_in_key_contradiction": 0,
+    "key_for_contradictions": "road+measurement_site+timestamp+direction"
+   },
+   "data/historical/cita/traffic/cita_traffic_live.csv": {
+    "input_rows": 31925,
+    "distinct_value_rows": 31925,
+    "identical_repeats_collapsed": 0,
+    "rows_in_key_contradiction": 0,
+    "key_for_contradictions": "none (no measurement timestamp: contradictions undetectable)"
+   }
+  },
+  "use": "diagnostic only: values of the last sensor of each road were written with the location of the first sensor (v1 parser bug); never use for spatial models or training"
+ },
+ "dedup_rules": {
+  "reference_key": "sensor_id + measurement_timestamp (original text with offset)",
+  "identical_repeat": "same key and identical values in speed_kmh,occupancy_percent,vehicle_flow_rate,flow_period_s,latitude,longitude,direction,road_number,distance_along_m,alertc_primary_location,alertc_secondary_location,alertc_direction,equipment,measured_values,sensor_version -> one row (earliest collection), n_sightings = copies, source_file lists all files",
+  "contradiction": "same key, different values -> all rows kept and flagged conflict_same_key; nothing is averaged or chosen",
+  "legacy": "rows identical except collection_time collapsed (n_polls, first/last collection time); key contradictions flagged; no row removed otherwise"
+ },
+ "timezone_evidence": {
+  "measurement_timestamp": "explicit ISO-8601 offset in the DATEX payload (e.g. +02:00 = CEST, Europe/Luxembourg until 2026-10-25); converted to UTC without assumption",
+  "collection_timestamp_v2": "written by the v2 collector from datetime.now(timezone.utc): explicit UTC",
+  "collection_timestamp_raw_xml": "no collection time in the payload; file modification time (filesystem, UTC) used and flagged collection_ts_from_file_mtime",
+  "collection_time_legacy": "naive local clock of the collecting PC (datetime.now()). Evidence: last naive value of each legacy file vs its file modification time (UTC)",
+  "legacy_offset_evidence": [
+   {
+    "file": "data/historical/cita/traffic/cita_traffic_historical.csv",
+    "last_naive_collection_time": "2026-10-07 18:41:05.656861",
+    "file_mtime_utc": "2026-10-07 17:41:05.674561",
+    "offset_hours": 1.0
+   },
+   {
+    "file": "data/historical/cita/traffic/cita_traffic_historical_fixed.csv",
+    "last_naive_collection_time": "2026-10-09 09:58:17.485119",
+    "file_mtime_utc": "2026-10-09 08:58:21.707602",
+    "offset_hours": 0.999
+   },
+   {
+    "file": "data/historical/cita/traffic/cita_traffic_live.csv",
+    "last_naive_collection_time": "2026-10-09 09:58:08.208068",
+    "file_mtime_utc": "2026-10-09 08:58:12.689040",
+    "offset_hours": 0.999
+   }
+  ],
+  "uncertainty": "assumes the PC clock offset stayed constant (UTC+01, consistent with Africa/Tunis which has no DST) during the collection and that file mtimes were not altered by a copy; legacy collection times are therefore converted only in the diagnostic notes, never used as keys"
+ },
+ "thresholds": {
+  "speed_above_limit_kmh": 130.0,
+  "speed_implausible_kmh": 200.0,
+  "collection_lag_max_min": 15.0,
+  "lux_bbox": [
+   49.44,
+   50.19,
+   5.73,
+   6.54
+  ]
+ },
+ "units": {
+  "speed_kmh": "km/h (DATEX II convention; CITA does not state the unit; values plausible)",
+  "occupancy_percent": "% of time the detector is occupied",
+  "vehicle_flow_rate": "vehicles/hour (DATEX II VehiclesPerHour)",
+  "flow_period_s": "measurementOrCalculationPeriod as published (3600): ambiguity rolling-hour vs hourly rate documented, not resolved"
+ }
+}

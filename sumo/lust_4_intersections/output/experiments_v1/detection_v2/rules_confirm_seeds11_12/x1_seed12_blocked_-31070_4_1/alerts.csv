@@ -1,0 +1,2 @@
+lane;tls;rule;start_s;raised_s;end_s;max_halting;data_origin
+-31070#4_1;-29958;stalled;26596.0;26746.0;27606.0;9;SIMULATED_sumo_lust_kirchberg_4tls

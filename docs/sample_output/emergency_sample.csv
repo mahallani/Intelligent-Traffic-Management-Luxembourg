@@ -1,0 +1,2 @@
+time,emergency_vehicle_id,vehicle_type,x,y,lon,lat,edge_id,lane_id,speed_kmh,waiting_time_s,departure,elapsed_s,free_flow_time_s,route_length_m,distance_m,progress,time_loss_s,stops,next_tls_id,next_tls_distance_m,next_tls_state
+25500.0,emergency_1,emergency_bluelight,6964.990431009399,7225.662061180932,6.12624269330952,49.61347895044844,-30528#2,-30528#2_1,74.32225982754026,0.0,25231.0,269.0,212.37380050664876,4935.31,2590.881678459352,0.5249683765476437,160.03571641723656,5,-24852,16.018321540648373,r

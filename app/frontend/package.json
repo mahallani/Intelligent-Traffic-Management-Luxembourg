@@ -1,0 +1,15 @@
+{
+  "name": "kirchberg-traffic-console",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pilotage de la simulation SUMO Kirchberg (4 feux) et visualisation des résultats - frontend Next.js (export statique servi par le backend Python).",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "15.5.27",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  }
+}

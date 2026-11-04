@@ -1,0 +1,144 @@
+{
+ "generated_utc": "2026-10-10T20:42:02+00:00",
+ "script": "scripts/data_pipeline/build_cita_events_v1.py",
+ "parser_version": "events-v2-2026-10-10",
+ "inputs": [
+  {
+   "file": "data/raw/cita_events/situationrecord36.xml",
+   "kind": "raw_xml",
+   "records": 18
+  },
+  {
+   "file": "data/interim/cita/validation_20261010/cita_events_records_v2_validation.csv",
+   "kind": "collector_v2_csv",
+   "records": 21
+  },
+  {
+   "file": "data/historical/cita/events/cita_events_historical.csv",
+   "kind": "legacy_csv_no_ids"
+  },
+  {
+   "file": "data/historical/cita/events/cita_events_live.csv",
+   "kind": "legacy_csv_no_ids"
+  }
+ ],
+ "outputs": {
+  "states": "data/processed/cita_events/cita_events_record_versions_v1.csv",
+  "events": "data/processed/cita_events/cita_events_v1.csv",
+  "legacy": "data/interim/cita/cita_events_legacy_states_v1.csv",
+  "correspondence": "data/reports/cita_events_correspondence_v1.csv",
+  "report": "data/reports/cita_events_completeness_v1.json"
+ },
+ "states": {
+  "rows": 26,
+  "input_rows": 39,
+  "states": 26,
+  "identical_repeats_collapsed": 13,
+  "record_versions_in_contradiction": 0,
+  "quality_flag_counts": {
+   "conflict_same_record_version": 0,
+   "collection_ts_from_file_mtime": 18,
+   "record_type_missing": 0,
+   "location_missing": 0,
+   "lanes_inconsistent": 0,
+   "safety_flag_unknown": 0
+  },
+  "missing_pct": {
+   "record_type": 0.0,
+   "record_subtypes": 0.0,
+   "creation_time": 0.0,
+   "version_time": 0.0,
+   "probability": 0.0,
+   "safety_related_message": 0.0,
+   "validity_status": 0.0,
+   "overall_start_time": 0.0,
+   "overall_end_time": 100.0,
+   "lanes_restricted": 0.0,
+   "operational_lanes": 0.0,
+   "original_lanes": 50.0,
+   "carriageway": 0.0,
+   "road_name": 0.0,
+   "road_destination": 0.0,
+   "location_description": 0.0,
+   "length_affected_m": 0.0,
+   "latitude": 0.0,
+   "longitude": 0.0,
+   "bearing": 0.0,
+   "line_string_wgs84": 0.0,
+   "comment_type": 42.3,
+   "comment": 42.3,
+   "comment_lang": 42.3
+  },
+  "snapshots_utc": [
+   "2026-10-07T17:22:24.291022+00:00",
+   "2026-10-10T20:37:09.845046+00:00"
+  ]
+ },
+ "events": {
+  "rows": 24,
+  "situations": 16,
+  "record_types": {
+   "MaintenanceWorks": 17,
+   "ConstructionWorks": 3,
+   "EquipmentOrSystemFault": 3,
+   "GeneralObstruction": 1
+  },
+  "record_subtypes": {
+   "roadMaintenanceType=maintenanceWork": 17,
+   "constructionWorkType=constructionWork": 3,
+   "equipmentOrSystemFaultType=notWorking|faultyEquipmentOrSystemType=other": 3,
+   "obstructionType=obstructionOnTheRoad|trafficConstrictionType=lanesBlocked": 1
+  },
+  "roads": {
+   "A1": 7,
+   "A13": 6,
+   "A3": 5,
+   "A6": 3,
+   "A4": 2,
+   "A7": 1
+  },
+  "seen_in_both_snapshots": 15,
+  "end_times_observed": 0
+ },
+ "legacy": {
+  "per_source": {
+   "historical": {
+    "file": "data/historical/cita/events/cita_events_historical.csv",
+    "rows": 223,
+    "distinct_states": 19,
+    "identical_repeats_collapsed": 204
+   },
+   "live": {
+    "file": "data/historical/cita/events/cita_events_live.csv",
+    "rows": 36402,
+    "distinct_states": 115,
+    "identical_repeats_collapsed": 36287
+   }
+  },
+  "distinct_states": 134,
+  "distinct_events": 64
+ },
+ "correspondence": {
+  "by_confidence_rows": {
+   "none": 46,
+   "exact": 18
+  },
+  "legacy_events_exact": 18,
+  "legacy_events_uncertain": 0,
+  "legacy_events_unmatched": 46,
+  "rule": "exact = same creation_time, start_time, latitude, longitude and destination as a record with real id; uncertain values are never used to fill fields"
+ },
+ "labels": {
+  "incident_types_available": "record_type from DATEX xsi:type only",
+  "accident_records": 0,
+  "note": "the observed feed contains roadworks, equipment faults and general obstructions; no accident record was observed in the snapshots. No type was inferred from comments (comments are in Luxembourgish, free text)."
+ },
+ "booleans": {
+  "safety_related_message": "true/false/NA; raw text kept in *_raw",
+  "legacy safety_message": "'True'/'true' -> true; empty -> NA; historical file has no such column -> absent"
+ },
+ "timezone": {
+  "datex_times": "explicit offsets in the payload (+01:00/+02:00), converted to *_utc",
+  "legacy_collection_time": "naive PC clock, UTC+01 per file-mtime evidence (see cita_traffic_build_v1.json); *_utc columns derived with that assumption and flagged"
+ }
+}

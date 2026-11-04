@@ -1,0 +1,14 @@
+time_s;clock;event;tls;carrefour;detail;data_origin
+26400.0;07:20:00;insertion demandée;;;ambulance ajoutée en début d'avenue (--31070#8);SIMULATED_sumo_lust_kirchberg_4tls
+26419.0;07:20:19;départ;;;entrée dans le réseau sur --31070#8_0;SIMULATED_sumo_lust_kirchberg_4tls
+26433.0;07:20:33;approche;-28692;Carrefour 1;143 m, feu vert pour l'ambulance;SIMULATED_sumo_lust_kirchberg_4tls
+26442.0;07:20:42;carrefour franchi;-28692;Carrefour 1;;SIMULATED_sumo_lust_kirchberg_4tls
+26446.0;07:20:46;approche;-23354;Carrefour 2;146 m, feu vert pour l'ambulance;SIMULATED_sumo_lust_kirchberg_4tls
+26457.0;07:20:57;carrefour franchi;-23354;Carrefour 2;;SIMULATED_sumo_lust_kirchberg_4tls
+26468.0;07:21:08;approche;-20484;Carrefour 3;147 m, feu rouge pour l'ambulance;SIMULATED_sumo_lust_kirchberg_4tls
+26468.0;07:21:08;demande de priorité;-20484;Carrefour 3;phase 4 → phase cible 0;SIMULATED_sumo_lust_kirchberg_4tls
+26496.0;07:21:36;carrefour franchi;-20484;Carrefour 3;;SIMULATED_sumo_lust_kirchberg_4tls
+26496.0;07:21:36;fin de la priorité;-20484;Carrefour 3;vert tenu 23.0 s;SIMULATED_sumo_lust_kirchberg_4tls
+26506.0;07:21:46;approche;-29958;Carrefour 4;142 m, feu vert pour l'ambulance;SIMULATED_sumo_lust_kirchberg_4tls
+26518.0;07:21:58;carrefour franchi;-29958;Carrefour 4;;SIMULATED_sumo_lust_kirchberg_4tls
+26539.0;07:22:19;sortie du réseau;;;trajet 120 s depuis le départ;SIMULATED_sumo_lust_kirchberg_4tls

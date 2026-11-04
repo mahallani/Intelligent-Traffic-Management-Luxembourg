@@ -1,0 +1,2395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- LuST routes 07:00-08:00 cut to the Kirchberg 4-signal area; depart = real area-entry time measured in the full LuST run -->
+<routes>
+    <vehicle id="h66277c2:1" type="passenger1" depart="25211.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9848" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h5346c1:1" type="passenger2a" depart="25217.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0456" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h68153c1:1" type="passenger2a" depart="25218.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9153" departLane="best">
+        <route edges="-32492#2 -32492#3 -32492#4 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h11022c1:1" type="passenger1" depart="25222.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0044" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h11140c1:1" type="passenger1" depart="25225.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0627" departLane="best">
+        <route edges="--31070#8 --31070#7 -32864#0 -30442#1 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="h68149c1:1" type="passenger2a" depart="25225.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9206" departLane="best">
+        <route edges="-32492#2 --32680 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h10995c1:1" type="passenger4" depart="25233.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0263" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn7779:1" type="passenger2a" depart="25244.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9471" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h17481c1:1" type="passenger3" depart="25250.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0721" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h27943c1:1" type="passenger1" depart="25251.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8400" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h6230c1:1" type="passenger1" depart="25252.00" departPos="332.5222" departSpeed="0.00" arrivalPos="max" speedFactor="0.9860">
+        <route edges="--30730#2" />
+    </vehicle>
+    <vehicle id="h35697c1:1" type="passenger3" depart="25261.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9105" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h29657c1:1" type="passenger1" depart="25263.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0778" departLane="best">
+        <route edges="-30596#1 -30596#2 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h27964c1:1" type="passenger2a" depart="25264.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0602" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn28836:1" type="passenger1" depart="25272.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0067" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h44662c1:1" type="passenger2b" depart="25284.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9850" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h42646c1:1" type="passenger5" depart="25289.00" departPos="121.9448" departSpeed="0.00" arrivalPos="max" speedFactor="0.9285">
+        <route edges="-30730#3 -30596#2 -31070#5 -31070#6 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h3117c1:1" type="passenger2b" depart="25293.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1336" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h48124c1:1" type="passenger2a" depart="25294.00" departPos="103.5774" departSpeed="0.00" arrivalPos="max" speedFactor="0.9940">
+        <route edges="-31070#7 --32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h4710c1:1" type="passenger1" depart="25302.00" departPos="120.1876" departSpeed="0.00" arrivalPos="max" speedFactor="0.9148">
+        <route edges="--30596#0 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn11882:1" type="passenger1" depart="25304.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9842" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h23710c1:1" type="passenger1" depart="25304.00" departPos="19.0673" departSpeed="0.00" arrivalPos="max" speedFactor="1.0519">
+        <route edges="--32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h4698c1:1" type="passenger2b" depart="25322.00" departPos="517.8046" departSpeed="0.00" arrivalPos="max" speedFactor="1.1544">
+        <route edges="--30596#0 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h10997c1:1" type="passenger1" depart="25325.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9863" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h29187c1:1" type="passenger1" depart="25338.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8534" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn18607:1" type="passenger4" depart="25339.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0585" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h39134c1:1" type="passenger5" depart="25353.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.2134" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h68188c1:1" type="passenger2b" depart="25363.00" departPos="45.7609" departSpeed="0.00" arrivalPos="max" speedFactor="0.8357">
+        <route edges="-32492#4 --30730#2" />
+    </vehicle>
+    <vehicle id="randUni8874:1" type="passenger2a" depart="25365.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9143" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="randUni3176:1" type="passenger2a" depart="25374.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9758" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="randUni7058:1" type="passenger3" depart="25381.00" departPos="177.0578" departSpeed="0.00" arrivalPos="max" speedFactor="0.9913">
+        <route edges="--30596#0 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h4696c1:1" type="passenger2b" depart="25402.00" departPos="603.9658" departSpeed="0.00" arrivalPos="max" speedFactor="0.8032">
+        <route edges="--30596#0 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn29359:1" type="passenger2a" depart="25415.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8246" departLane="best">
+        <route edges="-31088#0 -31088#1 -32378 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h29646c1:1" type="passenger2a" depart="25431.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1244" departLane="best">
+        <route edges="-30596#1 -30596#2 -31070#5 -31070#6 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h2674c1:1" type="passenger3" depart="25432.00" departPos="58.3852" departSpeed="0.00" arrivalPos="max" speedFactor="0.8855">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h28801c1:1" type="passenger4" depart="25434.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8025" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h31838c1:1" type="passenger1" depart="25440.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9779" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h51088c1:1" type="passenger1" depart="25442.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0191" departLane="best">
+        <route edges="-32010#0 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="h50010c1:1" type="passenger2a" depart="25446.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1154" departLane="best">
+        <route edges="--31070#8 --31070#7 -32864#0 -32864#1 -30610#1 -30610#2 -31080#0" />
+    </vehicle>
+    <vehicle id="h11098c1:1" type="passenger1" depart="25457.00" departPos="25.5291" departSpeed="0.00" arrivalPos="max" speedFactor="1.1782">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h10075c1:1" type="passenger3" depart="25463.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8356" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h49677c1:1" type="passenger2a" depart="25467.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0364" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="carIn22673:1" type="passenger1" depart="25484.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8055" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn27091:1" type="passenger1" depart="25484.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0830" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0" />
+    </vehicle>
+    <vehicle id="carIn6571:1" type="passenger1" depart="25488.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8925" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn23228:1" type="passenger1" depart="25499.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9870" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h48281c1:1" type="passenger1" depart="25499.00" departPos="147.9649" departSpeed="0.00" arrivalPos="max" speedFactor="0.9069">
+        <route edges="-31080#0 -31080#1 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn33782:1" type="passenger4" depart="25501.00" departPos="98.1823" departSpeed="0.00" arrivalPos="max" speedFactor="1.1443">
+        <route edges="--31304#1 -32010#0 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn20673:1" type="passenger5" depart="25502.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9692" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn46172:1" type="passenger1" depart="25505.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8808" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="AVL---_13_12" type="bus" depart="25506.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-31424 --30444#2 --30444#1 -32680 -32492#3 -32492#4 -30730#3 -30596#2 -31070#5 -31070#6 -32864#0 -32864#1 -30610#1" />
+        <stop busStop="171" duration="20.00" />
+        <stop busStop="285" duration="20.00" />
+        <stop busStop="634" duration="20.00" />
+        <stop busStop="645" duration="20.00" />
+    </vehicle>
+    <vehicle id="carIn3752:1" type="passenger2a" depart="25512.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8433" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h2597c2:1" type="passenger1" depart="25513.00" departPos="212.0165" departSpeed="0.00" arrivalPos="max" speedFactor="0.7942">
+        <route edges="--30442#0 -31080#1 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h52c1:1" type="passenger5" depart="25514.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1519" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h66248c1:1" type="passenger3" depart="25529.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1287" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn6735:1" type="passenger2b" depart="25533.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0148" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="carIn7519:1" type="passenger3" depart="25534.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9324" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn42117:1" type="passenger3" depart="25535.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9230" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h42602c1:1" type="passenger1" depart="25560.00" departPos="52.7871" departSpeed="0.00" arrivalPos="max" speedFactor="1.0489">
+        <route edges="--30864" />
+    </vehicle>
+    <vehicle id="carIn30788:1" type="passenger1" depart="25561.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9829" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn32587:1" type="passenger2a" depart="25561.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0187" departLane="best">
+        <route edges="-31770#1 -30874#0 --31088#2 --31088#1 --31088#0 -32492#2 -32492#3 -32492#4 -30730#3 --30596#1" />
+    </vehicle>
+    <vehicle id="carIn48186:1" type="passenger2b" depart="25584.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9750" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn11109:1" type="passenger1" depart="25587.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9214" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="randUni2192:1" type="passenger2b" depart="25587.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0028" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3 -31770#0 -31424 --30444#2" />
+    </vehicle>
+    <vehicle id="carIn44662:1" type="passenger1" depart="25598.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0919" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn46123:1" type="passenger1" depart="25605.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0629" departLane="best">
+        <route edges="-31424 --30444#2" />
+    </vehicle>
+    <vehicle id="carIn42055:1" type="passenger3" depart="25614.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0260" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h4721c1:1" type="passenger3" depart="25614.00" departPos="203.8143" departSpeed="0.00" arrivalPos="max" speedFactor="1.1226">
+        <route edges="-30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h11343c1:1" type="passenger1" depart="25618.00" departPos="161.7617" departSpeed="0.00" arrivalPos="max" speedFactor="0.9935">
+        <route edges="--31088#1 --31088#0 -32492#2 -32492#3 --30864" />
+    </vehicle>
+    <vehicle id="carIn32078:1" type="passenger2a" depart="25621.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9734" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn33192:1_part0" type="passenger3" depart="25623.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9967" departLane="best">
+        <route edges="-31770#1 -30874#0 --31088#2 --31088#1 --31088#0" />
+    </vehicle>
+    <vehicle id="h69570c1:1" type="passenger2b" depart="25632.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8913" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h6245c1:1" type="passenger2b" depart="25641.00" departPos="289.1932" departSpeed="0.00" arrivalPos="max" speedFactor="1.0131">
+        <route edges="--30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="AVL---_18_13" type="bus" depart="25645.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+        <stop busStop="454" duration="20.00" />
+        <stop busStop="634" duration="20.00" />
+        <stop busStop="260" duration="20.00" />
+    </vehicle>
+    <vehicle id="carIn34681:1" type="passenger2b" depart="25652.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0683" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="AVL---_25_13" type="bus" depart="25670.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 --31070#6 --31070#5 --31070#4" />
+        <stop busStop="171" duration="20.00" />
+        <stop busStop="261" duration="20.00" />
+        <stop busStop="635" duration="20.00" />
+        <stop busStop="455" duration="20.00" />
+    </vehicle>
+    <vehicle id="carIn44713:1_part0" type="passenger1" depart="25672.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0382" departLane="best">
+        <route edges="-31770#1 -30874#0 --31088#2 --31088#1 --31088#0" />
+    </vehicle>
+    <vehicle id="carIn36327:1" type="passenger1" depart="25680.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8917" departLane="best">
+        <route edges="-31770#1 -30874#0 --31088#2 --31088#1 --31088#0 -32492#2 --32680 -30444#1 -30444#2" />
+    </vehicle>
+    <vehicle id="h2237c2:1" type="passenger3" depart="25683.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8325" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn33192:1_part1" type="passenger3" depart="25689.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9967" departLane="best">
+        <route edges="-30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h17523c1:1" type="passenger3" depart="25690.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9219" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h45008c1:1" type="passenger2b" depart="25691.00" departPos="382.1235" departSpeed="0.00" arrivalPos="max" speedFactor="0.7717">
+        <route edges="-30864 -32492#4 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h25959c1:1" type="passenger2a" depart="25716.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9439" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h23169c2:1" type="passenger2b" depart="25728.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0471" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="h68117c1:1" type="passenger1" depart="25729.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9452" departLane="best">
+        <route edges="-32492#2 -32492#3 --30864" />
+    </vehicle>
+    <vehicle id="carIn44713:1_part1" type="passenger1" depart="25735.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0382" departLane="best">
+        <route edges="-30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn16460:1" type="passenger1" depart="25748.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0479" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h27879c1:1" type="passenger1" depart="25748.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8937" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn4285:1" type="passenger1" depart="25752.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.6827" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h52824c1:1" type="passenger1" depart="25768.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9533" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h27950c1:1" type="passenger2b" depart="25782.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0351" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="randUni3262:1" type="passenger2b" depart="25782.00" departPos="8.7165" departSpeed="0.00" arrivalPos="max" speedFactor="0.9268">
+        <route edges="--30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h58770c1:1" type="passenger4" depart="25787.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0503" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn21413:1" type="passenger2a" depart="25796.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9483" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn31346:1" type="passenger2a" depart="25799.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.2983" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h34737c1:1" type="passenger3" depart="25799.00" departPos="74.676" departSpeed="0.00" arrivalPos="max" speedFactor="1.0868">
+        <route edges="--32908 --31088#0 -32492#2 -32492#3 --30864" />
+    </vehicle>
+    <vehicle id="AVL---_12_13" type="bus" depart="25800.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-30610#2 -31080#0 -31080#1 -31070#6 -31070#7 -31070#8" />
+        <stop busStop="260" duration="20.00" />
+    </vehicle>
+    <vehicle id="carIn17054:1" type="passenger3" depart="25801.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1623" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h12650c2:1" type="passenger1" depart="25803.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1005" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h6240c1:1_part0" type="passenger1" depart="25806.00" departPos="19.0095" departSpeed="0.00" arrivalPos="max" speedFactor="1.0067">
+        <route edges="--30730#3 --32492#4 --32492#3 --32492#2" />
+    </vehicle>
+    <vehicle id="h55022c2:1" type="passenger5" depart="25807.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9517" departLane="best">
+        <route edges="--30444#1 --30444#0 --32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn34085:1" type="passenger1" depart="25812.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9306" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h38591c1:1" type="passenger1" depart="25815.00" departPos="103.0395" departSpeed="0.00" arrivalPos="max" speedFactor="1.0434">
+        <route edges="-30442#0 -30442#1 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="h30303c1:1" type="passenger2a" depart="25816.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9850" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h65143c1:1" type="passenger4" depart="25821.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9551" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn31575:1" type="passenger2b" depart="25824.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0455" departLane="best">
+        <route edges="--31070#8 -30444#0" />
+    </vehicle>
+    <vehicle id="h42644c1:1" type="passenger1" depart="25824.00" departPos="237.0837" departSpeed="0.00" arrivalPos="max" speedFactor="0.9905">
+        <route edges="-30730#3 -30596#2 -31070#5 -31070#6 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h6208c1:1" type="passenger1" depart="25827.00" departPos="181.1192" departSpeed="0.00" arrivalPos="max" speedFactor="1.0053">
+        <route edges="--30730#2" />
+    </vehicle>
+    <vehicle id="h19528c1:1" type="passenger3" depart="25830.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.7132" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="AVL---_7_13" type="bus" depart="25833.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+        <stop busStop="454" duration="20.00" />
+        <stop busStop="634" duration="20.00" />
+        <stop busStop="260" duration="20.00" />
+    </vehicle>
+    <vehicle id="h42643c1:1" type="passenger2a" depart="25837.00" departPos="181.5983" departSpeed="0.00" arrivalPos="max" speedFactor="1.1900">
+        <route edges="-30730#3 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="randUni1462:1" type="passenger2a" depart="25838.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0954" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h48263c1:1" type="passenger1" depart="25845.00" departPos="209.8616" departSpeed="0.00" arrivalPos="max" speedFactor="1.0462">
+        <route edges="-31080#0 -30442#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn24316:1" type="passenger2a" depart="25854.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9924" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn27767:1" type="passenger2b" depart="25855.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9961" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="randUni20204:1" type="passenger3" depart="25856.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0542" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn11247:1" type="passenger4" depart="25857.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0021" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn44378:1" type="passenger3" depart="25878.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0015" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h12319c1:1" type="passenger2a" depart="25881.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9555" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h17491c1:1" type="passenger3" depart="25882.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9409" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h6240c1:1_part1" type="passenger1" depart="25885.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0067" departLane="best">
+        <route edges="-30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h40968c1:1" type="passenger1" depart="25887.00" departPos="58.5451" departSpeed="0.00" arrivalPos="max" speedFactor="0.7927">
+        <route edges="-30596#2 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h40799c1:1" type="passenger1" depart="25912.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9879" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn49769:1" type="passenger2a" depart="25926.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9429" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h61671c1:1" type="passenger1" depart="25947.00" departPos="60.5831" departSpeed="0.00" arrivalPos="max" speedFactor="0.8815">
+        <route edges="-32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="h65256c1:1" type="passenger1" depart="25960.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9383" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h26086c1:1" type="passenger5" depart="25961.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8791" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 -32680 --32492#2" />
+    </vehicle>
+    <vehicle id="carIn44816:1" type="passenger1" depart="25972.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8870" departLane="best">
+        <route edges="--31070#8 --32010#1 --32010#0 -31304#1" />
+    </vehicle>
+    <vehicle id="carIn15604:1" type="passenger3" depart="25974.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1301" departLane="best">
+        <route edges="--31070#8 --31070#7 -32864#0 --30442#0 -31080#1 -31070#6" />
+    </vehicle>
+    <vehicle id="h17604c1:1" type="passenger1" depart="25979.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0933" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn25127:1" type="passenger3" depart="25982.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0801" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn49453:1" type="passenger2b" depart="25994.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0318" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn8423:1" type="passenger1" depart="25994.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0657" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h42582c1:1" type="passenger3" depart="25996.00" departPos="265.5646" departSpeed="0.00" arrivalPos="max" speedFactor="1.0208">
+        <route edges="--30864" />
+    </vehicle>
+    <vehicle id="carIn38095:1" type="passenger2a" depart="25997.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9660" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h55029c1:1" type="passenger1" depart="25998.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0666" departLane="best">
+        <route edges="-30444#2 -31252 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h49270c1:1" type="passenger2a" depart="26019.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8053" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h11122c1:1" type="passenger5" depart="26021.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8630" departLane="best">
+        <route edges="--31070#8 --31070#7 -32864#0 -30442#1 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="h44973c2:1" type="passenger2a" depart="26037.00" departPos="334.9699" departSpeed="0.00" arrivalPos="max" speedFactor="1.0787">
+        <route edges="--30730#2" />
+    </vehicle>
+    <vehicle id="carIn19030:1_part0" type="passenger1" depart="26047.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9001" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h44993c2:1" type="passenger1" depart="26062.00" departPos="211.9727" departSpeed="0.00" arrivalPos="max" speedFactor="0.9198">
+        <route edges="--30730#2" />
+    </vehicle>
+    <vehicle id="carIn11291:1" type="passenger4" depart="26076.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1582" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn9199:1" type="passenger2b" depart="26076.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0007" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn29822:1" type="passenger3" depart="26079.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0690" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn35399:1" type="passenger2b" depart="26080.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9783" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn5454:1" type="passenger2b" depart="26081.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.2705" departLane="best">
+        <route edges="-31424 --30444#2" />
+    </vehicle>
+    <vehicle id="carIn8276:1" type="passenger3" depart="26081.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1355" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h44971c1:1" type="passenger3" depart="26081.00" departPos="19.4553" departSpeed="0.00" arrivalPos="max" speedFactor="1.0221">
+        <route edges="--30730#2" />
+    </vehicle>
+    <vehicle id="carIn20947:1" type="passenger2a" depart="26082.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9151" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h23733c1:1" type="passenger2a" depart="26084.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8276" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h11108c2:1" type="passenger1" depart="26087.00" departPos="74.9993" departSpeed="0.00" arrivalPos="max" speedFactor="0.8763">
+        <route edges="--31070#8 --31070#7 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h22383c1:1" type="passenger1" depart="26100.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1431" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="AVL---_12_12" type="bus" depart="26115.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="--31070#8 --31070#7 -32864#0 -32864#1 -30610#1" />
+        <stop busStop="261" duration="20.00" />
+        <stop busStop="645" duration="20.00" />
+    </vehicle>
+    <vehicle id="carIn26165:1_part0" type="passenger1" depart="26118.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1151" departLane="best">
+        <route edges="-31770#1 -30874#0 --31088#2 --31088#1 --31088#0" />
+    </vehicle>
+    <vehicle id="carIn21254:1" type="passenger1" depart="26123.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9907" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h7080c1:1" type="passenger1" depart="26126.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9690" departLane="best">
+        <route edges="--31070#8 -30444#0 -32680 -32492#3" />
+    </vehicle>
+    <vehicle id="h20359c1:1" type="passenger1" depart="26128.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8067" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h28114c1:1" type="passenger1" depart="26135.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0159" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn14169:1" type="passenger2a" depart="26138.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8275" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn15508:1" type="passenger1" depart="26149.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0182" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --32010#1 --32010#0" />
+    </vehicle>
+    <vehicle id="carIn27373:1_part0" type="passenger4" depart="26153.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9994" departLane="best">
+        <route edges="-31770#1 -30874#0 --31088#2 --31088#1 --31088#0" />
+    </vehicle>
+    <vehicle id="h48049c1:1" type="passenger2b" depart="26158.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0897" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h62466c1:1" type="passenger1" depart="26158.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8232" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn4597:1" type="passenger3" depart="26161.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9117" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h48114c1:1" type="passenger3" depart="26162.00" departPos="90.0302" departSpeed="0.00" arrivalPos="max" speedFactor="0.9747">
+        <route edges="-31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn42456:1" type="passenger1" depart="26163.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8472" departLane="best">
+        <route edges="--31070#8" />
+    </vehicle>
+    <vehicle id="carIn32120:1" type="passenger2b" depart="26165.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9498" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn30868:1" type="passenger2b" depart="26174.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0258" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn36827:1" type="passenger1" depart="26174.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1734" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="carIn26165:1_part1" type="passenger1" depart="26178.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1151" departLane="best">
+        <route edges="--30596#0" />
+    </vehicle>
+    <vehicle id="carIn43041:1" type="passenger1" depart="26187.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.2252" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h27989c1:1" type="passenger2b" depart="26191.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8971" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h44640c1:1" type="passenger1" depart="26201.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1500" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="AVL---_25_12" type="bus" depart="26209.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+        <stop busStop="454" duration="20.00" />
+        <stop busStop="634" duration="20.00" />
+        <stop busStop="260" duration="20.00" />
+        <stop busStop="172" duration="20.00" />
+    </vehicle>
+    <vehicle id="carIn27373:1_part1" type="passenger4" depart="26217.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9994" departLane="best">
+        <route edges="--30596#0" />
+    </vehicle>
+    <vehicle id="h57092c1:1_part0" type="passenger1" depart="26218.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0747" departLane="best">
+        <route edges="-30864 --32492#3 --32492#2" />
+    </vehicle>
+    <vehicle id="h39172c1:1" type="passenger3" depart="26221.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0427" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn25433:1" type="passenger1" depart="26231.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0689" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 --31070#6" />
+    </vehicle>
+    <vehicle id="h4908c1:1" type="passenger4" depart="26232.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9905" departLane="best">
+        <route edges="--31070#8 --31070#7 -32864#0 -30442#1 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="AVL---_13_13" type="bus" depart="26239.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-30610#2 -31080#0 -31080#1 --31070#5 --30596#2 --30730#3 --32492#4 --32492#3 --32680 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+        <stop busStop="635" duration="20.00" />
+        <stop busStop="286" duration="20.00" />
+        <stop busStop="172" duration="20.00" />
+    </vehicle>
+    <vehicle id="carIn37591:1" type="passenger1" depart="26240.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1630" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h19501c1:1" type="passenger1" depart="26240.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0709" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h48265c1:1" type="passenger2a" depart="26245.00" departPos="357.5002" departSpeed="0.00" arrivalPos="max" speedFactor="0.7216">
+        <route edges="-31080#0 -31080#1 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h45601c1:1" type="passenger3" depart="26256.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1017" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="carIn23596:1" type="passenger1" depart="26267.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9550" departLane="best">
+        <route edges="-32492#2 -32492#3 --30864" />
+    </vehicle>
+    <vehicle id="h48089c1:1" type="passenger3" depart="26267.00" departPos="82.3588" departSpeed="0.00" arrivalPos="max" speedFactor="0.9923">
+        <route edges="-31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn15307:1" type="passenger2b" depart="26288.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8039" departLane="best">
+        <route edges="-31070#4 -31070#5" />
+    </vehicle>
+    <vehicle id="h57092c1:1_part1" type="passenger1" depart="26296.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0747" departLane="best">
+        <route edges="-30596#1" />
+    </vehicle>
+    <vehicle id="carIn34692:1" type="passenger1" depart="26298.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.2046" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h23707c1:1" type="passenger2b" depart="26298.00" departPos="98.864" departSpeed="0.00" arrivalPos="max" speedFactor="1.0459">
+        <route edges="--32010#1 --30442#1 --30442#0 -31080#1 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn12442:1" type="passenger3" depart="26304.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8860" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="h71444c2:1" type="passenger1" depart="26304.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8888" departLane="best">
+        <route edges="--31070#8 --32010#1 --32010#0" />
+    </vehicle>
+    <vehicle id="carIn21328:1" type="passenger1" depart="26307.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1162" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="carIn27055:1" type="passenger1" depart="26307.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9959" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="carIn49713:1" type="passenger1" depart="26309.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8433" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn23449:1" type="passenger1" depart="26310.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8850" departLane="best">
+        <route edges="--31070#8 --32010#1 --32010#0" />
+    </vehicle>
+    <vehicle id="h4690c1:1" type="passenger2a" depart="26318.00" departPos="840.0219" departSpeed="0.00" arrivalPos="max" speedFactor="0.8754">
+        <route edges="--30596#0 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn19030:1_part1" type="passenger1" depart="26322.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9001" departLane="best">
+        <route edges="-31070#4" />
+    </vehicle>
+    <vehicle id="carIn6209:1" type="passenger3" depart="26322.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9816" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn24034:1" type="passenger1" depart="26332.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1306" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn24082:1" type="passenger2b" depart="26335.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0365" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn25591:1" type="passenger1" depart="26335.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9912" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn24171:1" type="passenger3" depart="26336.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9128" departLane="best">
+        <route edges="-32492#2 --32680 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h27945c1:1" type="passenger2a" depart="26337.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9228" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h46474c1:1" type="passenger1" depart="26337.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0377" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn30242:1" type="passenger2a" depart="26342.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9018" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn24447:1" type="passenger2a" depart="26346.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.7939" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn41768:1" type="passenger2b" depart="26357.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9355" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5" />
+    </vehicle>
+    <vehicle id="h64239c1:1" type="passenger4" depart="26357.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1091" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h8413c1:1" type="passenger3" depart="26357.00" departPos="386.2629" departSpeed="0.00" arrivalPos="max" speedFactor="1.0333">
+        <route edges="--30864" />
+    </vehicle>
+    <vehicle id="carIn18640:1" type="passenger3" depart="26361.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9256" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn10526:1" type="passenger5" depart="26370.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0935" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h62903c1:1" type="passenger2a" depart="26370.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8971" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h43455c1:1" type="passenger1" depart="26381.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9977" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 --31070#5 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="carIn47077:1" type="passenger1" depart="26392.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9663" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h4716c1:1" type="passenger1" depart="26397.00" departPos="633.7463" departSpeed="0.00" arrivalPos="max" speedFactor="1.0417">
+        <route edges="--30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h62939c1:3" type="passenger4" depart="26398.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9662" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn10375:1" type="passenger2b" depart="26400.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9566" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn38118:1" type="passenger2a" depart="26400.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1301" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h29747c2:1" type="passenger2a" depart="26403.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0628" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h44638c2:1" type="passenger2b" depart="26420.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9608" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h46127c1:1" type="passenger1" depart="26423.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9869" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 --31070#6 --31070#5" />
+    </vehicle>
+    <vehicle id="carIn8734:1" type="passenger2b" depart="26430.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0049" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h30519c1:1" type="passenger1" depart="26434.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8834" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn39231:1" type="passenger1" depart="26448.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1150" departLane="best">
+        <route edges="-30730#2 -30730#3 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h42658c1:1" type="passenger4" depart="26448.00" departPos="187.1179" departSpeed="0.00" arrivalPos="max" speedFactor="0.9993">
+        <route edges="-30730#3 -30596#2 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn17500:1" type="passenger1" depart="26452.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9423" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn46299:1" type="passenger1" depart="26457.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8787" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h8399c1:1" type="passenger1" depart="26463.00" departPos="228.4273" departSpeed="0.00" arrivalPos="max" speedFactor="1.0834">
+        <route edges="--30864" />
+    </vehicle>
+    <vehicle id="carIn10893:1" type="passenger2a" depart="26468.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8906" departLane="best">
+        <route edges="-31424 --30444#2" />
+    </vehicle>
+    <vehicle id="carIn6222:1" type="passenger1" depart="26470.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1003" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h32523c1:1" type="passenger3" depart="26476.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0046" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn28985:1" type="passenger2a" depart="26488.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9603" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn27634:1" type="passenger2b" depart="26496.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1730" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h35002c1:1" type="passenger2b" depart="26499.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0269" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h72787c1:1" type="passenger1" depart="26501.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9005" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h64559c1:1" type="passenger3" depart="26504.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.7990" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h51109c1:1" type="passenger2b" depart="26513.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0028" departLane="best">
+        <route edges="-32010#0 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h48094c1:1" type="passenger2a" depart="26525.00" departPos="186.04" departSpeed="0.00" arrivalPos="max" speedFactor="0.8366">
+        <route edges="-31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn11643:1" type="passenger2b" depart="26546.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9486" departLane="best">
+        <route edges="-30730#2" />
+    </vehicle>
+    <vehicle id="randUni13373:1" type="passenger2b" depart="26548.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0303" departLane="best">
+        <route edges="-30730#2 -30730#3 --30596#1" />
+    </vehicle>
+    <vehicle id="carIn41630:1" type="passenger1" depart="26550.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0138" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h32076c1:1" type="passenger2a" depart="26558.00" departPos="141.3926" departSpeed="0.00" arrivalPos="max" speedFactor="0.9367">
+        <route edges="--32680 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h6259c1:1" type="passenger2b" depart="26561.00" departPos="125.7428" departSpeed="0.00" arrivalPos="max" speedFactor="0.9252">
+        <route edges="--30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn1663:1" type="passenger4" depart="26568.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1091" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn32561:1" type="passenger1" depart="26568.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0630" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn14216:1" type="passenger1" depart="26570.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0579" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h23736c1:1" type="passenger1" depart="26571.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0244" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h34432c2:1" type="passenger1" depart="26574.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8926" departLane="best">
+        <route edges="-30610#2 -31080#0 -30442#0 -30442#1 -32010#1 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn36193:1" type="passenger4" depart="26589.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0606" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h14045c1:1" type="passenger1" depart="26592.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9283" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h21039c1:1" type="passenger2b" depart="26595.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8918" departLane="best">
+        <route edges="--31070#8" />
+    </vehicle>
+    <vehicle id="carIn15457:1" type="passenger2a" depart="26597.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9120" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h11058c1:1" type="passenger1" depart="26597.00" departPos="158.119" departSpeed="0.00" arrivalPos="max" speedFactor="0.9003">
+        <route edges="--31070#5 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h27970c1:1" type="passenger1" depart="26615.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9535" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h50675c1:1" type="passenger3" depart="26615.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9793" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn19242:1" type="passenger1" depart="26616.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9888" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3 -31770#0 -31424 --30444#2" />
+    </vehicle>
+    <vehicle id="h19120c1:1" type="passenger1" depart="26635.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8749" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h42634c1:1" type="passenger1" depart="26640.00" departPos="143.6809" departSpeed="0.00" arrivalPos="max" speedFactor="0.9533">
+        <route edges="-30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn32388:1" type="passenger4" depart="26642.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9301" departLane="best">
+        <route edges="-30864 --32492#3 --32492#2" />
+    </vehicle>
+    <vehicle id="carIn3632:1_part0" type="passenger1" depart="26644.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0520" departLane="best">
+        <route edges="-31770#1 -30874#0 --31088#2 --31088#1 --31088#0" />
+    </vehicle>
+    <vehicle id="carIn39298:1" type="passenger2b" depart="26644.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0707" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1" />
+    </vehicle>
+    <vehicle id="carIn43002:1" type="passenger3" depart="26645.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9746" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h48278c1:1" type="passenger4" depart="26645.00" departPos="218.3198" departSpeed="0.00" arrivalPos="max" speedFactor="1.0425">
+        <route edges="-31080#0 -30442#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn39250:1" type="passenger1" depart="26650.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.2199" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h24860c2:1" type="passenger2a" depart="26650.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0674" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn41884:1" type="passenger1" depart="26653.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0370" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn9227:1" type="passenger1" depart="26653.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8843" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h8547c1:1" type="passenger3" depart="26654.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1800" departLane="best">
+        <route edges="-32492#2 --32680 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn48865:1" type="passenger1" depart="26655.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8653" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn13883:1" type="passenger2a" depart="26656.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8789" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h27856c2:1" type="passenger2b" depart="26657.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0560" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn36748:1" type="passenger3" depart="26658.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0271" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn32227:1" type="passenger2a" depart="26659.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9371" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h29647c1:1" type="passenger1" depart="26662.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8830" departLane="best">
+        <route edges="-30596#1 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h43396c1:1" type="passenger1" depart="26667.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9230" departLane="best">
+        <route edges="-30610#2 -31080#0 -30442#0 -30442#1 -32010#1 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h30521c1:1" type="passenger2b" depart="26668.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1027" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn19191:1" type="passenger2b" depart="26669.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1475" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="carIn12173:1" type="passenger1" depart="26679.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0522" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -30874#2" />
+    </vehicle>
+    <vehicle id="h2607c1:1" type="passenger2a" depart="26680.00" departPos="103.674" departSpeed="0.00" arrivalPos="max" speedFactor="1.2006">
+        <route edges="--30442#0 --31080#0 -30610#3 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn33354:1" type="passenger1" depart="26688.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8878" departLane="best">
+        <route edges="--31070#8" />
+    </vehicle>
+    <vehicle id="carIn40811:1" type="passenger1" depart="26688.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9475" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="h9773c1:1" type="passenger2b" depart="26691.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8739" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn32460:1" type="passenger1" depart="26700.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1179" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h12449c2:1" type="passenger1" depart="26701.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9363" departLane="best">
+        <route edges="--31070#8 --31070#7 -32864#0 -32864#1" />
+    </vehicle>
+    <vehicle id="h74212c1:1" type="passenger5" depart="26702.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8687" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn40938:1" type="passenger2b" depart="26704.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9888" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="carIn3632:1_part1" type="passenger1" depart="26709.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0520" departLane="best">
+        <route edges="--30596#0" />
+    </vehicle>
+    <vehicle id="h27955c1:1" type="passenger2b" depart="26709.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1823" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h42544c1:1" type="passenger4" depart="26709.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8705" departLane="best">
+        <route edges="-30864 --32492#3 --32492#2 -31088#0 -31088#1 -32378 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h30459c1:1" type="passenger2a" depart="26732.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0284" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h69102c1:1" type="passenger1" depart="26732.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9753" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn19258:1" type="passenger4" depart="26735.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1740" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn34120:1" type="passenger1" depart="26735.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0160" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn12038:1" type="passenger1" depart="26737.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9769" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn36014:1" type="passenger2b" depart="26737.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8985" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h5455c1:1" type="passenger1" depart="26739.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0847" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h13884c1:1" type="passenger1" depart="26740.00" departPos="6.5395" departSpeed="0.00" arrivalPos="max" speedFactor="1.0292">
+        <route edges="--31304#1 -32010#0 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn27907:1" type="passenger3" depart="26751.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0495" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h11323c1:1" type="passenger1" depart="26753.00" departPos="88.6574" departSpeed="0.00" arrivalPos="max" speedFactor="1.0571">
+        <route edges="--31088#1 --31088#0 -32492#2 --32680 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h48391c1:1" type="passenger2b" depart="26753.00" departPos="194.5578" departSpeed="0.00" arrivalPos="max" speedFactor="1.0837">
+        <route edges="-31088#1 -31088#2 -30874#1 -30874#2 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="randUni8361:1" type="passenger1" depart="26755.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8938" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0" />
+    </vehicle>
+    <vehicle id="h6870c1:1" type="passenger1" depart="26760.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0837" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 --31070#5 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="carIn13587:1" type="passenger1" depart="26767.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0618" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h44654c2:1" type="passenger5" depart="26768.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0774" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h68269c1:1" type="passenger2a" depart="26770.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0728" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h16282c1:1" type="passenger1" depart="26782.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0762" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn22070:1" type="passenger2b" depart="26784.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0604" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 --31088#2 --31088#1 -32908" />
+    </vehicle>
+    <vehicle id="h38612c1:1" type="passenger1" depart="26784.00" departPos="98.333" departSpeed="0.00" arrivalPos="max" speedFactor="1.0474">
+        <route edges="-30442#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn32436:1" type="passenger1" depart="26787.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9548" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h51104c1:1" type="passenger2a" depart="26789.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8904" departLane="best">
+        <route edges="-32010#0 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn12211:1" type="passenger2a" depart="26794.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8491" departLane="best">
+        <route edges="--31070#8 --31070#7 -32864#0 -30442#1 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn22793:1" type="passenger1" depart="26800.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.2485" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 --31088#2 --31088#1 -32908" />
+    </vehicle>
+    <vehicle id="h42596c1:1" type="passenger1" depart="26801.00" departPos="123.2607" departSpeed="0.00" arrivalPos="max" speedFactor="0.8723">
+        <route edges="--30864" />
+    </vehicle>
+    <vehicle id="carIn14757:1" type="passenger1" depart="26813.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9289" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn16585:1" type="passenger2a" depart="26815.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9920" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn17964:1" type="passenger3" depart="26820.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8121" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h48288c1:1" type="passenger1" depart="26832.00" departPos="28.0641" departSpeed="0.00" arrivalPos="max" speedFactor="0.9021">
+        <route edges="-31080#0 -30442#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn2373:1" type="passenger2b" depart="26842.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0100" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn22487:1" type="passenger2a" depart="26847.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0516" departLane="best">
+        <route edges="-31770#1 -30874#0 --31088#2 --31088#1 --31088#0 -32492#2 --32680 -30444#1" />
+    </vehicle>
+    <vehicle id="h4704c1:1" type="passenger1" depart="26850.00" departPos="612.7899" departSpeed="0.00" arrivalPos="max" speedFactor="1.0836">
+        <route edges="--30596#0 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn29782:1" type="passenger1" depart="26857.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0691" departLane="best">
+        <route edges="-30730#2 -30730#3 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="carIn11634:1" type="passenger1" depart="26860.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1110" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h27083c1:1" type="passenger1" depart="26862.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8522" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h48371c1:1" type="passenger1" depart="26865.00" departPos="139.6735" departSpeed="0.00" arrivalPos="max" speedFactor="0.9210">
+        <route edges="-31088#1 -31088#2 -30874#1 -30874#2 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h66224c1:1" type="passenger2b" depart="26866.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9432" departLane="best">
+        <route edges="-30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h15508c1:1" type="passenger3" depart="26870.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8986" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 -31070#6 -31070#7" />
+    </vehicle>
+    <vehicle id="h36031c1:1" type="passenger1" depart="26872.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0594" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn37315:1" type="passenger1" depart="26880.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9152" departLane="best">
+        <route edges="--31070#8" />
+    </vehicle>
+    <vehicle id="h29698c2:1" type="passenger2b" depart="26882.00" departPos="81.471" departSpeed="0.00" arrivalPos="max" speedFactor="1.0337">
+        <route edges="--32492#3 --32492#2 -31088#0 -31088#1 -32378 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn9640:1" type="passenger2a" depart="26883.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9243" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1" />
+    </vehicle>
+    <vehicle id="h42750c1:1" type="passenger3" depart="26888.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.7858" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6" />
+    </vehicle>
+    <vehicle id="carIn13991:1" type="passenger3" depart="26894.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8519" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 --31088#2 --31088#1 -32908" />
+    </vehicle>
+    <vehicle id="AVL---_18_12" type="bus" depart="26896.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+        <stop busStop="261" duration="20.00" />
+        <stop busStop="635" duration="20.00" />
+        <stop busStop="455" duration="20.00" />
+    </vehicle>
+    <vehicle id="carIn1036:1" type="passenger2a" depart="26896.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0876" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn5186:1" type="passenger4" depart="26896.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9979" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn35731:1" type="passenger3" depart="26899.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0721" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h35120c1:1" type="passenger1" depart="26899.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9679" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn8199:1" type="passenger2a" depart="26901.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9091" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn5073:1" type="passenger1" depart="26902.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8588" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn39617:1" type="passenger5" depart="26903.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8316" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn40189:1" type="passenger1" depart="26910.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0057" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn2831:1" type="passenger1" depart="26911.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0465" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn49125:1" type="passenger3" depart="26913.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9092" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h40390c1:1" type="passenger1" depart="26941.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9941" departLane="best">
+        <route edges="--31070#8 -30444#0" />
+    </vehicle>
+    <vehicle id="carIn1911:1" type="passenger5" depart="26944.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0589" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h68913c1:1" type="passenger5" depart="26946.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0225" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn33115:1" type="passenger1" depart="26948.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0717" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h8243c1:1" type="passenger4" depart="26950.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9058" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6" />
+    </vehicle>
+    <vehicle id="carIn8497:1" type="passenger2a" depart="26953.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1239" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 --31070#6 --31070#5 --30596#2" />
+    </vehicle>
+    <vehicle id="randUni8766:1" type="passenger3" depart="26956.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8808" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 -31070#6 -31070#7 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn32907:1" type="passenger1" depart="26957.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9629" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h34432c1:1" type="passenger2b" depart="26958.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0668" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 -31070#6 -31070#7 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn11611:1" type="passenger3" depart="26964.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1515" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 -31070#5" />
+    </vehicle>
+    <vehicle id="h23456c1:1" type="passenger1" depart="26969.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9693" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn35630:1" type="passenger2b" depart="26976.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9756" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn40223:1" type="passenger1" depart="26976.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1355" departLane="best">
+        <route edges="--31070#8 --32010#1 --32010#0" />
+    </vehicle>
+    <vehicle id="h5452c1:1" type="passenger1" depart="26978.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8439" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn28072:1" type="passenger1" depart="26979.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9836" departLane="best">
+        <route edges="--31070#8 -30444#0" />
+    </vehicle>
+    <vehicle id="h3902c1:1" type="passenger1" depart="26979.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9136" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h29706c1:1" type="passenger1" depart="26991.00" departPos="34.4628" departSpeed="0.00" arrivalPos="max" speedFactor="1.0385">
+        <route edges="--32492#4 --32492#3 --32492#2 -31088#0 -31088#1 -31088#2 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn2979:1" type="passenger1" depart="27003.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1412" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn13860:1" type="passenger2a" depart="27007.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9122" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h66277c1:1" type="passenger1" depart="27008.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9356" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h10849c1:1" type="passenger2b" depart="27017.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0804" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn19290:1_part0" type="passenger2a" depart="27037.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0923" departLane="best">
+        <route edges="-31770#1 -30874#0 --31088#2 --31088#1 --31088#0" />
+    </vehicle>
+    <vehicle id="h48065c1:1" type="passenger1" depart="27040.00" departPos="119.2945" departSpeed="0.00" arrivalPos="max" speedFactor="1.2867">
+        <route edges="-31070#4 -31070#5 -31070#6 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h17518c2:1" type="passenger1" depart="27048.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9633" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h49281c1:1" type="passenger1" depart="27048.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.2478" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 -31070#6 -31070#7" />
+    </vehicle>
+    <vehicle id="h54542c1:1" type="passenger2b" depart="27053.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0367" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn13198:1" type="passenger1" depart="27060.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9188" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn42940:1" type="passenger1" depart="27060.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9715" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3 -31770#0 -31770#1 -30874#0" />
+    </vehicle>
+    <vehicle id="carIn24086:1" type="passenger1" depart="27063.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9800" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn3841:1" type="passenger2a" depart="27063.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8802" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h70814c1:1" type="passenger5" depart="27067.00" departPos="354.1485" departSpeed="0.00" arrivalPos="max" speedFactor="1.0546">
+        <route edges="-32680 -32492#3 --30864" />
+    </vehicle>
+    <vehicle id="carIn27638:1" type="passenger3" depart="27072.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0315" departLane="best">
+        <route edges="--31070#8 --31070#7 -32864#0" />
+    </vehicle>
+    <vehicle id="h63247c1:1" type="passenger4" depart="27072.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0168" departLane="best">
+        <route edges="--31070#8 -30444#0" />
+    </vehicle>
+    <vehicle id="h30661c2:1" type="passenger1" depart="27075.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1434" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h29637c1:1" type="passenger1" depart="27081.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.2114" departLane="best">
+        <route edges="-30596#1 -30596#2 -31070#5 -31070#6 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn32082:1" type="passenger1" depart="27089.00" departPos="52.4277" departSpeed="0.00" arrivalPos="max" speedFactor="1.0111">
+        <route edges="--31304#1 -32010#0 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="h27972c1:1" type="passenger1" depart="27094.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1834" departLane="best">
+        <route edges="--30444#1 --30444#0 --32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn19290:1_part1" type="passenger2a" depart="27098.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0923" departLane="best">
+        <route edges="--30596#0" />
+    </vehicle>
+    <vehicle id="h11252c1:1" type="passenger2a" depart="27107.00" departPos="248.9636" departSpeed="0.00" arrivalPos="max" speedFactor="1.1114">
+        <route edges="--31080#0 -30610#3 -30610#1" />
+    </vehicle>
+    <vehicle id="h65834c1:1" type="passenger4" depart="27116.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9918" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h16367c2:1" type="passenger2a" depart="27119.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8735" departLane="best">
+        <route edges="-31424 --30444#2" />
+    </vehicle>
+    <vehicle id="h66374c1:1" type="passenger1" depart="27121.00" departPos="7.0502" departSpeed="0.00" arrivalPos="max" speedFactor="1.0798">
+        <route edges="-30874#3" />
+    </vehicle>
+    <vehicle id="h70572c1:1" type="passenger2a" depart="27125.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9029" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn37174:1" type="passenger1" depart="27142.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1123" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn39650:1" type="passenger2b" depart="27142.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8492" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn29331:1" type="passenger1" depart="27145.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1113" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn40330:1" type="passenger2a" depart="27146.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9425" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 -31070#6 -31070#7" />
+    </vehicle>
+    <vehicle id="h38628c1:1" type="passenger2a" depart="27151.00" departPos="150.4165" departSpeed="0.00" arrivalPos="max" speedFactor="1.0143">
+        <route edges="-30442#1 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="h48066c1:1" type="passenger2b" depart="27151.00" departPos="161.9963" departSpeed="0.00" arrivalPos="max" speedFactor="1.0835">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn25415:1" type="passenger2a" depart="27162.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0718" departLane="best">
+        <route edges="-31424 --30444#2" />
+    </vehicle>
+    <vehicle id="carIn6546:1" type="passenger2a" depart="27168.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0815" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn12583:1" type="passenger2b" depart="27169.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1590" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="AVL---_7_12" type="bus" depart="27171.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+        <stop busStop="261" duration="20.00" />
+        <stop busStop="635" duration="20.00" />
+        <stop busStop="455" duration="20.00" />
+    </vehicle>
+    <vehicle id="carIn31473:1" type="passenger2b" depart="27190.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1155" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h8404c1:1" type="passenger2a" depart="27204.00" departPos="194.956" departSpeed="0.00" arrivalPos="max" speedFactor="0.9335">
+        <route edges="--30864" />
+    </vehicle>
+    <vehicle id="carIn44462:1" type="passenger1" depart="27216.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0891" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2" />
+    </vehicle>
+    <vehicle id="carIn32190:1" type="passenger1" depart="27218.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0288" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h42491c1:1" type="passenger3" depart="27222.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0015" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn13307:1" type="passenger3" depart="27225.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9536" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn29669:1" type="passenger4" depart="27226.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9545" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h23712c1:1" type="passenger2b" depart="27242.00" departPos="29.411" departSpeed="0.00" arrivalPos="max" speedFactor="0.9081">
+        <route edges="--32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h33641c1:1" type="passenger1" depart="27243.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0327" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2" />
+    </vehicle>
+    <vehicle id="h66245c1:1" type="passenger3" depart="27248.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9475" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn33456:1" type="passenger2a" depart="27251.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9473" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 -31070#6" />
+    </vehicle>
+    <vehicle id="h6277c1:1" type="passenger1" depart="27253.00" departPos="187.927" departSpeed="0.00" arrivalPos="max" speedFactor="0.9428">
+        <route edges="--30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn34724:1" type="passenger1" depart="27258.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1058" departLane="best">
+        <route edges="-31424 --30444#2" />
+    </vehicle>
+    <vehicle id="carIn48024:1" type="passenger1" depart="27264.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9392" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="h63900c1:1" type="passenger1" depart="27274.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9970" departLane="best">
+        <route edges="--31070#8 --32010#1 --32010#0 -31304#1" />
+    </vehicle>
+    <vehicle id="h71690c2:1" type="passenger3" depart="27274.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0288" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="carIn37340:1" type="passenger3" depart="27282.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9294" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn36431:1" type="passenger1" depart="27293.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1619" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2" />
+    </vehicle>
+    <vehicle id="AVL---_13_14" type="bus" depart="27296.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-31424 --30444#2 --30444#1 -32680 -32492#3 -32492#4 -30730#3 -30596#2 -31070#5 -31070#6 -32864#0 -32864#1 -30610#1" />
+        <stop busStop="171" duration="20.00" />
+        <stop busStop="285" duration="20.00" />
+        <stop busStop="634" duration="20.00" />
+        <stop busStop="645" duration="20.00" />
+    </vehicle>
+    <vehicle id="h37066c1:1" type="passenger1" depart="27300.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9893" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn16385:1" type="passenger2b" depart="27306.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0891" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h56860c1:1" type="passenger1" depart="27312.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9430" departLane="best">
+        <route edges="--31070#8 --31070#7 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn29974:1" type="passenger1" depart="27317.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0274" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="h48074c1:1" type="passenger5" depart="27319.00" departPos="241.2654" departSpeed="0.00" arrivalPos="max" speedFactor="1.0027">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn47878:1" type="passenger2b" depart="27329.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.2123" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 --31070#6 --31080#1 --31080#0" />
+    </vehicle>
+    <vehicle id="h29670c1:1" type="passenger3" depart="27329.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9793" departLane="best">
+        <route edges="--30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h5942c1:1" type="passenger2a" depart="27332.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0508" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn38921:1" type="passenger1" depart="27341.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9402" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 --31070#5 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h42665c1:1" type="passenger2a" depart="27351.00" departPos="101.2965" departSpeed="0.00" arrivalPos="max" speedFactor="1.0457">
+        <route edges="-30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h29676c2:1" type="passenger1" depart="27357.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9236" departLane="best">
+        <route edges="-30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn46617:1" type="passenger2a" depart="27360.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9958" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="h44982c1:1" type="passenger3" depart="27364.00" departPos="205.9294" departSpeed="0.00" arrivalPos="max" speedFactor="1.0466">
+        <route edges="--30730#2" />
+    </vehicle>
+    <vehicle id="h45418c1:1" type="passenger4" depart="27365.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1512" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn28991:1" type="passenger1" depart="27366.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8991" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn23031:1" type="passenger1" depart="27368.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8988" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h62645c1:1" type="passenger1" depart="27368.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9578" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h27967c1:1" type="passenger2b" depart="27370.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0219" departLane="best">
+        <route edges="-30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h8535c1:1" type="passenger2b" depart="27375.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8619" departLane="best">
+        <route edges="--31070#8 --31070#7" />
+    </vehicle>
+    <vehicle id="carIn2602:1" type="passenger1" depart="27376.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.7703" departLane="best">
+        <route edges="--31070#8 --31070#7" />
+    </vehicle>
+    <vehicle id="h50387c2:1" type="passenger2a" depart="27378.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9440" departLane="best">
+        <route edges="--31070#8 -30444#0" />
+    </vehicle>
+    <vehicle id="carIn4872:1" type="passenger1" depart="27380.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0152" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn30682:1" type="passenger1" depart="27381.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1480" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h11c1:1" type="passenger2a" depart="27388.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9055" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h21371c1:1" type="passenger1" depart="27388.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0498" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn29478:1" type="passenger1" depart="27394.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8251" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h42589c1:1" type="passenger2b" depart="27397.00" departPos="146.281" departSpeed="0.00" arrivalPos="max" speedFactor="1.0215">
+        <route edges="--30864" />
+    </vehicle>
+    <vehicle id="carIn28875:1" type="passenger1" depart="27398.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0706" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h27993c1:1" type="passenger2a" depart="27404.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9010" departLane="best">
+        <route edges="-30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h11250c1:1" type="passenger3" depart="27405.00" departPos="19.3703" departSpeed="0.00" arrivalPos="max" speedFactor="1.1003">
+        <route edges="--31080#0 -30610#3 -30610#1" />
+    </vehicle>
+    <vehicle id="h32090c1:1" type="passenger3" depart="27407.00" departPos="98.3932" departSpeed="0.00" arrivalPos="max" speedFactor="0.7883">
+        <route edges="--32680 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h63315c2:1" type="passenger2b" depart="27407.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0582" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn22862:1" type="passenger2b" depart="27408.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1449" departLane="best">
+        <route edges="-31770#1 -30874#0 --31088#2 --31088#1 --31088#0" />
+    </vehicle>
+    <vehicle id="h11341c1:1" type="passenger3" depart="27421.00" departPos="5.0997" departSpeed="0.00" arrivalPos="max" speedFactor="0.8921">
+        <route edges="--31088#1 --31088#0 -32492#2 --32680 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h38605c1:1" type="passenger3" depart="27429.00" departPos="24.076" departSpeed="0.00" arrivalPos="max" speedFactor="1.0137">
+        <route edges="-30442#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn27389:1" type="passenger2a" depart="27436.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8815" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn36173:1" type="passenger1" depart="27439.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0223" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn13759:1" type="passenger2b" depart="27442.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9046" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h40931c1:1" type="passenger1" depart="27448.00" departPos="110.0669" departSpeed="0.00" arrivalPos="max" speedFactor="1.1090">
+        <route edges="-30596#1 -30596#2 -31070#5 -31070#6 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h59575c1:1" type="passenger1" depart="27449.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1839" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 -31070#6" />
+    </vehicle>
+    <vehicle id="carIn46689:1" type="passenger1" depart="27456.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9397" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h29827c2:1" type="passenger1" depart="27456.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8676" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="carIn33308:1" type="passenger1" depart="27457.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1562" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h29891c1:1" type="passenger2a" depart="27459.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9663" departLane="best">
+        <route edges="--31070#8 --32010#1 --32010#0" />
+    </vehicle>
+    <vehicle id="carIn37926:1" type="passenger2b" depart="27460.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0384" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h36600c1:1" type="passenger4" depart="27468.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8899" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn25108:1" type="passenger1" depart="27470.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0244" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h21c1:1" type="passenger4" depart="27470.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8135" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3" />
+    </vehicle>
+    <vehicle id="h5353c1:1" type="passenger3" depart="27470.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9318" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn12927:1" type="passenger2b" depart="27489.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9880" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn22133:1" type="passenger1" depart="27489.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9391" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h61677c1:1" type="passenger1" depart="27492.00" departPos="78.7046" departSpeed="0.00" arrivalPos="max" speedFactor="1.0628">
+        <route edges="-32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn30741:1" type="passenger1" depart="27494.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9284" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="AVL---_25_15" type="bus" depart="27497.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 --31070#6 --31070#5 --31070#4" />
+        <stop busStop="171" duration="20.00" />
+        <stop busStop="261" duration="20.00" />
+        <stop busStop="635" duration="20.00" />
+        <stop busStop="455" duration="20.00" />
+    </vehicle>
+    <vehicle id="h6160c1:1" type="passenger1" depart="27504.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0453" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h68905c1:1_part0" type="passenger5" depart="27508.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0130" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn34755:1" type="passenger3" depart="27514.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.2505" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn39322:1" type="passenger2a" depart="27518.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9457" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h48298c1:1" type="passenger1" depart="27518.00" departPos="6.6481" departSpeed="0.00" arrivalPos="max" speedFactor="1.0399">
+        <route edges="-31080#0 -31080#1 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h466c2:1" type="passenger4" depart="27524.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0444" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3 -31770#0 -31424 --30444#2" />
+    </vehicle>
+    <vehicle id="h6196c1:1" type="passenger4" depart="27528.00" departPos="129.9973" departSpeed="0.00" arrivalPos="max" speedFactor="1.1701">
+        <route edges="--30730#2" />
+    </vehicle>
+    <vehicle id="h45440c1:1" type="passenger5" depart="27529.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1827" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h53130c2:1" type="passenger2b" depart="27536.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9199" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 --31070#5 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="AVL---_18_15" type="bus" depart="27540.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+        <stop busStop="454" duration="20.00" />
+        <stop busStop="634" duration="20.00" />
+        <stop busStop="260" duration="20.00" />
+    </vehicle>
+    <vehicle id="h8409c1:1" type="passenger2b" depart="27542.00" departPos="135.5372" departSpeed="0.00" arrivalPos="max" speedFactor="1.0313">
+        <route edges="--30864" />
+    </vehicle>
+    <vehicle id="h29180c1:1" type="passenger1" depart="27552.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0184" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h60453c1:1" type="passenger1" depart="27552.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8153" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="AVL---_12_15" type="bus" depart="27555.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-30610#2 -31080#0 -31080#1 -31070#6 -31070#7 -31070#8" />
+        <stop busStop="260" duration="20.00" />
+    </vehicle>
+    <vehicle id="h2591c1:1" type="passenger2a" depart="27558.00" departPos="5.5349" departSpeed="0.00" arrivalPos="max" speedFactor="0.8443">
+        <route edges="--30442#0 --31080#0 -30610#3 -30610#1" />
+    </vehicle>
+    <vehicle id="AVL---_7_15" type="bus" depart="27560.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+        <stop busStop="454" duration="20.00" />
+        <stop busStop="634" duration="20.00" />
+        <stop busStop="260" duration="20.00" />
+    </vehicle>
+    <vehicle id="carIn30288:1" type="passenger2a" depart="27560.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1492" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="h48380c1:1" type="passenger2a" depart="27562.00" departPos="192.4818" departSpeed="0.00" arrivalPos="max" speedFactor="0.9379">
+        <route edges="-31088#1 -31088#2 -30874#1 -30874#2 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h49323c1:1" type="passenger1" depart="27562.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1473" departLane="best">
+        <route edges="-30730#2 -30730#3 --30596#1" />
+    </vehicle>
+    <vehicle id="h48145c1:1" type="passenger2a" depart="27576.00" departPos="54.4218" departSpeed="0.00" arrivalPos="max" speedFactor="0.8423">
+        <route edges="-31070#8" />
+    </vehicle>
+    <vehicle id="carIn46787:1" type="passenger5" depart="27585.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1373" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h8402c1:1" type="passenger2b" depart="27591.00" departPos="61.7139" departSpeed="0.00" arrivalPos="max" speedFactor="1.1207">
+        <route edges="--30864" />
+    </vehicle>
+    <vehicle id="h28424c1:1" type="passenger2b" depart="27600.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1501" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn9055:1" type="passenger1" depart="27602.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0285" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h74910c1:1" type="passenger2a" depart="27606.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0054" departLane="best">
+        <route edges="-30730#2 -30730#3 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h42194c1:1" type="passenger1" depart="27608.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0395" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h68148c1:1" type="passenger2b" depart="27621.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0836" departLane="best">
+        <route edges="-32492#2 -32492#3 --30864" />
+    </vehicle>
+    <vehicle id="h50967c1:1" type="passenger1" depart="27631.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0011" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn48606:1" type="passenger1" depart="27634.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9870" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3 -31770#0 -31424 --30444#2" />
+    </vehicle>
+    <vehicle id="carIn7843:1" type="passenger2a" depart="27634.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9452" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn31630:1" type="passenger3" depart="27637.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0309" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn36730:1" type="passenger1" depart="27637.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9928" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn46956:1" type="passenger1" depart="27639.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1125" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h41806c1:1" type="passenger2b" depart="27639.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9630" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h50334c1:1" type="passenger2a" depart="27648.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0313" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --30596#2" />
+    </vehicle>
+    <vehicle id="h17713c1:1" type="passenger4" depart="27651.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0138" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="h11072c1:1" type="passenger1" depart="27652.00" departPos="50.2119" departSpeed="0.00" arrivalPos="max" speedFactor="0.9521">
+        <route edges="--31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn28354:1" type="passenger5" depart="27658.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9414" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 --31088#2 --31088#1" />
+    </vehicle>
+    <vehicle id="carIn48394:1" type="passenger2b" depart="27661.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0330" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --32010#1 --32010#0" />
+    </vehicle>
+    <vehicle id="h48063c1:1" type="passenger5" depart="27670.00" departPos="136.9288" departSpeed="0.00" arrivalPos="max" speedFactor="0.9970">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn41482:1" type="passenger1" depart="27688.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0097" departLane="best">
+        <route edges="-32010#0 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="h23374c1:1" type="passenger3" depart="27692.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8763" departLane="best">
+        <route edges="-31070#4" />
+    </vehicle>
+    <vehicle id="h25580c2:1" type="passenger3" depart="27696.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1048" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 -31070#5" />
+    </vehicle>
+    <vehicle id="carIn1561:1" type="passenger2a" depart="27700.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0364" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h23719c2:1" type="passenger2b" depart="27710.00" departPos="24.9069" departSpeed="0.00" arrivalPos="max" speedFactor="0.9452">
+        <route edges="--32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn10699:1" type="passenger2b" depart="27716.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.2108" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn5396:1" type="passenger2a" depart="27716.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0594" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h4693c1:1" type="passenger1" depart="27717.00" departPos="299.4778" departSpeed="0.00" arrivalPos="max" speedFactor="0.9582">
+        <route edges="--30596#0 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn11162:1" type="passenger1" depart="27719.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0408" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn2639:1" type="passenger1" depart="27719.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0675" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h5431c1:1" type="passenger5" depart="27721.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9561" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn26431:1" type="passenger1" depart="27722.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9318" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn40455:1" type="passenger2a" depart="27722.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8476" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h8959c1:1" type="passenger5" depart="27724.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8942" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn28094:1" type="passenger1" depart="27725.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9838" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn6769:1" type="passenger1" depart="27728.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1175" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 -31070#6 -31070#7" />
+    </vehicle>
+    <vehicle id="carIn33980:1" type="passenger1" depart="27744.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9396" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h31671c1:1" type="passenger5" depart="27744.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9573" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0" />
+    </vehicle>
+    <vehicle id="h20222c1:1" type="passenger2a" depart="27754.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0321" departLane="best">
+        <route edges="-30730#2 --32492#4 --32492#3 --32492#2 -31088#0 -31088#1 -31088#2 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="h66814c1:1" type="passenger2b" depart="27764.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9187" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --32492#4" />
+    </vehicle>
+    <vehicle id="h34735c1:1" type="passenger1" depart="27775.00" departPos="6.2619" departSpeed="0.00" arrivalPos="max" speedFactor="1.1574">
+        <route edges="--32908 --31088#0 -32492#2 -32492#3 --30864" />
+    </vehicle>
+    <vehicle id="h48132c1:1" type="passenger3" depart="27779.00" departPos="45.7182" departSpeed="0.00" arrivalPos="max" speedFactor="0.9646">
+        <route edges="-31070#8" />
+    </vehicle>
+    <vehicle id="carIn49018:1" type="passenger1" depart="27784.00" departPos="37.0107" departSpeed="0.00" arrivalPos="max" speedFactor="0.9369">
+        <route edges="--32908 -31088#1 -31088#2 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h44642c1:1" type="passenger5" depart="27785.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1074" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h48365c1:1" type="passenger2b" depart="27785.00" departPos="103.4567" departSpeed="0.00" arrivalPos="max" speedFactor="0.8865">
+        <route edges="-31088#1 -31088#2 -30874#1 -30874#2 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn17431:1" type="passenger1" depart="27798.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0613" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -30444#0" />
+    </vehicle>
+    <vehicle id="carIn46069:1" type="passenger2b" depart="27798.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0888" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3 -31770#0 -31424 --30444#2" />
+    </vehicle>
+    <vehicle id="carIn13959:1" type="passenger1" depart="27801.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1070" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn48274:1" type="passenger3" depart="27801.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9335" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h8736c1:1" type="passenger1" depart="27802.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9847" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn19142:1" type="passenger1" depart="27803.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9356" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn35966:1" type="passenger2a" depart="27803.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0405" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn40493:1" type="passenger2a" depart="27805.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8465" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn4632:1" type="passenger3" depart="27805.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1223" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h64409c2:1" type="passenger1" depart="27807.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9660" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h35720c1:1" type="passenger1" depart="27816.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0299" departLane="best">
+        <route edges="-30610#2 -30610#3 -30610#1" />
+    </vehicle>
+    <vehicle id="h70819c1:1" type="passenger1" depart="27818.00" departPos="311.3136" departSpeed="0.00" arrivalPos="max" speedFactor="0.8940">
+        <route edges="-32680 --32492#2 -31088#0 -31088#1 -32378 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h15444c1:1" type="passenger2b" depart="27819.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9952" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn7818:1" type="passenger1" depart="27820.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0594" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h4715c1:1" type="passenger4" depart="27820.00" departPos="338.2403" departSpeed="0.00" arrivalPos="max" speedFactor="0.9975">
+        <route edges="--30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h51c1:1" type="passenger2a" depart="27821.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0269" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h29044c1:1" type="passenger1" depart="27823.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0521" departLane="best">
+        <route edges="--31070#8 -30444#0" />
+    </vehicle>
+    <vehicle id="h41788c1:1" type="passenger2b" depart="27825.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9321" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h6267c1:1" type="passenger1" depart="27827.00" departPos="149.19" departSpeed="0.00" arrivalPos="max" speedFactor="0.9675">
+        <route edges="--30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="randUni9808:1" type="passenger2b" depart="27829.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9659" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn24276:1" type="passenger5" depart="27840.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.7356" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h8413c2:1" type="passenger2a" depart="27841.00" departPos="18.7635" departSpeed="0.00" arrivalPos="max" speedFactor="0.9988">
+        <route edges="--30864" />
+    </vehicle>
+    <vehicle id="carIn35107:1" type="passenger3" depart="27846.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9879" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0" />
+    </vehicle>
+    <vehicle id="h44669c2:1" type="passenger2b" depart="27848.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0593" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h72340c1:1" type="passenger1" depart="27849.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9441" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h31921c1:1" type="passenger1" depart="27851.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9870" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn8361:1" type="passenger1" depart="27852.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9671" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn9134:1" type="passenger1" depart="27855.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0676" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h70573c1:1" type="passenger2b" depart="27867.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0871" departLane="best">
+        <route edges="--30444#1 --30444#0 --31070#7 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h29637c2:1" type="passenger2a" depart="27876.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8930" departLane="best">
+        <route edges="-30596#1 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h35870c1:1" type="passenger5" depart="27880.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9740" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h68905c1:1_part1" type="passenger5" depart="27880.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0130" departLane="best">
+        <route edges="-31070#4" />
+    </vehicle>
+    <vehicle id="h11338c1:1" type="passenger3" depart="27887.00" departPos="99.4305" departSpeed="0.00" arrivalPos="max" speedFactor="1.0795">
+        <route edges="--31088#1 --31088#0 -32492#2 -32492#3 --30864" />
+    </vehicle>
+    <vehicle id="h61268c1:1" type="passenger2a" depart="27893.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1555" departLane="best">
+        <route edges="--31070#8" />
+    </vehicle>
+    <vehicle id="carIn11446:1" type="passenger2b" depart="27899.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0848" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 --31070#5 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="carIn37654:1" type="passenger3" depart="27908.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0433" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h4705c1:1" type="passenger2a" depart="27909.00" departPos="30.5704" departSpeed="0.00" arrivalPos="max" speedFactor="1.1314">
+        <route edges="--30596#0 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn30096:1" type="passenger5" depart="27913.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0391" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h61681c1:1" type="passenger2b" depart="27915.00" departPos="84.6202" departSpeed="0.00" arrivalPos="max" speedFactor="1.0369">
+        <route edges="-32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn42758:1" type="passenger1" depart="27920.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0250" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn13613:1" type="passenger2a" depart="27936.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0727" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h11147c1:1" type="passenger2a" depart="27936.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8235" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn16378:1" type="passenger3" depart="27939.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8808" departLane="best">
+        <route edges="--31070#8 -30444#0" />
+    </vehicle>
+    <vehicle id="carIn7321:1" type="passenger1" depart="27943.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.7903" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn42356:1" type="passenger2b" depart="27947.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8733" departLane="best">
+        <route edges="--31070#8 --32010#1 --32010#0 -31304#1" />
+    </vehicle>
+    <vehicle id="AVL---_12_14" type="bus" depart="27950.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="--31070#8 --31070#7 -32864#0 -32864#1 -30610#1" />
+        <stop busStop="261" duration="20.00" />
+        <stop busStop="645" duration="20.00" />
+    </vehicle>
+    <vehicle id="carIn19862:1" type="passenger1" depart="27962.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8449" departLane="best">
+        <route edges="--31070#8" />
+    </vehicle>
+    <vehicle id="h38667c1:1" type="passenger1" depart="27963.00" departPos="89.8891" departSpeed="0.00" arrivalPos="max" speedFactor="0.8532">
+        <route edges="--30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h56955c1:1" type="passenger1" depart="27967.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0538" departLane="best">
+        <route edges="-30610#2 -31080#0 -31080#1 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h27845c1:1" type="passenger1" depart="27968.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9349" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn25215:1_part0" type="passenger2b" depart="27983.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0557" departLane="best">
+        <route edges="-31770#1 -30874#0 --31088#2 --31088#1 --31088#0" />
+    </vehicle>
+    <vehicle id="carIn5688:1" type="passenger2b" depart="27989.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0097" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h42541c1:1" type="passenger2b" depart="27989.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8797" departLane="best">
+        <route edges="-30864 --32492#3 --32492#2 -31088#0 -31088#1 -31088#2 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="randUni314:1" type="passenger2a" depart="27994.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9727" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="carIn35451:1" type="passenger1" depart="28008.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0270" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1" />
+    </vehicle>
+    <vehicle id="carIn31382:1" type="passenger5" depart="28010.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0566" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="randUni8828:1" type="passenger1" depart="28010.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8956" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h67432c1:1" type="passenger2b" depart="28012.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9889" departLane="best">
+        <route edges="-30864 --32492#3 --32680" />
+    </vehicle>
+    <vehicle id="carIn15282:1" type="passenger5" depart="28013.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9395" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn1283:1" type="passenger2a" depart="28016.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1397" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h44966c1:1" type="passenger2b" depart="28016.00" departPos="81.145" departSpeed="0.00" arrivalPos="max" speedFactor="0.9691">
+        <route edges="--30730#2" />
+    </vehicle>
+    <vehicle id="carIn27625:1" type="passenger1" depart="28018.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0801" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h41543c2:1" type="passenger2b" depart="28019.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0128" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="AVL---_25_14" type="bus" depart="28020.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+        <stop busStop="454" duration="20.00" />
+        <stop busStop="634" duration="20.00" />
+        <stop busStop="260" duration="20.00" />
+        <stop busStop="172" duration="20.00" />
+    </vehicle>
+    <vehicle id="h5102c1:1" type="passenger1" depart="28032.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8857" departLane="best">
+        <route edges="--31070#8 --31070#7 -32864#0" />
+    </vehicle>
+    <vehicle id="carIn22938:1" type="passenger2a" depart="28035.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9262" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="h47608c2:1" type="passenger2a" depart="28037.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0867" departLane="best">
+        <route edges="--31070#8 --32010#1 --32010#0" />
+    </vehicle>
+    <vehicle id="carIn26010:1" type="passenger1" depart="28039.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0085" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h19726c1:1" type="passenger4" depart="28042.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8950" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="carIn35181:1" type="passenger2b" depart="28043.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0030" departLane="best">
+        <route edges="-30730#2 -30730#3 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="carIn35117:1" type="passenger4" depart="28044.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0308" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn25215:1_part1" type="passenger2b" depart="28045.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0557" departLane="best">
+        <route edges="--30596#0" />
+    </vehicle>
+    <vehicle id="carIn18991:1" type="passenger2b" depart="28063.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9666" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h66432c1:1" type="passenger2a" depart="28064.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9566" departLane="best">
+        <route edges="-31770#1 -30874#0 --31088#2 --31088#1 --31088#0 -32492#2 -32492#3 --30864 -30730#2" />
+    </vehicle>
+    <vehicle id="h67636c1:1" type="passenger2a" depart="28082.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0223" departLane="best">
+        <route edges="-30730#2 -30730#3" />
+    </vehicle>
+    <vehicle id="carIn17364:1" type="passenger1" depart="28092.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9359" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1" />
+    </vehicle>
+    <vehicle id="carIn2338:1" type="passenger1" depart="28095.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8234" departLane="best">
+        <route edges="-31070#4" />
+    </vehicle>
+    <vehicle id="carIn28016:1" type="passenger2a" depart="28099.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8906" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h62956c2:1" type="passenger2b" depart="28110.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0191" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h44983c2:1" type="passenger1" depart="28130.00" departPos="35.3441" departSpeed="0.00" arrivalPos="max" speedFactor="0.8548">
+        <route edges="--30730#2" />
+    </vehicle>
+    <vehicle id="h74846c1:1" type="passenger3" depart="28134.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0413" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h12371c1:1" type="passenger1" depart="28145.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0855" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h11036c1:1" type="passenger1" depart="28146.00" departPos="162.5841" departSpeed="0.00" arrivalPos="max" speedFactor="0.9634">
+        <route edges="--31070#4" />
+    </vehicle>
+    <vehicle id="h2595c1:1" type="passenger1" depart="28155.00" departPos="212.5905" departSpeed="0.00" arrivalPos="max" speedFactor="0.9933">
+        <route edges="--30442#0 -31080#1 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h29682c1:1" type="passenger2a" depart="28163.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9489" departLane="best">
+        <route edges="-30596#1 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h52417c1:1" type="passenger2b" depart="28174.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1146" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h48139c2:1_part0" type="passenger2b" depart="28196.00" departPos="38.7132" departSpeed="0.00" arrivalPos="max" speedFactor="0.9893">
+        <route edges="-31070#8" />
+    </vehicle>
+    <vehicle id="h55429c1:1" type="passenger2b" depart="28198.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9249" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn11153:1" type="passenger1" depart="28208.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0806" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn31702:1" type="passenger1" depart="28208.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0424" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -32864#0 --30442#0 -31080#1 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn16046:1" type="passenger2b" depart="28211.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1158" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h24860c1:1" type="passenger1" depart="28211.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9927" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h51585c1:1" type="passenger2a" depart="28224.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0720" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h61854c1:1" type="passenger1" depart="28224.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9578" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --30596#2" />
+    </vehicle>
+    <vehicle id="carIn47797:1" type="passenger5" depart="28227.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0120" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="h58666c1:1" type="passenger2b" depart="28227.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0981" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="carIn46395:1" type="passenger1" depart="28229.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0486" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h53885c1:1" type="passenger2a" depart="28230.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1211" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --30596#2 --30596#1" />
+    </vehicle>
+    <vehicle id="carIn28939:1" type="passenger5" depart="28232.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.7752" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn6458:1" type="passenger2b" depart="28234.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8346" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn40499:1_part0" type="passenger2b" depart="28244.00" departPos="64.7559" departSpeed="0.00" arrivalPos="max" speedFactor="1.1239">
+        <route edges="--32908 --31088#0" />
+    </vehicle>
+    <vehicle id="h68118c1:1" type="passenger2b" depart="28248.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9643" departLane="best">
+        <route edges="-32492#2 -32492#3 --30864" />
+    </vehicle>
+    <vehicle id="h11259c1:1" type="passenger1" depart="28249.00" departPos="204.345" departSpeed="0.00" arrivalPos="max" speedFactor="0.9898">
+        <route edges="--31080#0 -30610#3 -30610#1" />
+    </vehicle>
+    <vehicle id="h68162c2:1" type="passenger5" depart="28253.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0492" departLane="best">
+        <route edges="-32492#2 --32680 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn10687:1" type="passenger1" depart="28256.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9892" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -32864#0 -30442#1 --32010#0" />
+    </vehicle>
+    <vehicle id="h48139c2:1_part1" type="passenger2b" depart="28272.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9893" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h40935c1:1" type="passenger1" depart="28275.00" departPos="82.3961" departSpeed="0.00" arrivalPos="max" speedFactor="0.7579">
+        <route edges="-30596#1 -30596#2 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h43477c1:1" type="passenger4" depart="28275.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0618" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1" />
+    </vehicle>
+    <vehicle id="h8417c1:1" type="passenger5" depart="28276.00" departPos="51.4003" departSpeed="0.00" arrivalPos="max" speedFactor="1.0257">
+        <route edges="--30864" />
+    </vehicle>
+    <vehicle id="carIn7612:1" type="passenger1" depart="28279.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8688" departLane="best">
+        <route edges="-30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn40499:1_part1" type="passenger2b" depart="28286.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1239" departLane="best">
+        <route edges="-30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn18726:1" type="passenger5" depart="28290.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1772" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h69583c1:1" type="passenger2b" depart="28290.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0444" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn40240:1" type="passenger3" depart="28293.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9697" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h19504c1:1" type="passenger1" depart="28293.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0332" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn11568:1" type="passenger2b" depart="28299.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0016" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h8404c2:1" type="passenger2a" depart="28300.00" departPos="321.4704" departSpeed="0.00" arrivalPos="max" speedFactor="0.9922">
+        <route edges="--30864" />
+    </vehicle>
+    <vehicle id="h65737c1:1" type="passenger1" depart="28305.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1197" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn24:1" type="passenger3" depart="28320.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0101" departLane="best">
+        <route edges="--31070#8" />
+    </vehicle>
+    <vehicle id="h25171c1:1" type="passenger1" depart="28320.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9933" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn17191:1" type="passenger2b" depart="28362.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9250" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn44594:1" type="passenger1" depart="28372.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0887" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -32864#0 -30442#1 --32010#0" />
+    </vehicle>
+    <vehicle id="carIn47630:1" type="passenger2b" depart="28372.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1342" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn38324:1" type="passenger2b" depart="28375.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1349" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn41614:1" type="passenger1" depart="28376.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9735" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn1636:1" type="passenger2a" depart="28377.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9310" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="randUni9582:1" type="passenger1" depart="28378.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9203" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn32951:1" type="passenger2a" depart="28379.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0705" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="carIn37632:1" type="passenger1" depart="28380.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9968" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn12693:1" type="passenger1" depart="28381.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0593" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn17239:1" type="passenger2a" depart="28382.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9189" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn33271:1" type="passenger2a" depart="28383.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1781" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn38052:1" type="passenger1" depart="28384.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0842" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h11312c1:1" type="passenger1" depart="28385.00" departPos="55.1294" departSpeed="0.00" arrivalPos="max" speedFactor="1.0526">
+        <route edges="--31088#0 -32492#2 --32680 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h62307c1:1" type="passenger1" depart="28392.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9512" departLane="best">
+        <route edges="-30864 --32492#3 --32680 --30444#0" />
+    </vehicle>
+    <vehicle id="h58316c1:1" type="passenger1" depart="28394.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0196" departLane="best">
+        <route edges="-30730#2" />
+    </vehicle>
+    <vehicle id="carIn44365:1" type="passenger4" depart="28397.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1009" departLane="best">
+        <route edges="-30730#2 -30730#3" />
+    </vehicle>
+    <vehicle id="h61662c1:1" type="passenger2b" depart="28397.00" departPos="80.7794" departSpeed="0.00" arrivalPos="max" speedFactor="1.0806">
+        <route edges="-32010#0 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="h70798c1:1" type="passenger1" depart="28402.00" departPos="45.2186" departSpeed="0.00" arrivalPos="max" speedFactor="0.9972">
+        <route edges="-32680 -32492#3 -32492#4 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h68279c1:1_part0" type="passenger1" depart="28406.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0120" departLane="best">
+        <route edges="-30864 --32492#3 --32492#2" />
+    </vehicle>
+    <vehicle id="carIn35823:1" type="passenger1" depart="28410.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1416" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn16719:1" type="passenger2a" depart="28413.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9972" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h11456c1:1" type="passenger1" depart="28416.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9946" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h16147c1:1" type="passenger1" depart="28416.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9861" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 --31088#2 --31088#1 --31088#0" />
+    </vehicle>
+    <vehicle id="h42641c1:1" type="passenger1" depart="28418.00" departPos="210.2632" departSpeed="0.00" arrivalPos="max" speedFactor="1.1555">
+        <route edges="-30730#3 -30596#2 -31070#5 -31070#6 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn14644:1" type="passenger1" depart="28419.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.7416" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3 -31770#0" />
+    </vehicle>
+    <vehicle id="h48429c1:1" type="passenger2b" depart="28419.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9343" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="carIn3135:1" type="passenger1" depart="28422.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0606" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 --32010#1 --32010#0 -31304#1" />
+    </vehicle>
+    <vehicle id="carIn13671:1" type="passenger2a" depart="28423.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9571" departLane="best">
+        <route edges="--31070#8 -30444#0" />
+    </vehicle>
+    <vehicle id="h48244c1:1" type="passenger2a" depart="28437.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9500" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="h38601c2:1" type="passenger1" depart="28438.00" departPos="95.2727" departSpeed="0.00" arrivalPos="max" speedFactor="0.9507">
+        <route edges="-30442#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="h74202c1:1" type="passenger1" depart="28444.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0741" departLane="best">
+        <route edges="--31070#8" />
+    </vehicle>
+    <vehicle id="h72434c1:1" type="passenger2b" depart="28446.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1105" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="carIn32271:1" type="passenger3" depart="28454.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0399" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3" />
+    </vehicle>
+    <vehicle id="h10985c1:1" type="passenger2b" depart="28454.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0644" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h38596c1:1" type="passenger2b" depart="28457.00" departPos="38.9705" departSpeed="0.00" arrivalPos="max" speedFactor="1.0768">
+        <route edges="-30442#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn25103:1" type="passenger1" depart="28458.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0546" departLane="best">
+        <route edges="-30864 --32492#3 --32492#2 -31088#0 -31088#1 -31088#2 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="h69169c1:1" type="passenger1" depart="28463.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.2472" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h28493c1:1" type="passenger1" depart="28465.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9964" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h38595c1:1" type="passenger1" depart="28468.00" departPos="63.573" departSpeed="0.00" arrivalPos="max" speedFactor="0.8638">
+        <route edges="-30442#0 -30442#1 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="h29668c2:1" type="passenger1" depart="28470.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9633" departLane="best">
+        <route edges="-30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h53682c1:1" type="passenger4" depart="28480.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9699" departLane="best">
+        <route edges="-30610#2 -31080#0" />
+    </vehicle>
+    <vehicle id="carIn21366:1" type="passenger2a" depart="28486.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0815" departLane="best">
+        <route edges="-30730#2" />
+    </vehicle>
+    <vehicle id="carIn40439:1" type="passenger2b" depart="28488.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9573" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h11030c2:1" type="passenger2a" depart="28488.00" departPos="47.4575" departSpeed="0.00" arrivalPos="max" speedFactor="1.0708">
+        <route edges="--31070#4" />
+    </vehicle>
+    <vehicle id="carIn26443:1" type="passenger5" depart="28489.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0257" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 -32680 --32492#2 -31088#0 -31088#1" />
+    </vehicle>
+    <vehicle id="h22780c1:1" type="passenger2a" depart="28489.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0611" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h55039c1:1" type="passenger1" depart="28489.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8520" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h68279c1:1_part1" type="passenger1" depart="28493.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0120" departLane="best">
+        <route edges="-30596#1" />
+    </vehicle>
+    <vehicle id="h40958c2:1" type="passenger1" depart="28494.00" departPos="174.0006" departSpeed="0.00" arrivalPos="max" speedFactor="0.8826">
+        <route edges="-30596#1 -30596#2 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h38614c1:1" type="passenger1" depart="28509.00" departPos="213.503" departSpeed="0.00" arrivalPos="max" speedFactor="1.1528">
+        <route edges="-30442#0 -30442#1 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn42868:1" type="passenger5" depart="28512.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9098" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h68620c2:1" type="passenger1" depart="28512.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9632" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn20699:1" type="passenger1" depart="28515.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1311" departLane="best">
+        <route edges="--31070#8 -30444#0" />
+    </vehicle>
+    <vehicle id="h70451c1:1" type="passenger3" depart="28515.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.7637" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn10688:1" type="passenger1" depart="28518.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1312" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --30596#2 --30596#1" />
+    </vehicle>
+    <vehicle id="carIn36242:1" type="passenger2a" depart="28518.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9999" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h50448c1:1" type="passenger1" depart="28518.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0184" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="carIn24368:1" type="passenger1" depart="28519.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0440" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --30596#2" />
+    </vehicle>
+    <vehicle id="carIn35385:1" type="passenger2b" depart="28520.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.2392" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="carIn7089:1" type="passenger4" depart="28525.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9004" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="carIn15280:1" type="passenger1" depart="28528.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9048" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="h10818c2:1" type="passenger2b" depart="28536.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9379" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h3c1:1" type="passenger1" depart="28536.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1058" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h2532c1:1" type="passenger3" depart="28538.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.3089" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2" />
+    </vehicle>
+    <vehicle id="h11258c1:1" type="passenger2b" depart="28542.00" departPos="318.6883" departSpeed="0.00" arrivalPos="max" speedFactor="1.1611">
+        <route edges="--31080#0 -30610#3 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn48678:1" type="passenger2a" depart="28566.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0673" departLane="best">
+        <route edges="-30730#2 -30730#3 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="carIn4927:1" type="passenger2a" depart="28567.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0447" departLane="best">
+        <route edges="--30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="h2668c1:1" type="passenger3" depart="28572.00" departPos="171.1309" departSpeed="0.00" arrivalPos="max" speedFactor="1.0249">
+        <route edges="--30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn19513:1" type="passenger1" depart="28584.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9499" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="carIn28337:1" type="passenger4" depart="28587.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9140" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h66830c1:1" type="passenger1" depart="28590.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1721" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="randUni9520:1" type="passenger1" depart="28592.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1001" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h51089c1:1" type="passenger1" depart="28601.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0058" departLane="best">
+        <route edges="-32010#0 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn22845:1" type="passenger2a" depart="28608.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9901" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1" />
+    </vehicle>
+    <vehicle id="carIn43406:1" type="passenger2a" depart="28608.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0433" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -31800" />
+    </vehicle>
+    <vehicle id="carIn10376:1" type="passenger1" depart="28613.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.8301" departLane="best">
+        <route edges="--31070#8 --32010#1 --32010#0 -31304#1" />
+    </vehicle>
+    <vehicle id="h55525c1:1" type="passenger5" depart="28615.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1079" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h38589c1:1" type="passenger2b" depart="28617.00" departPos="160.7507" departSpeed="0.00" arrivalPos="max" speedFactor="0.8735">
+        <route edges="-30442#0 -30442#1 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="h5662c1:1" type="passenger4" depart="28617.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.1212" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h3114c1:1" type="passenger1" depart="28618.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9964" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h44992c1:1" type="passenger1" depart="28621.00" departPos="337.7652" departSpeed="0.00" arrivalPos="max" speedFactor="0.9839">
+        <route edges="--30730#2" />
+    </vehicle>
+    <vehicle id="AVL---_18_14" type="bus" depart="28625.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+        <stop busStop="261" duration="20.00" />
+        <stop busStop="635" duration="20.00" />
+        <stop busStop="455" duration="20.00" />
+    </vehicle>
+    <vehicle id="h58429c1:1" type="passenger1" depart="28636.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0393" departLane="best">
+        <route edges="-30864 --32492#3 --32492#2" />
+    </vehicle>
+    <vehicle id="carIn30528:1" type="passenger2b" depart="28638.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0139" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3" />
+    </vehicle>
+    <vehicle id="carIn14326:1" type="passenger1" depart="28640.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9660" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn1313:1" type="passenger1" depart="28642.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9239" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h51093c1:1" type="passenger2b" depart="28642.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0602" departLane="best">
+        <route edges="-32010#0 -32010#1 -31070#8" />
+    </vehicle>
+    <vehicle id="AVL---_13_15" type="bus" depart="28646.00" departLane="best" departPos="base" arrivalPos="max" color="green" departSpeed="max">
+        <route edges="-30610#2 -31080#0 -31080#1 --31070#5 --30596#2 --30730#3 --32492#4 --32492#3 --32680 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3" />
+        <stop busStop="635" duration="20.00" />
+        <stop busStop="286" duration="20.00" />
+        <stop busStop="172" duration="20.00" />
+    </vehicle>
+    <vehicle id="carIn49901:1" type="passenger2a" depart="28658.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0444" departLane="best">
+        <route edges="-30730#2 -30730#3 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h55031c1:1" type="passenger1" depart="28659.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0444" departLane="best">
+        <route edges="-30444#2 -31252 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h2611c1:1" type="passenger3" depart="28661.00" departPos="50.5682" departSpeed="0.00" arrivalPos="max" speedFactor="1.1142">
+        <route edges="--30442#0 -31080#1 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="randUni16696:1" type="passenger1" depart="28662.00" departPos="221.3611" departSpeed="0.00" arrivalPos="max" speedFactor="1.0463">
+        <route edges="-31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h48251c1:1" type="passenger1" depart="28670.00" departPos="250.2157" departSpeed="0.00" arrivalPos="max" speedFactor="1.0483">
+        <route edges="-31080#0 -30442#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn34976:1" type="passenger1" depart="28674.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9379" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn36893:1" type="passenger3" depart="28678.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1070" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h41536c1:1" type="passenger2a" depart="28695.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0620" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h11361c1:1" type="passenger2b" depart="28700.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9094" departLane="best">
+        <route edges="-31070#4 --30596#2 --30596#1 --30596#0 -30874#3" />
+    </vehicle>
+    <vehicle id="h41943c1:1" type="passenger2b" depart="28700.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0217" departLane="best">
+        <route edges="-31070#4 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h52168c1:1" type="passenger1" depart="28703.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.9262" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn43064:1" type="passenger1" depart="28704.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.2169" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn38332:1" type="passenger2a" depart="28707.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0507" departLane="best">
+        <route edges="-30444#2 -31252 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn13288:1" type="passenger3" depart="28711.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0168" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h11380c1:1" type="passenger5" depart="28715.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0445" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --31070#4" />
+    </vehicle>
+    <vehicle id="h53293c1:1" type="passenger2b" depart="28715.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.0561" departLane="best">
+        <route edges="--31070#8 -30444#0 -30444#1 -30444#2 -31252 -30874#0 -30874#1 -30874#2 -30874#3 -31770#0 -31424 --30444#2 --30444#1 --30444#0" />
+    </vehicle>
+    <vehicle id="carIn9385:1" type="passenger1" depart="28718.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9235" departLane="best">
+        <route edges="--31070#8 --31070#7 --31070#6 --31070#5 --30596#2 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h8398c1:1" type="passenger4" depart="28720.00" departPos="206.1907" departSpeed="0.00" arrivalPos="max" speedFactor="1.1543">
+        <route edges="--30864" />
+    </vehicle>
+    <vehicle id="carIn43326:1" type="passenger1" depart="28729.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0341" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --32010#1 --30442#1 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn30829:1" type="passenger1" depart="28748.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="1.2144" departLane="best">
+        <route edges="-30730#2 -30730#3 --30596#1 --30596#0" />
+    </vehicle>
+    <vehicle id="h30007c1:1" type="passenger1" depart="28749.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9123" departLane="best">
+        <route edges="-31070#4" />
+    </vehicle>
+    <vehicle id="randUni4837:1" type="passenger2a" depart="28759.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9795" departLane="best">
+        <route edges="-30864 --32492#3 --32492#2 -31088#0 -32908" />
+    </vehicle>
+    <vehicle id="carIn12299:1" type="passenger2b" depart="28761.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0876" departLane="best">
+        <route edges="-30730#2 -30730#3 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn2515:1" type="passenger2b" depart="28762.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8976" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn42775:1" type="passenger5" depart="28763.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8159" departLane="best">
+        <route edges="-31424 --30444#2" />
+    </vehicle>
+    <vehicle id="h42659c1:1" type="passenger1" depart="28772.00" departPos="236.4159" departSpeed="0.00" arrivalPos="max" speedFactor="1.0133">
+        <route edges="-30730#3 -30596#2 -31070#5 -31070#6 -31070#7 -31070#8" />
+    </vehicle>
+    <vehicle id="h35724c1:1" type="passenger3" depart="28777.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0109" departLane="best">
+        <route edges="-30610#2 -30610#3 -30610#1" />
+    </vehicle>
+    <vehicle id="h57208c1:1" type="passenger1" depart="28782.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0341" departLane="best">
+        <route edges="-31070#4 --30596#2 --30730#3 --30730#2" />
+    </vehicle>
+    <vehicle id="h71047c1:1" type="passenger3" depart="28782.00" departPos="base" departSpeed="max" arrivalPos="random" arrivalSpeed="0.00" speedFactor="0.9269" departLane="best">
+        <route edges="-30864" />
+    </vehicle>
+    <vehicle id="carIn25801:1" type="passenger2b" depart="28791.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8862" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 --31070#7 -32864#0 -32864#1 -30610#1" />
+    </vehicle>
+    <vehicle id="carIn26876:1" type="passenger2b" depart="28791.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.0414" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="carIn32211:1" type="passenger3" depart="28793.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="1.1001" departLane="best">
+        <route edges="-31424 --30444#2 --30444#1 --30444#0 -31070#8" />
+    </vehicle>
+    <vehicle id="carIn14823:1" type="passenger1" depart="28795.00" departPos="base" departSpeed="max" arrivalPos="max" speedFactor="0.8548" departLane="best">
+        <route edges="-31770#1 -30874#0 -30874#1 -31800 -30596#1 -30596#2 --31070#4" />
+    </vehicle>
+    <vehicle id="h42588c1:1" type="passenger1" depart="28798.00" departPos="164.304" departSpeed="0.00" arrivalPos="max" speedFactor="0.9067">
+        <route edges="--30864" />
+    </vehicle>
+</routes>

@@ -1,0 +1,91 @@
+{
+ "date": "2026-10-22T01:12:59",
+ "machine": "Linux 6.18.44-fc-v140",
+ "python": "3.13.16",
+ "url": "http://127.0.0.1:57451",
+ "data_origin": "SIMULATED_sumo_lust_kirchberg_4tls",
+ "note": "scrollable tables (.scroll) expanded to full height for the captures; content unchanged",
+ "captures": [
+  {
+   "file": "01_formulaire.png",
+   "status": "idle",
+   "clock": null,
+   "sim_time": null,
+   "run_id": null
+  },
+  {
+   "file": "02_pause.png",
+   "status": "paused",
+   "clock": "07:10:16",
+   "sim_time": 25816.0,
+   "run_id": "app_runs/20261022_011301_S3_rl_qlearning_x5_seed61_incident_carrefour4_ambulance_prio"
+  },
+  {
+   "file": "03_decisions_incident.png",
+   "status": "running",
+   "clock": "07:25:46",
+   "sim_time": 26746.0,
+   "run_id": "app_runs/20261022_011301_S3_rl_qlearning_x5_seed61_incident_carrefour4_ambulance_prio"
+  },
+  {
+   "file": "04_detections_incident.png",
+   "status": "running",
+   "clock": "07:26:21",
+   "sim_time": 26781.0,
+   "run_id": "app_runs/20261022_011301_S3_rl_qlearning_x5_seed61_incident_carrefour4_ambulance_prio"
+  },
+  {
+   "file": "05_previsions.png",
+   "status": "running",
+   "clock": "07:35:46",
+   "sim_time": 27346.0,
+   "run_id": "app_runs/20261022_011301_S3_rl_qlearning_x5_seed61_incident_carrefour4_ambulance_prio"
+  },
+  {
+   "file": "06_fin_indicateurs.png",
+   "status": "finished",
+   "clock": "07:59:56",
+   "sim_time": 28796.0,
+   "run_id": "app_runs/20261022_011301_S3_rl_qlearning_x5_seed61_incident_carrefour4_ambulance_prio"
+  },
+  {
+   "file": "07_resultats_comparaison.png",
+   "status": "finished",
+   "clock": "07:59:56",
+   "sim_time": 28796.0,
+   "run_id": "app_runs/20261022_011301_S3_rl_qlearning_x5_seed61_incident_carrefour4_ambulance_prio"
+  }
+ ],
+ "final_status": "finished",
+ "final_kpis": {
+  "avg_travel_time_s": 139.87,
+  "avg_waiting_time_s": 45.44,
+  "avg_queue_veh": 47.97,
+  "co2_kg": 1335.07,
+  "incident": {
+   "lane": "-31070#4_1",
+   "start": 26400.0,
+   "end": 27600.0,
+   "speed": 0.05,
+   "original_speed": 13.89,
+   "applied_at": 26400.0,
+   "removed_at": 27600.0,
+   "detected": true,
+   "detection_delay_s": 131.0
+  },
+  "emergency": {
+   "inserted_at": 26400.0,
+   "priority": true,
+   "route": [
+    "--31070#8",
+    "--31070#7",
+    "--31070#6",
+    "--31070#5",
+    "--31070#4"
+   ],
+   "travel_time_s": 120.0,
+   "waiting_time_s": 1.0
+  },
+  "safety_violations": 0
+ }
+}

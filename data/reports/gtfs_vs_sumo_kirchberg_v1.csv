@@ -1,0 +1,19 @@
+﻿gtfs_stop_id;stop_name;in_zone_strict;nearest_sumo_lane;dist_lane_m;nearest_lust_busstop;dist_lust_busstop_m;compatible_stop_le_50m;data_origin
+000200417037;Kirchberg, Schmëdd;True;-32492#3_0;1.4;286;151.5;False;real_gtfs_vs_simulated_network
+000200417038;Kirchberg, Sichegronn;True;-30730#3_0;1.2;285;1.9;True;real_gtfs_vs_simulated_network
+000200417030;Kirchberg, Paul Noesen;True;--30444#1_0;13.0;171;28.5;True;real_gtfs_vs_simulated_network
+000200417005;Kirchberg, Antoine de St Exupéry;True;--31070#5_0;1.8;634;55.2;False;real_gtfs_vs_simulated_network
+000200417016;Kirchberg, Jean Monnet;True;--31070#7_0;0.4;260;39.1;True;real_gtfs_vs_simulated_network
+000200417001;Kirchberg, Prince Félix;False;;;171;339.0;False;real_gtfs_vs_simulated_network
+000200417013;Kirchberg, Coudenhove-Kalergi;False;;;455;239.4;False;real_gtfs_vs_simulated_network
+000200426008;Weimerskirch, Mäertesbuer;False;;;171;327.8;False;real_gtfs_vs_simulated_network
+000200417018;Kirchberg, Kierch;True;--32680_0;26.8;172;258.3;False;real_gtfs_vs_simulated_network
+000200426003;Weimershof, Pâquerettes;False;;;635;729.2;False;real_gtfs_vs_simulated_network
+000200417021;Kirchberg, Léon Hengen;True;-30610#1_2;0.0;645;58.7;False;real_gtfs_vs_simulated_network
+000200417014;Kirchberg, Coque;True;;;645;415.3;False;real_gtfs_vs_simulated_network
+000200417019;Kirchberg, Konrad Adenauer;False;--31070#4_0;54.3;455;112.8;False;real_gtfs_vs_simulated_network
+000200417053;Kirchberg, École européenne;True;-31080#0_0;19.5;635;164.2;False;real_gtfs_vs_simulated_network
+000200417049;Kirchberg, Niedergrünewald;False;;;260;372.4;False;real_gtfs_vs_simulated_network
+000200404041;Kirchberg, Mischekopp;True;-31800_0;57.3;285;252.0;False;real_gtfs_vs_simulated_network
+000900000058;Kirchberg, prov. Konrad Adenauer;False;--31070#4_0;51.7;455;81.7;False;real_gtfs_vs_simulated_network
+000900000130;Kirchberg, prov. Jean Monnet;True;--31070#8_0;29.9;260;252.6;False;real_gtfs_vs_simulated_network

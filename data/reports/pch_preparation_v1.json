@@ -1,0 +1,296 @@
+{
+ "generated_utc": "2026-10-10T20:46:26+00:00",
+ "input": "data/interim/pch/pch_trafic_2025_export_v1.csv.xz",
+ "input_sha256": "3fde75d3f780f41fd5d98febfa65c17c05e207d5778fe52e1382f40d88ec6ac1",
+ "rows": 815739,
+ "missing_values": 0,
+ "non_integer_or_negative_counts": 0,
+ "duplicate_keys": 0,
+ "exact_duplicate_rows": 0,
+ "posts_with_varying_attributes": 0,
+ "crs_verification": {
+  "method": "LUREF->WGS84 with pyproj, compared with locality centres",
+  "tolerance_km": 3.0,
+  "checks": [
+   {
+    "post": "1",
+    "locality": "CLEMENCY",
+    "lat": 49.596673,
+    "lon": 5.868015,
+    "reference": [
+     49.597,
+     5.875
+    ],
+    "distance_km": 0.5
+   },
+   {
+    "post": "2",
+    "locality": "WEMPERHARDT Frontière",
+    "lat": 50.157375,
+    "lon": 6.052881,
+    "reference": [
+     50.158,
+     6.046
+    ],
+    "distance_km": 0.5
+   },
+   {
+    "post": "5",
+    "locality": "ECHTERNACH Frontière",
+    "lat": 49.812061,
+    "lon": 6.43465,
+    "reference": [
+     49.812,
+     6.418
+    ],
+    "distance_km": 1.19
+   },
+   {
+    "post": "1111",
+    "locality": "ECHTERNACH",
+    "lat": 49.819706,
+    "lon": 6.399833,
+    "reference": [
+     49.812,
+     6.418
+    ],
+    "distance_km": 1.56
+   },
+   {
+    "post": "1117",
+    "locality": "ECHTERNACH",
+    "lat": 49.806733,
+    "lon": 6.408322,
+    "reference": [
+     49.812,
+     6.418
+    ],
+    "distance_km": 0.91
+   },
+   {
+    "post": "10",
+    "locality": "REMICH Frontière",
+    "lat": 49.543208,
+    "lon": 6.370546,
+    "reference": [
+     49.545,
+     6.367
+    ],
+    "distance_km": 0.32
+   },
+   {
+    "post": "1000",
+    "locality": "REMICH",
+    "lat": 49.545279,
+    "lon": 6.367154,
+    "reference": [
+     49.545,
+     6.367
+    ],
+    "distance_km": 0.03
+   },
+   {
+    "post": "7",
+    "locality": "WASSERBILLIG Frontière",
+    "lat": 49.714372,
+    "lon": 6.506319,
+    "reference": [
+     49.715,
+     6.5
+    ],
+    "distance_km": 0.46
+   },
+   {
+    "post": "1205",
+    "locality": "WASSERBILLIG",
+    "lat": 49.719356,
+    "lon": 6.498885,
+    "reference": [
+     49.715,
+     6.5
+    ],
+    "distance_km": 0.49
+   },
+   {
+    "post": "702",
+    "locality": "ETTELBRUCK",
+    "lat": 49.849327,
+    "lon": 6.107365,
+    "reference": [
+     49.847,
+     6.104
+    ],
+    "distance_km": 0.35
+   },
+   {
+    "post": "703",
+    "locality": "ETTELBRUCK",
+    "lat": 49.839513,
+    "lon": 6.097897,
+    "reference": [
+     49.847,
+     6.104
+    ],
+    "distance_km": 0.94
+   },
+   {
+    "post": "709",
+    "locality": "ETTELBRUCK CONT.",
+    "lat": 49.83566,
+    "lon": 6.099974,
+    "reference": [
+     49.847,
+     6.104
+    ],
+    "distance_km": 1.29
+   },
+   {
+    "post": "710",
+    "locality": "ETTELBRUCK CONT.",
+    "lat": 49.84002,
+    "lon": 6.101011,
+    "reference": [
+     49.847,
+     6.104
+    ],
+    "distance_km": 0.81
+   },
+   {
+    "post": "716",
+    "locality": "ETTELBRUCK",
+    "lat": 49.850089,
+    "lon": 6.117109,
+    "reference": [
+     49.847,
+     6.104
+    ],
+    "distance_km": 1.0
+   }
+  ],
+  "all_within_tolerance": true
+ },
+ "lust_edge_candidates": "nearest LuST edges within 60 m of the post (/home/claude/lust_src/LuSTScenario/scenario/lust.net.xml); UNVERIFIED",
+ "direction_vs_sens_text": {
+  "D1->D2": {
+   "1": 272,
+   "2": 0,
+   "3": 0
+  },
+  "D2->D1": {
+   "1": 0,
+   "2": 261,
+   "3": 0
+  },
+  "both": {
+   "1": 0,
+   "2": 0,
+   "3": 261
+  }
+ },
+ "checks": {
+  "hours_sum_eq_SUM_TRAF_pct": 100.0,
+  "dir3_eq_dir1_plus_dir2": {
+   "evaluable_rows": 800673,
+   "true_pct": 99.9011,
+   "false_rows": 792
+  },
+  "U_eq_C_plus_V": {
+   "evaluable_rows": 814857,
+   "true_pct": 99.9989,
+   "false_rows": 9
+  },
+  "zero_days": 1000,
+  "rows_with_6_to_23_zero_hours": 61446
+ },
+ "period": {
+  "first": "2025-01-01",
+  "last": "2025-12-31",
+  "distinct_days": 364,
+  "missing_days": [
+   "2025-03-30"
+  ]
+ },
+ "posts": {
+  "count": 272,
+  "days_per_post": {
+   "count": 272.0,
+   "mean": 345.6,
+   "std": 40.4,
+   "min": 77.0,
+   "25%": 347.8,
+   "50%": 361.0,
+   "75%": 364.0,
+   "max": 364.0
+  },
+  "in_zone": {
+   "kirchberg_4tls": 0,
+   "lust_full": 32
+  },
+  "nearest_to_kirchberg_zone": [
+   {
+    "POSTE_ID": "439",
+    "LOCALITE": "NEUDORF",
+    "ROUTE": "N1",
+    "distance_to_kirchberg_zone_centre_km": 1.01
+   },
+   {
+    "POSTE_ID": "403",
+    "LOCALITE": "DOMMELDANGE",
+    "ROUTE": "N11",
+    "distance_to_kirchberg_zone_centre_km": 1.23
+   },
+   {
+    "POSTE_ID": "394",
+    "LOCALITE": "EICH",
+    "ROUTE": "N7",
+    "distance_to_kirchberg_zone_centre_km": 1.29
+   },
+   {
+    "POSTE_ID": "441",
+    "LOCALITE": "CENTS",
+    "ROUTE": "N1A",
+    "distance_to_kirchberg_zone_centre_km": 1.51
+   },
+   {
+    "POSTE_ID": "400",
+    "LOCALITE": "BONNEVOIE",
+    "ROUTE": "N2",
+    "distance_to_kirchberg_zone_centre_km": 2.06
+   }
+  ],
+  "one_direction_only": 11
+ },
+ "field_semantics": {
+  "P00_01..P23_24": "vehicles counted in each hour (local time assumed, undocumented); sum == SUM_TRAF verified",
+  "DIRECTION": "1 = D1->D2, 2 = D2->D1, 3 = both directions (=1+2); verified (SENS text, sums)",
+  "VEHICULE": "U = C + V verified; U = all vehicles; C/V letters undocumented (probably heavy/light) -> kept as codes",
+  "SUM_TRAF": "daily total of the row (vehicles/day)",
+  "COORD_X/Y": "LUREF EPSG:2169 (verified)",
+  "unit": "vehicles per hour (counts); NEVER a speed"
+ },
+ "limits": [
+  "publisher page notes counts are 'encore sans compteurs pc' (some permanent counters missing)",
+  "no official data dictionary: semantics derived from the data and verified arithmetically",
+  "2025 counts vs LuST network (~2015): any use as SUMO demand must be labelled as an assumption"
+ ],
+ "outputs": {
+  "posts": "data/processed/pch/pch_posts_v1.csv",
+  "daily": "data/processed/pch/pch_daily_counts_v1.csv.xz",
+  "long_lust": "data/processed/pch/pch_hourly_counts_long_lust_bbox_v1.csv.xz",
+  "report": "data/reports/pch_preparation_v1.json"
+ },
+ "dimensions": {
+  "posts": [
+   272,
+   20
+  ],
+  "daily": [
+   815739,
+   37
+  ],
+  "long_lust_bbox": [
+   2011872,
+   9
+  ]
+ }
+}

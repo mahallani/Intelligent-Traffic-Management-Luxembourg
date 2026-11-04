@@ -1,0 +1,16 @@
+lane;tls;rule;start_s;raised_s;end_s;max_halting;data_origin
+--30444#0_0;-28692;congestion;25346.0;25406.0;25426.0;27;SIMULATED_sumo_lust_kirchberg_4tls
+--30444#0_0;-28692;congestion;25441.0;25501.0;25521.0;27;SIMULATED_sumo_lust_kirchberg_4tls
+--30444#0_0;-28692;congestion;25536.0;25596.0;25606.0;16;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;congestion;26936.0;26996.0;27076.0;30;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_0;-29958;congestion;26941.0;27001.0;27006.0;9;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;congestion;27996.0;28056.0;28066.0;10;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;congestion;28086.0;28146.0;28151.0;13;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;congestion;28156.0;28216.0;28221.0;8;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;congestion;28331.0;28391.0;28401.0;10;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;congestion;28406.0;28466.0;28476.0;12;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_0;-29958;congestion;28416.0;28476.0;28481.0;9;SIMULATED_sumo_lust_kirchberg_4tls
+--31070#8_1;-28692;congestion;28481.0;28541.0;28546.0;8;SIMULATED_sumo_lust_kirchberg_4tls
+-31070#4_1;-29958;congestion;28491.0;28551.0;;32;SIMULATED_sumo_lust_kirchberg_4tls
+--31070#8_1;-28692;congestion;28576.0;28636.0;28666.0;29;SIMULATED_sumo_lust_kirchberg_4tls
+--31070#8_1;-28692;congestion;28671.0;28731.0;28746.0;21;SIMULATED_sumo_lust_kirchberg_4tls

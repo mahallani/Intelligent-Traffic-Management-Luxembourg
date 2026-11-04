@@ -1,0 +1,96 @@
+{
+ "strategy": "S3_rl_qlearning",
+ "scale": 5.0,
+ "seed": 62,
+ "begin": 25200.0,
+ "end": 28800.0,
+ "backend": "libsumo",
+ "stopped_early": false,
+ "forecasts_passed_to_decision": true,
+ "warmup_s": 300.0,
+ "programs_at_start": {
+  "-28692": "0",
+  "-23354": "0",
+  "-20484": "0",
+  "-29958": "0"
+ },
+ "wall_clock_s": 8.1,
+ "data_origin": "SIMULATED_sumo_lust_kirchberg_4tls",
+ "loaded": 3890,
+ "inserted": 3877,
+ "running_at_end": 209,
+ "waiting_insertion_at_end": 13,
+ "arrived": 3668,
+ "discarded_not_inserted": 0,
+ "teleports": 0,
+ "collisions": 0,
+ "completed_trips": 3668,
+ "unfinished_trips_at_end": 209,
+ "avg_travel_time_s": 121.97,
+ "avg_waiting_time_s": 29.51,
+ "avg_time_loss_s": 52.28,
+ "avg_depart_delay_s": 14.29,
+ "p95_travel_time_s": 242.0,
+ "total_waiting_time_all_h": 32.35,
+ "total_time_loss_all_h": 57.56,
+ "co2_kg": 1264.79,
+ "nox_g": 483.33,
+ "pmx_g": 120.481,
+ "fuel_kg": 409.25,
+ "avg_queue_veh": 31.55,
+ "max_queue_veh": 86,
+ "avg_queue_m": 263.3,
+ "avg_queue_veh_tls_-28692": 9.18,
+ "avg_queue_veh_tls_-23354": 1.38,
+ "avg_queue_veh_tls_-20484": 2.67,
+ "avg_queue_veh_tls_-29958": 18.32,
+ "actuator": {
+  "advance": 511,
+  "forced_max_green": 98,
+  "refused_min_green": 0,
+  "holds": 514
+ },
+ "safety": {
+  "transitions_checked": 1021,
+  "violations": {
+   "state_in_program": 0,
+   "green_to_red_without_yellow": 0,
+   "min_green": 0,
+   "yellow_duration": 0,
+   "max_green": 0
+  },
+  "total_violations": 0,
+  "examples": [],
+  "limits": {
+   "min_green_s": 5.0,
+   "max_green_s": 90.0
+  }
+ },
+ "controller": {
+  "decisions": 2366,
+  "unseen_states": 12,
+  "fallback_decisions": 991,
+  "explorations": 0,
+  "updates": 0
+ },
+ "detection": {
+  "mode": "rules",
+  "gate_with_forecast": false,
+  "suppressed_by_forecast": 0,
+  "alerts": 18,
+  "alerts_congestion": 18,
+  "alerts_stalled": 0,
+  "rules": "congestion: halting >= 8 for >= 60 s; stalled: a vehicle stopped >= 150 s"
+ },
+ "prediction": {
+  "model": "cascade_model_v2.json",
+  "transform": "log1p",
+  "n_scored": 528,
+  "mae_cascade_5min": 4.818,
+  "mae_persistence_5min": 5.867,
+  "mae_cascade_10min": 5.011,
+  "mae_persistence_10min": 5.736,
+  "mae_cascade_15min": 5.128,
+  "mae_persistence_15min": 5.756
+ }
+}

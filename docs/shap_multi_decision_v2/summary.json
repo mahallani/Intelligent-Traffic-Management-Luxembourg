@@ -1,0 +1,359 @@
+{
+ "data_origin": "SIMULATED_sumo_lust_kirchberg_4tls",
+ "question": "Do exact SHAP explanations of real logged S3 decisions change when only the background changes (A visits / B uniform / C reliable only)?",
+ "protocol": {
+  "min_reliable_background_C": 5,
+  "negligible_share": 0.05,
+  "robust_share": 0.8,
+  "sensitive_share": 0.5,
+  "additivity_tolerance": 1e-09,
+  "unit_of_analysis": "distinct state (signal, phase, state)"
+ },
+ "qtable": "sumo/lust_4_intersections/output/experiments_v1/rl/qtable_v4_FROZEN_ep26_eval.json",
+ "inputs_sha256": {
+  "sumo/lust_4_intersections/output/experiments_v1/rl/qtable_v4_FROZEN_ep26_eval.json": "971c9d39289178bc812f29fb412192d1b2c9abe59f7f264639e0cb13dd9dddd7",
+  "sumo/lust_4_intersections/output/app_runs/20261012_180949_S3_rl_qlearning_x5_seed22/decisions.csv": "a0527be15eef4a74916545cdd37b1bcdea5c46657240f6b12efb70a2a9bdc0b2",
+  "sumo/lust_4_intersections/output/app_runs/20261012_181128_S3_rl_qlearning_x5_seed22/decisions.csv": "a0527be15eef4a74916545cdd37b1bcdea5c46657240f6b12efb70a2a9bdc0b2",
+  "sumo/lust_4_intersections/output/app_runs/20261022_141518_S3_rl_qlearning_x1_seed1_ambulance_prio/decisions.csv": "d7ed189eff1a1fab803b41fe6c4e1b37fe539bcf617c98805d6e69e92c7d8aae"
+ },
+ "inputs_unchanged": true,
+ "runs": [
+  {
+   "run": "sumo/lust_4_intersections/output/app_runs/20261012_180949_S3_rl_qlearning_x5_seed22",
+   "decisions_csv": true,
+   "rows": 68,
+   "logs_state": false,
+   "included": 0
+  },
+  {
+   "run": "sumo/lust_4_intersections/output/app_runs/20261012_181128_S3_rl_qlearning_x5_seed22",
+   "decisions_csv": true,
+   "rows": 68,
+   "logs_state": false,
+   "included": 0
+  },
+  {
+   "run": "sumo/lust_4_intersections/output/app_runs/20261022_141518_S3_rl_qlearning_x1_seed1_ambulance_prio",
+   "decisions_csv": true,
+   "rows": 613,
+   "logs_state": true,
+   "included": 259
+  }
+ ],
+ "rows_total": 749,
+ "decisions_included": 259,
+ "rows_excluded": 490,
+ "exclusions_by_code": {
+  "run_without_logged_state": 136,
+  "rule:max_green": 74,
+  "fallback_S2": 280
+ },
+ "exclusions_by_detail": [
+  {
+   "code": "fallback_S2",
+   "detail": "règle de secours S2 (situation trop peu vue)",
+   "rows": 277
+  },
+  {
+   "code": "run_without_logged_state",
+   "detail": "decisions.csv has no 'explanation' column",
+   "rows": 136
+  },
+  {
+   "code": "rule:max_green",
+   "detail": "sécurité : vert maximum atteint",
+   "rows": 74
+  },
+  {
+   "code": "fallback_S2",
+   "detail": "règle de secours S2 (situation jamais vue)",
+   "rows": 3
+  }
+ ],
+ "summary": {
+  "total": {
+   "states": 32,
+   "decisions": 259,
+   "unweighted": {
+    "stable": 12,
+    "partial": 3,
+    "unstable": 17,
+    "non_evaluable": 0
+   },
+   "weighted_by_decisions": {
+    "stable": 145,
+    "partial": 14,
+    "unstable": 100,
+    "non_evaluable": 0
+   },
+   "evaluable_states": 32,
+   "share_stable_or_partial": 0.46875,
+   "share_stable_or_partial_weighted": 0.6138996138996139,
+   "C_equals_A_states": 2,
+   "C_equals_A_and_stable": 2,
+   "partial_with_inversion_on_main_variable": 2,
+   "patterns": {
+    "A≈C, B differs": 2,
+    "A≈B, C differs": 10,
+    "all differ": 8,
+    "all agree": 12
+   },
+   "pairs": {
+    "A-B": {
+     "states": 32,
+     "shape_distance_min": 0.04013311888685397,
+     "shape_distance_median": 0.27251561430981,
+     "shape_distance_max": 0.9216657592929736,
+     "states_with_sign_inversion": 4,
+     "kendall_tau_b_defined": 25,
+     "kendall_tau_b_median": 0.6666666666666666
+    },
+    "A-C": {
+     "states": 32,
+     "shape_distance_min": 0.0,
+     "shape_distance_median": 0.3531680479752257,
+     "shape_distance_max": 0.9847566002625276,
+     "states_with_sign_inversion": 10,
+     "kendall_tau_b_defined": 23,
+     "kendall_tau_b_median": 0.3333333333333333
+    },
+    "B-C": {
+     "states": 32,
+     "shape_distance_min": 0.05437055964159146,
+     "shape_distance_median": 0.5249746607599517,
+     "shape_distance_max": 1.0,
+     "states_with_sign_inversion": 13,
+     "kendall_tau_b_defined": 25,
+     "kendall_tau_b_median": 0.3333333333333333
+    }
+   },
+   "reading": "sensible"
+  },
+  "by_signal": {
+   "-20484": {
+    "states": 13,
+    "decisions": 97,
+    "unweighted": {
+     "stable": 3,
+     "partial": 2,
+     "unstable": 8,
+     "non_evaluable": 0
+    },
+    "weighted_by_decisions": {
+     "stable": 10,
+     "partial": 10,
+     "unstable": 77,
+     "non_evaluable": 0
+    },
+    "evaluable_states": 13,
+    "share_stable_or_partial": 0.38461538461538464,
+    "share_stable_or_partial_weighted": 0.20618556701030927,
+    "C_equals_A_states": 0,
+    "C_equals_A_and_stable": 0,
+    "partial_with_inversion_on_main_variable": 1,
+    "patterns": {
+     "A≈C, B differs": 2,
+     "A≈B, C differs": 4,
+     "all differ": 4,
+     "all agree": 3
+    },
+    "pairs": {
+     "A-B": {
+      "states": 13,
+      "shape_distance_min": 0.08904195303857892,
+      "shape_distance_median": 0.2383401622314737,
+      "shape_distance_max": 0.7336755103966829,
+      "states_with_sign_inversion": 2,
+      "kendall_tau_b_defined": 13,
+      "kendall_tau_b_median": 0.6666666666666666
+     },
+     "A-C": {
+      "states": 13,
+      "shape_distance_min": 0.15469407730676785,
+      "shape_distance_median": 0.49517338926090815,
+      "shape_distance_max": 0.8101375178054806,
+      "states_with_sign_inversion": 5,
+      "kendall_tau_b_defined": 12,
+      "kendall_tau_b_median": 0.3333333333333333
+     },
+     "B-C": {
+      "states": 13,
+      "shape_distance_min": 0.18223470571359357,
+      "shape_distance_median": 0.6364575166474539,
+      "shape_distance_max": 0.9935067006230118,
+      "states_with_sign_inversion": 8,
+      "kendall_tau_b_defined": 13,
+      "kendall_tau_b_median": 0.3333333333333333
+     }
+    }
+   },
+   "-23354": {
+    "states": 9,
+    "decisions": 71,
+    "unweighted": {
+     "stable": 3,
+     "partial": 1,
+     "unstable": 5,
+     "non_evaluable": 0
+    },
+    "weighted_by_decisions": {
+     "stable": 59,
+     "partial": 4,
+     "unstable": 8,
+     "non_evaluable": 0
+    },
+    "evaluable_states": 9,
+    "share_stable_or_partial": 0.4444444444444444,
+    "share_stable_or_partial_weighted": 0.8873239436619719,
+    "C_equals_A_states": 2,
+    "C_equals_A_and_stable": 2,
+    "partial_with_inversion_on_main_variable": 1,
+    "patterns": {
+     "all agree": 3,
+     "all differ": 2,
+     "A≈B, C differs": 4
+    },
+    "pairs": {
+     "A-B": {
+      "states": 9,
+      "shape_distance_min": 0.04013311888685397,
+      "shape_distance_median": 0.08821367431494669,
+      "shape_distance_max": 0.5249133413006973,
+      "states_with_sign_inversion": 0,
+      "kendall_tau_b_defined": 4,
+      "kendall_tau_b_median": 0.6666666666666666
+     },
+     "A-C": {
+      "states": 9,
+      "shape_distance_min": 0.0,
+      "shape_distance_median": 0.3575051087452184,
+      "shape_distance_max": 0.9698458640727279,
+      "states_with_sign_inversion": 2,
+      "kendall_tau_b_defined": 4,
+      "kendall_tau_b_median": 0.0
+     },
+     "B-C": {
+      "states": 9,
+      "shape_distance_min": 0.05437055964159146,
+      "shape_distance_median": 0.4495020000880765,
+      "shape_distance_max": 0.973659408682129,
+      "states_with_sign_inversion": 2,
+      "kendall_tau_b_defined": 4,
+      "kendall_tau_b_median": -0.33333333333333337
+     }
+    }
+   },
+   "-28692": {
+    "states": 4,
+    "decisions": 41,
+    "unweighted": {
+     "stable": 3,
+     "partial": 0,
+     "unstable": 1,
+     "non_evaluable": 0
+    },
+    "weighted_by_decisions": {
+     "stable": 39,
+     "partial": 0,
+     "unstable": 2,
+     "non_evaluable": 0
+    },
+    "evaluable_states": 4,
+    "share_stable_or_partial": 0.75,
+    "share_stable_or_partial_weighted": 0.9512195121951219,
+    "C_equals_A_states": 0,
+    "C_equals_A_and_stable": 0,
+    "partial_with_inversion_on_main_variable": 0,
+    "patterns": {
+     "A≈B, C differs": 1,
+     "all agree": 3
+    },
+    "pairs": {
+     "A-B": {
+      "states": 4,
+      "shape_distance_min": 0.2504830370849708,
+      "shape_distance_median": 0.3751174964825489,
+      "shape_distance_max": 0.4535374276515247,
+      "states_with_sign_inversion": 0,
+      "kendall_tau_b_defined": 4,
+      "kendall_tau_b_median": 0.8333333333333333
+     },
+     "A-C": {
+      "states": 4,
+      "shape_distance_min": 0.07453280042697642,
+      "shape_distance_median": 0.0859025614456494,
+      "shape_distance_max": 0.40501035179101397,
+      "states_with_sign_inversion": 1,
+      "kendall_tau_b_defined": 4,
+      "kendall_tau_b_median": 1.0
+     },
+     "B-C": {
+      "states": 4,
+      "shape_distance_min": 0.42431218208134225,
+      "shape_distance_median": 0.474415387327458,
+      "shape_distance_max": 0.5300139098507834,
+      "states_with_sign_inversion": 1,
+      "kendall_tau_b_defined": 4,
+      "kendall_tau_b_median": 0.8333333333333333
+     }
+    }
+   },
+   "-29958": {
+    "states": 6,
+    "decisions": 50,
+    "unweighted": {
+     "stable": 3,
+     "partial": 0,
+     "unstable": 3,
+     "non_evaluable": 0
+    },
+    "weighted_by_decisions": {
+     "stable": 37,
+     "partial": 0,
+     "unstable": 13,
+     "non_evaluable": 0
+    },
+    "evaluable_states": 6,
+    "share_stable_or_partial": 0.5,
+    "share_stable_or_partial_weighted": 0.74,
+    "C_equals_A_states": 0,
+    "C_equals_A_and_stable": 0,
+    "partial_with_inversion_on_main_variable": 0,
+    "patterns": {
+     "all agree": 3,
+     "all differ": 2,
+     "A≈B, C differs": 1
+    },
+    "pairs": {
+     "A-B": {
+      "states": 6,
+      "shape_distance_min": 0.31924211654078244,
+      "shape_distance_median": 0.40234321050232746,
+      "shape_distance_max": 0.9216657592929736,
+      "states_with_sign_inversion": 2,
+      "kendall_tau_b_defined": 4,
+      "kendall_tau_b_median": 0.3333333333333333
+     },
+     "A-C": {
+      "states": 6,
+      "shape_distance_min": 0.07065536589002352,
+      "shape_distance_median": 0.15818075127767933,
+      "shape_distance_max": 0.9847566002625276,
+      "states_with_sign_inversion": 2,
+      "kendall_tau_b_defined": 3,
+      "kendall_tau_b_median": 0.3333333333333333
+     },
+     "B-C": {
+      "states": 6,
+      "shape_distance_min": 0.4555766953025931,
+      "shape_distance_median": 0.4917817119018997,
+      "shape_distance_max": 1.0,
+      "states_with_sign_inversion": 2,
+      "kendall_tau_b_defined": 4,
+      "kendall_tau_b_median": -0.3333333333333333
+     }
+    }
+   }
+  }
+ }
+}

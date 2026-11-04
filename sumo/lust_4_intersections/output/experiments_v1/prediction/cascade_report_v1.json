@@ -1,0 +1,128 @@
+{
+ "model": {
+  "n_episodes": 36,
+  "n_samples": 5616,
+  "lambda": 1.0,
+  "n_folds": 5,
+  "horizons_s": [
+   300,
+   600,
+   900
+  ],
+  "indicator": "mean halted vehicles per signal",
+  "train_episodes": [
+   "S0_fixed_time_x1_seed201",
+   "S0_fixed_time_x1_seed202",
+   "S0_fixed_time_x1_seed203",
+   "S0_fixed_time_x2_seed201",
+   "S0_fixed_time_x2_seed202",
+   "S0_fixed_time_x2_seed203",
+   "S0_fixed_time_x3_seed201",
+   "S0_fixed_time_x3_seed202",
+   "S0_fixed_time_x3_seed203",
+   "S0_fixed_time_x4_seed201",
+   "S0_fixed_time_x4_seed202",
+   "S0_fixed_time_x4_seed203",
+   "S0_fixed_time_x5_seed201",
+   "S0_fixed_time_x5_seed202",
+   "S0_fixed_time_x5_seed203",
+   "S0_fixed_time_x6_seed201",
+   "S0_fixed_time_x6_seed202",
+   "S0_fixed_time_x6_seed203",
+   "S2_demand_gap_x1_seed201",
+   "S2_demand_gap_x1_seed202",
+   "S2_demand_gap_x1_seed203",
+   "S2_demand_gap_x2_seed201",
+   "S2_demand_gap_x2_seed202",
+   "S2_demand_gap_x2_seed203",
+   "S2_demand_gap_x3_seed201",
+   "S2_demand_gap_x3_seed202",
+   "S2_demand_gap_x3_seed203",
+   "S2_demand_gap_x4_seed201",
+   "S2_demand_gap_x4_seed202",
+   "S2_demand_gap_x4_seed203",
+   "S2_demand_gap_x5_seed201",
+   "S2_demand_gap_x5_seed202",
+   "S2_demand_gap_x5_seed203",
+   "S2_demand_gap_x6_seed201",
+   "S2_demand_gap_x6_seed202",
+   "S2_demand_gap_x6_seed203"
+  ],
+  "test_episodes": [
+   "S0_fixed_time_x1_seed301",
+   "S0_fixed_time_x1_seed302",
+   "S0_fixed_time_x3_seed301",
+   "S0_fixed_time_x3_seed302",
+   "S0_fixed_time_x5_seed301",
+   "S0_fixed_time_x5_seed302",
+   "S2_demand_gap_x1_seed301",
+   "S2_demand_gap_x1_seed302",
+   "S2_demand_gap_x3_seed301",
+   "S2_demand_gap_x3_seed302",
+   "S2_demand_gap_x5_seed301",
+   "S2_demand_gap_x5_seed302"
+  ],
+  "data_origin": "SIMULATED_sumo_lust_kirchberg_4tls"
+ },
+ "metrics_all_test": [
+  {
+   "group": "all_test",
+   "horizon_min": 5,
+   "n": 1872,
+   "MAE_cascade": 2.786,
+   "RMSE_cascade": 4.529,
+   "MAE_direct": 2.786,
+   "RMSE_direct": 4.529,
+   "MAE_persistence": 3.126,
+   "RMSE_persistence": 5.471,
+   "MAE_profile": 3.93,
+   "RMSE_profile": 5.783,
+   "skill_cascade_vs_persistence": 0.109
+  },
+  {
+   "group": "all_test",
+   "horizon_min": 10,
+   "n": 1872,
+   "MAE_cascade": 2.72,
+   "RMSE_cascade": 4.436,
+   "MAE_direct": 2.731,
+   "RMSE_direct": 4.445,
+   "MAE_persistence": 3.219,
+   "RMSE_persistence": 5.82,
+   "MAE_profile": 3.994,
+   "RMSE_profile": 5.881,
+   "skill_cascade_vs_persistence": 0.155
+  },
+  {
+   "group": "all_test",
+   "horizon_min": 15,
+   "n": 1872,
+   "MAE_cascade": 2.89,
+   "RMSE_cascade": 4.744,
+   "MAE_direct": 2.94,
+   "RMSE_direct": 4.775,
+   "MAE_persistence": 3.187,
+   "RMSE_persistence": 5.589,
+   "MAE_profile": 4.371,
+   "RMSE_profile": 6.408,
+   "skill_cascade_vs_persistence": 0.093
+  }
+ ],
+ "split": {
+  "train_seeds": [
+   "201",
+   "202",
+   "203"
+  ],
+  "test_seeds": [
+   "301",
+   "302"
+  ]
+ },
+ "leakage_controls": [
+  "train and test episodes use disjoint SUMO seeds",
+  "features use only past samples",
+  "later cascade stages trained on out-of-fold earlier-stage predictions (folds = episodes)"
+ ],
+ "data_origin": "SIMULATED_sumo_lust_kirchberg_4tls"
+}

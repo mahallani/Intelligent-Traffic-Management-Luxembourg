@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<d2LogicalModel modelBaseVersion="2" xmlns="http://datex2.eu/schema/2/2_0">
+    <exchange>
+        <supplierIdentification>
+            <country>lu</country>
+            <nationalIdentifier>PCH</nationalIdentifier>
+        </supplierIdentification>
+    </exchange>
+    <payloadPublication xsi:type="MeasuredDataPublication" lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <publicationTime>2026-10-10T22:35:07.653802461+02:00</publicationTime>
+        <publicationCreator>
+            <country>lu</country>
+            <nationalIdentifier>PCH</nationalIdentifier>
+        </publicationCreator>
+        <measurementSiteTableReference targetClass="MeasurementSiteTable" id="1" version="1"/>
+        <headerInformation>
+            <confidentiality>noRestriction</confidentiality>
+            <informationStatus>real</informationStatus>
+        </headerInformation>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.HR.18610" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">infrared sensor</value>
+                            <value lang="fr">capteur infrarouge</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.49547</latitude>
+                                <longitude>5.9439807</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>positive</alertCDirectionCoded>
+                                    <alertCDirectionSense>true</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>106</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>2947</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>304</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>inboundTowardsTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>18610.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>18610.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>84.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>1.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>469</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.RTMIH.17553" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.504364</latitude>
+                                <longitude>5.9462576</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>negative</alertCDirectionCoded>
+                                    <alertCDirectionSense>false</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>335</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>753</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>outboundFromTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>17553.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>17553.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>72.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>0.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>189</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.R8L.184" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.49982</latitude>
+                                <longitude>5.9437165</longitude>
+                            </locationForDisplay>
+                            <linearWithinLinearElement>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>184.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>184.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>65.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>0.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>37</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.HR.18089" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.49995</latitude>
+                                <longitude>5.9435654</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>positive</alertCDirectionCoded>
+                                    <alertCDirectionSense>true</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>217</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>871</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>inboundTowardsTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>18089.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>18089.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>63.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>1.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>377</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.LR8.85" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.499416</latitude>
+                                <longitude>5.943111</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>positive</alertCDirectionCoded>
+                                    <alertCDirectionSense>true</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>18221</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>-17133</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>85.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>85.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>71.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>0.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>22</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.RH.17305" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.506374</latitude>
+                                <longitude>5.9476476</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>negative</alertCDirectionCoded>
+                                    <alertCDirectionSense>false</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>87</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>1001</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>outboundFromTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>17305.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>17305.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>67.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>0.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>176</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.LR8.196" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.49845</latitude>
+                                <longitude>5.942748</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>positive</alertCDirectionCoded>
+                                    <alertCDirectionSense>true</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>18110</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>-17022</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>196.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>196.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>53.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>0.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>22</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.RH.18260" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.498398</latitude>
+                                <longitude>5.942945</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>negative</alertCDirectionCoded>
+                                    <alertCDirectionSense>false</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>1042</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>46</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>outboundFromTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>18260.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>18260.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>55.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>1.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>153</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.RTMIH.17853" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.50183</latitude>
+                                <longitude>5.944823</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>negative</alertCDirectionCoded>
+                                    <alertCDirectionSense>false</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>635</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>453</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>outboundFromTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>17853.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>17853.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>67.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>0.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>186</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.HR.17305" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.506474</latitude>
+                                <longitude>5.9475923</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>positive</alertCDirectionCoded>
+                                    <alertCDirectionSense>true</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>1001</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>87</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>inboundTowardsTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>17305.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>17305.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>65.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>1.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>381</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.HR.18260" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.498474</latitude>
+                                <longitude>5.942902</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>positive</alertCDirectionCoded>
+                                    <alertCDirectionSense>true</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>46</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>1042</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>inboundTowardsTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>18260.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>18260.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>66.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>2.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>377</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.RH.18610" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">infrared sensor</value>
+                            <value lang="fr">capteur infrarouge</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.495457</latitude>
+                                <longitude>5.9441657</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>negative</alertCDirectionCoded>
+                                    <alertCDirectionSense>false</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>304</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>106</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>2947</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>outboundFromTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>18610.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>18610.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>69.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>0.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>208</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.RH.16845" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">thermal camera</value>
+                            <value lang="fr">caméra thermique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.51007</latitude>
+                                <longitude>5.950291</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>negative</alertCDirectionCoded>
+                                    <alertCDirectionSense>false</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>103</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>526</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>373</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>outboundFromTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>16845.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>16845.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>48.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>1.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>349</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.HTMIR.17853" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.501953</latitude>
+                                <longitude>5.9446445</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>positive</alertCDirectionCoded>
+                                    <alertCDirectionSense>true</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>453</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>635</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>inboundTowardsTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>17853.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>17853.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>69.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>0.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>400</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.R8L.50" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.49868</latitude>
+                                <longitude>5.9431353</longitude>
+                            </locationForDisplay>
+                            <linearWithinLinearElement>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>50.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>50.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>52.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>0.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>37</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.HTMIR.17553" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.50448</latitude>
+                                <longitude>5.9460955</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>positive</alertCDirectionCoded>
+                                    <alertCDirectionSense>true</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>753</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>335</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>inboundTowardsTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>17553.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>17553.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>74.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>1.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>397</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.RH.18089" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">induction loop</value>
+                            <value lang="fr">boucle induction magnétique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.499863</latitude>
+                                <longitude>5.943609</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>negative</alertCDirectionCoded>
+                                    <alertCDirectionSense>false</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>871</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>105</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>217</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>outboundFromTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>18089.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>18089.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>58.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>1.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>152</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+        <siteMeasurements>
+            <measurementSiteReference targetClass="MeasurementSiteRecord" id="B40.HR.16845" version="1"/>
+            <measurementTimeDefault>2026-10-10T22:33:00+02:00</measurementTimeDefault>
+            <measuredValue index="1">
+                <measuredValue>
+                    <measurementEquipmentTypeUsed>
+                        <values>
+                            <value lang="en">thermal camera</value>
+                            <value lang="fr">caméra thermique</value>
+                        </values>
+                    </measurementEquipmentTypeUsed>
+                    <basicData xsi:type="TrafficSpeed">
+                        <pertinentLocation xsi:type="Linear">
+                            <locationForDisplay>
+                                <latitude>49.510174</latitude>
+                                <longitude>5.950131</longitude>
+                            </locationForDisplay>
+                            <alertCLinear xsi:type="AlertCMethod4Linear">
+                                <alertCLocationCountryCode>7</alertCLocationCountryCode>
+                                <alertCLocationTableNumber>1</alertCLocationTableNumber>
+                                <alertCLocationTableVersion>3.0</alertCLocationTableVersion>
+                                <alertCDirection>
+                                    <alertCDirectionCoded>positive</alertCDirectionCoded>
+                                    <alertCDirectionSense>true</alertCDirectionSense>
+                                </alertCDirection>
+                                <alertCMethod4PrimaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>104</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>373</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4PrimaryPointLocation>
+                                <alertCMethod4SecondaryPointLocation>
+                                    <alertCLocation>
+                                        <specificLocation>103</specificLocation>
+                                    </alertCLocation>
+                                    <offsetDistance>
+                                        <offsetDistance>531</offsetDistance>
+                                    </offsetDistance>
+                                </alertCMethod4SecondaryPointLocation>
+                            </alertCLinear>
+                            <linearWithinLinearElement>
+                                <directionBoundOnLinearSection>inboundTowardsTown</directionBoundOnLinearSection>
+                                <linearElement>
+                                    <roadNumber>B40</roadNumber>
+                                </linearElement>
+                                <fromPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>16845.0</distanceAlong>
+                                </fromPoint>
+                                <toPoint xsi:type="DistanceFromLinearElementStart">
+                                    <distanceAlong>16845.0</distanceAlong>
+                                </toPoint>
+                            </linearWithinLinearElement>
+                        </pertinentLocation>
+                        <averageVehicleSpeed>
+                            <speed>96.0</speed>
+                        </averageVehicleSpeed>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="2">
+                <measuredValue>
+                    <basicData xsi:type="TrafficConcentration">
+                        <occupancy>
+                            <percentage>1.0</percentage>
+                        </occupancy>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="3">
+                <measuredValue>
+                    <basicData xsi:type="TrafficFlow">
+                        <measurementOrCalculationPeriod>3600.0</measurementOrCalculationPeriod>
+                        <vehicleFlow>
+                            <vehicleFlowRate>506</vehicleFlowRate>
+                        </vehicleFlow>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+    </payloadPublication>
+</d2LogicalModel>

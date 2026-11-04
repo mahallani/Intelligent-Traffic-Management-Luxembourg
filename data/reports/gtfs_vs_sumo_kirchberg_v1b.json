@@ -1,0 +1,42 @@
+{
+ "generated_utc": "2026-10-12T14:03:37+00:00",
+ "gtfs_stops_in_zone_200m": 18,
+ "stops_with_lust_busstop_within_50m": 3,
+ "gtfs_lines_serving_zone": [
+  "12",
+  "16",
+  "18",
+  "21",
+  "25",
+  "30",
+  "32",
+  "6",
+  "72",
+  "81",
+  "82",
+  "83",
+  "86",
+  "88",
+  "CN4",
+  "CN5",
+  "KI4",
+  "T1"
+ ],
+ "lust_bus_lines_in_scenario": [
+  "12",
+  "13",
+  "18",
+  "25",
+  "7"
+ ],
+ "lines_in_both": [
+  "12",
+  "18",
+  "25"
+ ],
+ "gtfs_tram_lines_in_zone": [
+  "T1"
+ ],
+ "tram_only_lanes_in_sumo_network": 0,
+ "conclusion": "GTFS 2026 and LuST ~2015 bus supply are not directly compatible: compare stops/lines listed; the tram (T1) has no infrastructure in the SUMO network; GTFS is not merged into the scenario."
+}

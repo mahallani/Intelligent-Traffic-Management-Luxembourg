@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-22T10:51:56.089343+01:00 by Eclipse SUMO GUI 1.27.1
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\net/kirchberg_4tls.net.xml"/>
+        <route-files value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\routes/kirchberg_0700_0800.rou.xml"/>
+        <additional-files value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\additional/vtypes.add.xml,C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\additional/emergency_vtypes.add.xml,C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\additional/busstops_kirchberg.add.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\output\diagnostics\20261022_105152_sumo-gui\summary.xml"/>
+        <tripinfo-output value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\output\diagnostics\20261022_105152_sumo-gui\tripinfo.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+        <save-state.rng value="true"/>
+    </output>
+
+    <time>
+        <begin value="25200"/>
+        <end value="25230.0"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <ignore-junction-blocker value="20"/>
+        <scale value="1.0"/>
+        <time-to-teleport value="600"/>
+        <max-depart-delay value="600"/>
+    </processing>
+
+    <report>
+        <verbose value="false"/>
+        <no-warnings value="true"/>
+        <log value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\output\diagnostics\20261022_105152_sumo-gui\sumo.log"/>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <emissions>
+        <device.emissions.probability value="1"/>
+    </emissions>
+
+    <traci_server>
+        <remote-port value="63855"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="1"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\kirchberg.gui.xml"/>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="h66277c2:1" depart="25211.00" departLane="--30444#1_0" departPos="5.10" departSpeed="13.68" departDelay="0.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="19.00" routeLength="236.42" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="0.72" rerouteNo="0" devices="tripinfo_h66277c2:1 emissions_h66277c2:1" vType="passenger1" speedFactor="0.98" vaporized="end">
+        <emissions CO_abs="205.36" CO2_abs="35090.46" HC_abs="1.38" PMx_abs="4.79" NOx_abs="12.71" fuel_abs="11375.93" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="h5346c1:1" depart="25217.00" departLane="-31070#4_1" departPos="4.60" departSpeed="14.52" departDelay="0.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="13.00" routeLength="163.26" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="0.76" rerouteNo="0" devices="tripinfo_h5346c1:1 emissions_h5346c1:1" vType="passenger2a" speedFactor="1.05" vaporized="end">
+        <emissions CO_abs="152.48" CO2_abs="22641.53" HC_abs="1.02" PMx_abs="2.95" NOx_abs="8.27" fuel_abs="7340.11" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="h68153c1:1" depart="25218.00" departLane="-32492#2_0" departPos="4.60" departSpeed="12.71" departDelay="0.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="12.00" routeLength="130.38" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="0.75" rerouteNo="0" devices="tripinfo_h68153c1:1 emissions_h68153c1:1" vType="passenger2a" speedFactor="0.92" vaporized="end">
+        <emissions CO_abs="134.63" CO2_abs="20333.16" HC_abs="0.89" PMx_abs="1.94" NOx_abs="7.14" fuel_abs="6591.74" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="h11022c1:1" depart="25222.00" departLane="-31070#4_0" departPos="5.10" departSpeed="13.95" departDelay="0.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="8.00" routeLength="92.36" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="0.38" rerouteNo="0" devices="tripinfo_h11022c1:1 emissions_h11022c1:1" vType="passenger1" speedFactor="1.00" vaporized="end">
+        <emissions CO_abs="96.10" CO2_abs="12865.30" HC_abs="0.64" PMx_abs="1.30" NOx_abs="4.61" fuel_abs="4170.75" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="h11140c1:1" depart="25225.00" departLane="--31070#8_0" departPos="5.10" departSpeed="14.76" departDelay="0.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="5.00" routeLength="57.22" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="0.12" rerouteNo="0" devices="tripinfo_h11140c1:1 emissions_h11140c1:1" vType="passenger1" speedFactor="1.06" vaporized="end">
+        <emissions CO_abs="39.09" CO2_abs="7325.92" HC_abs="0.27" PMx_abs="1.28" NOx_abs="2.69" fuel_abs="2374.99" electricity_abs="0.00"/>
+    </tripinfo>
+    <tripinfo id="h68149c1:1" depart="25225.00" departLane="-32492#2_0" departPos="4.60" departSpeed="12.79" departDelay="0.00" arrival="-1.00" arrivalLane="" arrivalPos="-1.00" arrivalSpeed="-1.00" duration="5.00" routeLength="48.36" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="0.22" rerouteNo="0" devices="tripinfo_h68149c1:1 emissions_h68149c1:1" vType="passenger2a" speedFactor="0.92" vaporized="end">
+        <emissions CO_abs="47.71" CO2_abs="7551.20" HC_abs="0.32" PMx_abs="0.77" NOx_abs="2.66" fuel_abs="2448.00" electricity_abs="0.00"/>
+    </tripinfo>
+</tripinfos>

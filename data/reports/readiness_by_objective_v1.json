@@ -1,0 +1,121 @@
+{
+ "generated_utc": "2026-10-10T20:56:06+00:00",
+ "inputs": {
+  "traffic": "data/processed/cita_traffic/cita_traffic_reference_v1.csv",
+  "events": "data/processed/cita_events/cita_events_v1.csv",
+  "pch_posts": "data/processed/pch/pch_posts_v1.csv",
+  "pch_long": "data/processed/pch/pch_hourly_counts_long_lust_bbox_v1.csv.xz",
+  "gtfs_kz": "data/processed/gtfs/gtfs_kirchberg_zone_stop_times_v1.csv",
+  "sim": "data/interim/simulation/kirchberg_4tls_validation_report_phase2_SIMULATED.json"
+ },
+ "outputs": {
+  "A_labels": "data/processed/tasks/task_A_event_label_inventory_v1.csv",
+  "A_ctx": "data/processed/tasks/task_A_traffic_with_event_context_v1.csv",
+  "B_panel": "data/processed/tasks/task_B_forecast_panel_v1.csv",
+  "C_cita": "data/processed/tasks/task_C_real_cita_observables_lust_bbox_v1.csv",
+  "C_pch": "data/processed/tasks/task_C_real_pch_potential_demand_profiles_v1.csv",
+  "C_sim": "data/processed/tasks/task_C_SIMULATED_kpis_kirchberg_v1.csv",
+  "D_cat": "data/processed/tasks/task_D_kpi_catalogue_v1.csv",
+  "json": "data/reports/readiness_by_objective_v1.json",
+  "md": "data/reports/readiness_by_objective_v1.md"
+ },
+ "dimensions": {
+  "A_labels": [
+   24,
+   16
+  ],
+  "A_ctx": [
+   492,
+   14
+  ],
+  "B_panel": [
+   492,
+   26
+  ],
+  "C_cita": [
+   123,
+   12
+  ],
+  "C_pch": [
+   1968,
+   18
+  ],
+  "C_sim": [
+   78,
+   6
+  ],
+  "D_cat": [
+   9,
+   6
+  ]
+ },
+ "readiness": {
+  "A": {
+   "measured": {
+    "events_with_real_id": 24,
+    "unplanned_events": 4,
+    "accident_events": 0,
+    "days_with_traffic_data": 2,
+    "traffic_rows_with_event_context": 114
+   },
+   "criteria": {
+    "min_unplanned_incident_events": 100,
+    "min_accident_events": 30,
+    "min_days_continuous_traffic": 28
+   },
+   "verdict": "NOT TRAINABLE"
+  },
+  "B": {
+   "measured": {
+    "sensors": 247,
+    "max_steps_per_sensor": 2,
+    "distinct_timestamps": 3,
+    "target_pairs_per_horizon": {
+     "5": 0,
+     "10": 0,
+     "15": 0
+    },
+    "lag1_available_rows": 0
+   },
+   "criteria": {
+    "min_consecutive_days_per_sensor": 7,
+    "min_steps_per_sensor": 2016,
+    "max_missing_step_pct": 10.0,
+    "min_sensors": 20,
+    "min_target_pairs_per_horizon": 10000
+   },
+   "verdict": "NOT TRAINABLE"
+  },
+  "C": {
+   "measured": {
+    "cita_sensors_in_kirchberg_zone": 0,
+    "pch_posts_in_kirchberg_zone": 0,
+    "cita_sensors_in_lust_bbox": 63,
+    "pch_posts_in_lust_bbox": 32,
+    "pch_posts_with_unverified_lust_edge_candidates": 23,
+    "gtfs_trips_at_kirchberg_zone_stops": 4684,
+    "simulated_kpi_rows": 78
+   },
+   "criteria": {
+    "min_real_observation_points_in_sim_zone": 1,
+    "min_days_for_calibration": 5
+   },
+   "verdict": "SIMULATION ONLY: RL can be trained and evaluated in SUMO; no real observation inside the Kirchberg zone, so no calibration or real validation"
+  },
+  "D": {
+   "measured": {
+    "kpis_catalogued": 9,
+    "kpis_with_real_source": 2,
+    "kpis_with_simulated_values": 8
+   },
+   "criteria": {
+    "real_baseline_kpis_required": [
+     "travel_time",
+     "speed",
+     "flow"
+    ]
+   },
+   "verdict": "SIMULATED KPIs ONLY: no real baseline for travel time / queues / waiting in the zone"
+  }
+ }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Reduced LuST scenario - Kirchberg (Luxembourg City), 4 signalised intersections of
+Avenue J.F. Kennedy: -28692, -23354, -20484, -29958.
+Demand: real LuST traffic entering the area between 07:00 and 08:00 (see README.md).
+All paths are relative to this file (works on Windows and Linux).
+Demand scaling for congestion studies: add the SUMO option "scale" (e.g. 2.0), see README.
+-->
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <input>
+        <net-file value="net/kirchberg_4tls.net.xml"/>
+        <route-files value="routes/kirchberg_0700_0800.rou.xml"/>
+        <additional-files value="additional/vtypes.add.xml,additional/emergency_vtypes.add.xml,additional/busstops_kirchberg.add.xml"/>
+    </input>
+    <time>
+        <begin value="25200"/>
+        <end value="28800"/>
+        <step-length value="1"/>
+    </time>
+    <processing>
+        <!-- same values as LuST dua.actuated.sumocfg -->
+        <ignore-junction-blocker value="20"/>
+        <time-to-teleport value="600"/>
+        <max-depart-delay value="600"/>
+    </processing>
+    <output>
+        <summary-output value="output/summary.xml"/>
+        <tripinfo-output value="output/tripinfo.xml"/>
+    </output>
+    <report>
+        <no-step-log value="true"/>
+    </report>
+    <gui_only>
+        <gui-settings-file value="kirchberg.gui.xml"/>
+    </gui_only>
+</configuration>

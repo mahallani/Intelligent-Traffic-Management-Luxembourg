@@ -1,0 +1,105 @@
+{
+ "strategy": "S2_demand_gap",
+ "scale": 5.0,
+ "seed": 1,
+ "begin": 25200.0,
+ "end": 28800.0,
+ "backend": "libsumo",
+ "stopped_early": false,
+ "forecasts_passed_to_decision": true,
+ "warmup_s": 300.0,
+ "programs_at_start": {
+  "-28692": "0",
+  "-23354": "0",
+  "-20484": "0",
+  "-29958": "0"
+ },
+ "wall_clock_s": 7.3,
+ "data_origin": "SIMULATED_sumo_lust_kirchberg_4tls",
+ "loaded": 3891,
+ "inserted": 3878,
+ "running_at_end": 168,
+ "waiting_insertion_at_end": 13,
+ "arrived": 3710,
+ "discarded_not_inserted": 0,
+ "teleports": 0,
+ "collisions": 0,
+ "completed_trips": 3710,
+ "unfinished_trips_at_end": 168,
+ "avg_travel_time_s": 120.69,
+ "avg_waiting_time_s": 29.15,
+ "avg_time_loss_s": 50.84,
+ "avg_depart_delay_s": 8.63,
+ "p95_travel_time_s": 243.0,
+ "total_waiting_time_all_h": 31.81,
+ "total_time_loss_all_h": 55.17,
+ "co2_kg": 1255.63,
+ "nox_g": 487.95,
+ "pmx_g": 123.837,
+ "fuel_kg": 406.27,
+ "avg_queue_veh": 30.61,
+ "max_queue_veh": 92,
+ "avg_queue_m": 260.1,
+ "avg_queue_veh_tls_-28692": 9.71,
+ "avg_queue_veh_tls_-23354": 2.18,
+ "avg_queue_veh_tls_-20484": 5.01,
+ "avg_queue_veh_tls_-29958": 13.71,
+ "actuator": {
+  "advance": 393,
+  "forced_max_green": 167,
+  "refused_min_green": 0,
+  "holds": 396
+ },
+ "safety": {
+  "transitions_checked": 785,
+  "violations": {
+   "state_in_program": 0,
+   "green_to_red_without_yellow": 0,
+   "min_green": 0,
+   "yellow_duration": 0,
+   "all_red_duration": 0,
+   "max_green": 0
+  },
+  "total_violations": 0,
+  "examples": [],
+  "limits": {
+   "min_green_s": 5.0,
+   "max_green_s": 90.0
+  }
+ },
+ "emergency": {
+  "inserted_at": 26400.0,
+  "priority": false,
+  "route": [
+   "--31070#8",
+   "--31070#7",
+   "--31070#6",
+   "--31070#5",
+   "--31070#4"
+  ],
+  "travel_time_s": 187.0,
+  "waiting_time_s": 46.0,
+  "actions": []
+ },
+ "controller": {},
+ "detection": {
+  "mode": "rules",
+  "gate_with_forecast": false,
+  "suppressed_by_forecast": 0,
+  "alerts": 12,
+  "alerts_congestion": 12,
+  "alerts_stalled": 0,
+  "rules": "congestion: halting >= 8 for >= 60 s; stalled: a vehicle stopped >= 150 s"
+ },
+ "prediction": {
+  "model": "cascade_model_v2.json",
+  "transform": "log1p",
+  "n_scored": 528,
+  "mae_cascade_5min": 4.732,
+  "mae_persistence_5min": 6.19,
+  "mae_cascade_10min": 4.51,
+  "mae_persistence_10min": 5.88,
+  "mae_cascade_15min": 4.565,
+  "mae_persistence_15min": 5.369
+ }
+}

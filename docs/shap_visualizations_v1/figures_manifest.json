@@ -1,0 +1,100 @@
+{
+ "data_origin": "SIMULATED_sumo_lust_kirchberg_4tls",
+ "purpose": "Static figures of the exact SHAP explanation and its sensitivity to background weights",
+ "sources": [
+  {
+   "file": "docs/shap_demo_v2/shap_result.json",
+   "sha256": "758ce0c9839752412050ca0e0696982e237d1caaf37a34600673c3e3cf56a74c"
+  },
+  {
+   "file": "docs/shap_stability_v2/shap_stability.json",
+   "sha256": "2c341ace852df2c4593b763a2548f0810ff969ee4e84739b5ab354f5db780efd"
+  }
+ ],
+ "decision": {
+  "tls": "-29958",
+  "time_s": 26941.0,
+  "clock": "07:29:01"
+ },
+ "delta": 3.1700258933042864,
+ "plotted_values": [
+  {
+   "variable": "file_servie",
+   "class": "0",
+   "shap_visits": 0.0,
+   "shap_uniform": 0.0,
+   "rank_visits": 4,
+   "rank_uniform": 4,
+   "constant_in_retained_background": true
+  },
+  {
+   "variable": "file_autre",
+   "class": "6–10",
+   "shap_visits": -0.4479986528946299,
+   "shap_uniform": 0.26043516937874506,
+   "rank_visits": 2,
+   "rank_uniform": 3,
+   "constant_in_retained_background": false
+  },
+  {
+   "variable": "en_mouvement",
+   "class": "0",
+   "shap_visits": 0.5202473710523992,
+   "shap_uniform": 0.8057099129228366,
+   "rank_visits": 1,
+   "rank_uniform": 1,
+   "constant_in_retained_background": false
+  },
+  {
+   "variable": "durée_vert",
+   "class": "≤ 10 s",
+   "shap_visits": 0.20249811071882945,
+   "shap_uniform": 0.793159055202435,
+   "rank_visits": 3,
+   "rank_uniform": 2,
+   "constant_in_retained_background": false
+  }
+ ],
+ "base_values": {
+  "visits": 2.8952790644276876,
+  "uniform": 1.3107217558002697
+ },
+ "sum_contributions": {
+  "visits": 0.2747468288765987,
+  "uniform": 1.8593041375040167
+ },
+ "additivity_error_reported": {
+  "visits": 0.0,
+  "uniform": 0.0
+ },
+ "additivity_error_recomputed": {
+  "visits": 0.0,
+  "uniform": 0.0
+ },
+ "checks": [
+  "reports explain the same decision (tls, time) and the same delta",
+  "visit-weighted contributions and base value identical in both reports (tolerance 1e-12)",
+  "additivity recomputed for both methods",
+  "ranks recomputed from |contribution| and equal to the report",
+  "fig1 uniform: 4 bar lengths equal the JSON contributions (within 1e-12)",
+  "fig1 visits: 4 bar lengths equal the JSON contributions (within 1e-12)",
+  "fig2: plotted ranks equal the ranks by |contribution| in both methods",
+  "fig3 uniform: base, sum and delta bars equal the JSON values (within 1e-12); base + sum reaches delta",
+  "fig3 visits: base, sum and delta bars equal the JSON values (within 1e-12); base + sum reaches delta"
+ ],
+ "files": [
+  "fig1_shap_contributions_fr.png",
+  "fig1_shap_contributions_fr.pdf",
+  "fig2_shap_ranking_fr.png",
+  "fig2_shap_ranking_fr.pdf",
+  "fig3_shap_additivity_fr.png",
+  "fig3_shap_additivity_fr.pdf",
+  "fig1_shap_contributions_en.png",
+  "fig1_shap_contributions_en.pdf",
+  "fig2_shap_ranking_en.png",
+  "fig2_shap_ranking_en.pdf",
+  "fig3_shap_additivity_en.png",
+  "fig3_shap_additivity_en.pdf"
+ ],
+ "labels_note": "Values on the figures are rounded to 6 decimals, as in the source reports."
+}

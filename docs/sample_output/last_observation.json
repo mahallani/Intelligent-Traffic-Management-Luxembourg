@@ -1,0 +1,739 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "network": "LuST - Luxembourg SUMO Traffic",
+    "scenario": "S0",
+    "run_id": "S0_20261007_020548",
+    "timestamp": 25800.0,
+    "clock": "07:10:00",
+    "step_length": 1.0,
+    "observed_since": 25200.0
+  },
+  "simulation": {
+    "time": 25800.0,
+    "step_length": 1.0,
+    "running_vehicles": 4027,
+    "pending_vehicles": 107,
+    "min_expected_vehicles": 4894,
+    "departed_last_step": 5,
+    "arrived_last_step": 4,
+    "departed_total": 3585,
+    "arrived_total": 3393,
+    "teleports_total": 0,
+    "collisions_total": 0,
+    "emergency_braking_total": 0
+  },
+  "vehicles": {
+    "count": 4027,
+    "average_speed_kmh": 44.933892946756394,
+    "average_waiting_time_s": 4.2411224236404275,
+    "average_accumulated_waiting_time_s": 19.798361062825926,
+    "average_time_loss_s": 157.0965528395359,
+    "halting_count": 942,
+    "halting_ratio": 0.2339210330270673,
+    "total_waiting_time_s": 17079.0,
+    "by_class": {
+      "bus": {
+        "count": 60,
+        "average_speed_kmh": 21.37936064500081
+      },
+      "passenger": {
+        "count": 3967,
+        "average_speed_kmh": 45.290150052404414
+      }
+    }
+  },
+  "congestion": {
+    "average_occupancy_pct": 5.087127353035244,
+    "halting_vehicles": 928,
+    "network_congestion_index": 0.34428763829190046,
+    "level": "light",
+    "congested_edges": 214,
+    "queue_length_m": 4807.408007971392,
+    "queue_method": "tls_lanes_vehicle_positions",
+    "edges": {
+      "edges_monitored": 5779,
+      "occupied_edges": 1087,
+      "average_occupancy_pct": 5.087127353035244,
+      "max_occupancy_pct": 75.97672968901635,
+      "halting_vehicles": 928,
+      "waiting_time_on_edges_s": 16880.0,
+      "estimated_queue_length_m": 7112.126696793364,
+      "network_congestion_index": 0.34428763829190046,
+      "network_congestion_level": "light",
+      "congested_edges": 214,
+      "congested_edge_share": 0.1968721251149954,
+      "newly_congested_edges": 121,
+      "recovered_edges": 183,
+      "propagated_congestion_edges": 35,
+      "top_bottlenecks": [
+        {
+          "edge_id": "-31840#0",
+          "street_name": "",
+          "vehicle_count": 59,
+          "halting_number": 37,
+          "mean_speed_kmh": 5.353696514173004,
+          "occupancy_pct": 28.801186266681878,
+          "congestion_index": 0.9235011357714191,
+          "estimated_queue_m": 282.51694915254234
+        },
+        {
+          "edge_id": "-31496#14",
+          "street_name": "",
+          "vehicle_count": 22,
+          "halting_number": 22,
+          "mean_speed_kmh": 0.0,
+          "occupancy_pct": 23.744231155106686,
+          "congestion_index": 1.0,
+          "estimated_queue_m": 161.5
+        },
+        {
+          "edge_id": "-31496#9",
+          "street_name": "",
+          "vehicle_count": 18,
+          "halting_number": 17,
+          "mean_speed_kmh": 2.65907313606598,
+          "occupancy_pct": 13.101891822298967,
+          "congestion_index": 0.946822791455364,
+          "estimated_queue_m": 124.19444444444444
+        },
+        {
+          "edge_id": "--31496#6",
+          "street_name": "",
+          "vehicle_count": 14,
+          "halting_number": 14,
+          "mean_speed_kmh": 0.0,
+          "occupancy_pct": 15.190260747929099,
+          "congestion_index": 1.0,
+          "estimated_queue_m": 104.5
+        },
+        {
+          "edge_id": "--32750#0",
+          "street_name": "",
+          "vehicle_count": 13,
+          "halting_number": 13,
+          "mean_speed_kmh": 0.0,
+          "occupancy_pct": 19.356985149562956,
+          "congestion_index": 1.0,
+          "estimated_queue_m": 96.5
+        },
+        {
+          "edge_id": "--30694#3",
+          "street_name": "",
+          "vehicle_count": 15,
+          "halting_number": 12,
+          "mean_speed_kmh": 3.289378212958874,
+          "occupancy_pct": 34.744893200261174,
+          "congestion_index": 0.9342176983249565,
+          "estimated_queue_m": 89.6
+        },
+        {
+          "edge_id": "--30892#11",
+          "street_name": "",
+          "vehicle_count": 11,
+          "halting_number": 11,
+          "mean_speed_kmh": 0.01049798692258879,
+          "occupancy_pct": 9.711639025847902,
+          "congestion_index": 0.9997900570569836,
+          "estimated_queue_m": 86.0
+        },
+        {
+          "edge_id": "-30528#11",
+          "street_name": "",
+          "vehicle_count": 12,
+          "halting_number": 11,
+          "mean_speed_kmh": 2.2489920229015934,
+          "occupancy_pct": 26.80088900509871,
+          "congestion_index": 0.9550237576413568,
+          "estimated_queue_m": 83.875
+        },
+        {
+          "edge_id": "--30528#7",
+          "street_name": "",
+          "vehicle_count": 12,
+          "halting_number": 11,
+          "mean_speed_kmh": 3.4127155576832595,
+          "occupancy_pct": 9.329405162738496,
+          "congestion_index": 0.9317511487544344,
+          "estimated_queue_m": 88.45833333333334
+        },
+        {
+          "edge_id": "-30528#15",
+          "street_name": "",
+          "vehicle_count": 11,
+          "halting_number": 11,
+          "mean_speed_kmh": 4.16718022092642,
+          "occupancy_pct": 18.85902876001886,
+          "congestion_index": 0.9166630625364687,
+          "estimated_queue_m": 79.5
+        }
+      ],
+      "congested_edge_ids": [
+        "--30256#1",
+        "--30256#2",
+        "--30358#3",
+        "--30358#8",
+        "--30362#0",
+        "--30456",
+        "--30496#3",
+        "--30528#1",
+        "--30528#14",
+        "--30528#16",
+        "--30528#2",
+        "--30528#23",
+        "--30528#3",
+        "--30528#31",
+        "--30528#32",
+        "--30528#4",
+        "--30528#43",
+        "--30528#46",
+        "--30528#5",
+        "--30528#51",
+        "--30528#55",
+        "--30528#7",
+        "--30542#1",
+        "--30566#0",
+        "--30596#2",
+        "--30608#3",
+        "--30608#8",
+        "--30608#9",
+        "--30632#0",
+        "--30648#11",
+        "--30648#13",
+        "--30678#0",
+        "--30694#3",
+        "--30724#0",
+        "--30742#0",
+        "--30856#4",
+        "--30860#6",
+        "--30872#10",
+        "--30892#10",
+        "--30892#11",
+        "--30892#12",
+        "--30892#13",
+        "--30892#17",
+        "--30892#18",
+        "--30892#19",
+        "--30892#21",
+        "--30892#24",
+        "--30892#26",
+        "--30892#5",
+        "--30902#8",
+        "--31070#6",
+        "--31072#0",
+        "--31110",
+        "--31260",
+        "--31272#0",
+        "--31272#8",
+        "--31280#2",
+        "--31328#0",
+        "--31388#2",
+        "--31452#1",
+        "--31492#0",
+        "--31496#6",
+        "--31496#9",
+        "--31504#0",
+        "--31504#2",
+        "--31634",
+        "--31688#0",
+        "--31728#0",
+        "--31728#1",
+        "--31768#1",
+        "--31768#3",
+        "--31768#4",
+        "--31788",
+        "--31794#2",
+        "--31794#4",
+        "--31818#21",
+        "--31818#22",
+        "--31834#1",
+        "--31834#2",
+        "--31940#2",
+        "--31940#5",
+        "--31952#11",
+        "--31952#14",
+        "--32178",
+        "--32306#3",
+        "--32306#4",
+        "--32308#1",
+        "--32328",
+        "--32340#2",
+        "--32432#10",
+        "--32468#1",
+        "--32468#2",
+        "--32468#4",
+        "--32674#3",
+        "--32674#7",
+        "--32750#0",
+        "--32750#12",
+        "--32750#4",
+        "--32776#6",
+        "--32878#0",
+        "--32908",
+        "--32924#14",
+        "--32964#4",
+        "--32964#9",
+        "-30256#0",
+        "-30348#4",
+        "-30358#1",
+        "-30358#2",
+        "-30384#1",
+        "-30404#5",
+        "-30462",
+        "-30528#0",
+        "-30528#1",
+        "-30528#11",
+        "-30528#15",
+        "-30528#2",
+        "-30528#3",
+        "-30528#30",
+        "-30528#4",
+        "-30528#42",
+        "-30528#44",
+        "-30528#45",
+        "-30528#48",
+        "-30528#54",
+        "-30528#56",
+        "-30528#6",
+        "-30540#0",
+        "-30540#1",
+        "-30616#3",
+        "-30644#0",
+        "-30646#0",
+        "-30648#0",
+        "-30648#10",
+        "-30648#14",
+        "-30648#2",
+        "-30648#8",
+        "-30668#0",
+        "-30706#3-AddedOnRampEdge",
+        "-30722",
+        "-30784",
+        "-30812",
+        "-30860#1",
+        "-30860#5",
+        "-30860#9",
+        "-30872#10",
+        "-30892#10",
+        "-30892#17",
+        "-30892#23",
+        "-30892#25",
+        "-30904",
+        "-30908#0",
+        "-30914#2",
+        "-31144#1",
+        "-31226#2",
+        "-31272#6",
+        "-31272#7",
+        "-31276",
+        "-31320#0",
+        "-31320#2",
+        "-31330",
+        "-31462#0",
+        "-31492#1",
+        "-31496#14",
+        "-31496#2",
+        "-31496#3",
+        "-31496#4",
+        "-31496#9",
+        "-31504#1",
+        "-31622#0",
+        "-31728#2",
+        "-31768#0",
+        "-31794#1",
+        "-31794#3",
+        "-31794#7",
+        "-31818#20",
+        "-31834#1",
+        "-31834#2",
+        "-31840#0",
+        "-31868#1",
+        "-31894#2",
+        "-31940#1",
+        "-31940#3",
+        "-31940#4",
+        "-31952#10",
+        "-31952#11",
+        "-31966#9",
+        "-32140",
+        "-32228",
+        "-32278#1",
+        "-32278#3",
+        "-32306#1",
+        "-32308#0",
+        "-32410#0",
+        "-32410#2",
+        "-32426#0",
+        "-32432#14",
+        "-32532",
+        "-32542#1",
+        "-32552#0",
+        "-32552#2",
+        "-32582",
+        "-32638#11",
+        "-32664#1",
+        "-32674#2",
+        "-32674#3",
+        "-32740#1",
+        "-32742#5",
+        "-32750#6",
+        "-32750#9",
+        "-32764#3",
+        "-32764#4",
+        "-32786#5",
+        "-32878#5",
+        "-32924#13"
+      ]
+    },
+    "max_queue_length_m": 77.553417807769,
+    "queued_vehicles": 756,
+    "tls_lanes": {
+      "lanes_monitored": 1512,
+      "occupied_lanes": 660,
+      "average_occupancy_pct": 9.605060255766611,
+      "halting_vehicles": 799,
+      "queue_length_total_m": 4807.408007971392,
+      "queue_length_max_m": 77.553417807769,
+      "queue_length_max_lane": "--30694#3_0",
+      "queued_vehicles": 756,
+      "lanes_with_queue": 414,
+      "spillback_lanes": 1
+    }
+  },
+  "travel": {
+    "since_last_observation": {
+      "completed_trips": 1731,
+      "average_travel_time_s": 694.3755054881572,
+      "median_travel_time_s": 622.0,
+      "p95_travel_time_s": 1349.0,
+      "total_travel_time_s": 1201964.0,
+      "average_route_length_m": 6098.537468200421,
+      "completed_trips_observed_from_departure": 456,
+      "average_trip_waiting_time_s": 31.278508771929825,
+      "average_time_loss_s": 234.21342718593553,
+      "average_depart_delay_s": 6.91738879260543
+    },
+    "cumulative": {
+      "completed_trips": 3393,
+      "average_travel_time_s": 690.0671971706455,
+      "median_travel_time_s": 618.0,
+      "p95_travel_time_s": 1336.0000000000005,
+      "total_travel_time_s": 2341398.0,
+      "average_route_length_m": 5599.8354406247645,
+      "completed_trips_observed_from_departure": 506,
+      "average_trip_waiting_time_s": 29.507905138339922,
+      "average_time_loss_s": 232.51032498943076,
+      "average_depart_delay_s": 6.165929855585028
+    },
+    "vehicle_km_travelled": 31267.610875570837,
+    "vehicle_hours_travelled": 662.3830555555555
+  },
+  "environment": {
+    "co2_g_per_s": 13145.722486044053,
+    "nox_g_per_s": 5.103058341547768,
+    "fuel_g_per_s": 4259.355461926555,
+    "co_g_per_s": 131.58484246313878,
+    "hc_g_per_s": 0.9011936668192494,
+    "pmx_g_per_s": 1.3585102634310213,
+    "co2_total_kg": 7926.067517283536,
+    "nox_total_g": 3130.5185562081465,
+    "fuel_total_kg": 2568.2209226870523,
+    "fuel_total_l_indicative": 3447.276406291345,
+    "co_total_g": 82228.50649561138,
+    "hc_total_g": 562.7089537461993,
+    "pmx_total_g": 852.7176882476572,
+    "co2_g_per_km": 253.49130602991218,
+    "by_class_total": {
+      "bus": {
+        "co2_kg": 456.88354536571126,
+        "nox_g": 192.74029154501937,
+        "fuel_kg": 146.82957124285963
+      },
+      "emergency": {
+        "co2_kg": 2.3172514728333677,
+        "nox_g": 4.682719063618866,
+        "fuel_kg": 0.7447088883400959
+      },
+      "passenger": {
+        "co2_kg": 7466.866720444993,
+        "nox_g": 2933.095545599507,
+        "fuel_kg": 2420.6466425558497
+      }
+    }
+  },
+  "buses": {
+    "count": 60,
+    "lines_active": 28,
+    "average_speed_kmh": 21.379360645000812,
+    "average_delay_s": 271.2300178516429,
+    "average_waiting_time_s": 2.316666666666667,
+    "at_stop_now": 12,
+    "stop_events_total": 510,
+    "stop_events_since_last": 241,
+    "average_dwell_time_s": 20.0,
+    "average_headway_s": null,
+    "headway_cv": null,
+    "bunching_events_total": 0,
+    "bunching_events_since_last": 0,
+    "by_line": {
+      "AVL---_1": {
+        "buses": 2,
+        "average_delay_s": 192.0721737531357,
+        "bunching_events": 0
+      },
+      "AVL---_10": {
+        "buses": 2,
+        "average_delay_s": 186.05883991416056,
+        "bunching_events": 0
+      },
+      "AVL---_11": {
+        "buses": 2,
+        "average_delay_s": 199.53110440728645,
+        "bunching_events": 0
+      },
+      "AVL---_12": {
+        "buses": 2,
+        "average_delay_s": 120.12943528330646,
+        "bunching_events": 0
+      },
+      "AVL---_13": {
+        "buses": 2,
+        "average_delay_s": 177.10166405297736,
+        "bunching_events": 0
+      },
+      "AVL---_14": {
+        "buses": 2,
+        "average_delay_s": 163.16955641640226,
+        "bunching_events": 0
+      },
+      "AVL---_15": {
+        "buses": 2,
+        "average_delay_s": 112.70963350800497,
+        "bunching_events": 0
+      },
+      "AVL---_16": {
+        "buses": 2,
+        "average_delay_s": 152.70966365699394,
+        "bunching_events": 0
+      },
+      "AVL---_18": {
+        "buses": 3,
+        "average_delay_s": 360.2794183893122,
+        "bunching_events": 0
+      },
+      "AVL---_19": {
+        "buses": 2,
+        "average_delay_s": 190.16224593534466,
+        "bunching_events": 0
+      },
+      "AVL---_2": {
+        "buses": 2,
+        "average_delay_s": 182.39776465777047,
+        "bunching_events": 0
+      },
+      "AVL---_20": {
+        "buses": 2,
+        "average_delay_s": 280.05689075683927,
+        "bunching_events": 0
+      },
+      "AVL---_21": {
+        "buses": 4,
+        "average_delay_s": 625.2657370466021,
+        "bunching_events": 0
+      },
+      "AVL---_23": {
+        "buses": 1,
+        "average_delay_s": 293.3402920860172,
+        "bunching_events": 0
+      },
+      "AVL---_24": {
+        "buses": 1,
+        "average_delay_s": 242.4739084377216,
+        "bunching_events": 0
+      },
+      "AVL---_25": {
+        "buses": 2,
+        "average_delay_s": 89.16838121698135,
+        "bunching_events": 0
+      },
+      "AVL---_3": {
+        "buses": 2,
+        "average_delay_s": 206.16171894307837,
+        "bunching_events": 0
+      },
+      "AVL---_4": {
+        "buses": 2,
+        "average_delay_s": 228.48161790036045,
+        "bunching_events": 0
+      },
+      "AVL---_5": {
+        "buses": 2,
+        "average_delay_s": 171.61492369923684,
+        "bunching_events": 0
+      },
+      "AVL---_6": {
+        "buses": 4,
+        "average_delay_s": 559.7362727128519,
+        "bunching_events": 0
+      },
+      "AVL---_7": {
+        "buses": 4,
+        "average_delay_s": 465.879992570485,
+        "bunching_events": 0
+      },
+      "AVL---_8": {
+        "buses": 2,
+        "average_delay_s": 161.69174308028062,
+        "bunching_events": 0
+      },
+      "AVL---_9": {
+        "buses": 2,
+        "average_delay_s": 179.00787152724484,
+        "bunching_events": 0
+      },
+      "AVL---_J1": {
+        "buses": 2,
+        "average_delay_s": 227.86869599095144,
+        "bunching_events": 0
+      },
+      "AVL---_J2": {
+        "buses": 2,
+        "average_delay_s": 238.82346425892234,
+        "bunching_events": 0
+      },
+      "C82---_CFB": {
+        "buses": 1,
+        "average_delay_s": 222.93801656608977,
+        "bunching_events": 0
+      },
+      "CBBS___BuS_1": {
+        "buses": 2,
+        "average_delay_s": 189.99003432561412,
+        "bunching_events": 0
+      },
+      "RGM---_120": {
+        "buses": 2,
+        "average_delay_s": 266.43387147563493,
+        "bunching_events": 0
+      }
+    }
+  },
+  "emergency": {
+    "active": 0,
+    "completed": 1,
+    "average_travel_time_s": 441.0,
+    "average_delay_s": 228.62619949335124,
+    "average_time_loss_s": 227.20325802415016,
+    "vehicles": [],
+    "completed_missions": [
+      {
+        "vehicle_id": "emergency_1",
+        "type_id": "emergency_bluelight",
+        "depart": 25231.0,
+        "free_flow_time_s": 212.37380050664876,
+        "route_length_m": 4935.31,
+        "depart_delay_s": 0.0,
+        "arrival": 25672.0,
+        "mission_time_s": 441.0,
+        "travel_time_s": 441.0,
+        "delay_s": 228.62619949335124,
+        "time_loss_s": 227.20325802415016,
+        "waiting_time_s": 135.0,
+        "stops": 9,
+        "route_edges": 36
+      }
+    ]
+  },
+  "traffic_lights": {
+    "total_signals": 201,
+    "active_signals": 201,
+    "programs_in_use": {
+      "0": 201
+    },
+    "effectively_fixed_time": 201,
+    "signals_with_queue": 148,
+    "average_remaining_s": 17.432835820895523,
+    "most_loaded_signals": [
+      {
+        "tls_id": "-5428",
+        "phase": 12,
+        "state": "rrrrrrrrrrrrrrrrrrrrGGGGGGGrrrrrrrrrrrrrrrrrrr",
+        "queued_vehicles": 38,
+        "queue_length_m": 233.54219274950387,
+        "remaining_s": 6.0
+      },
+      {
+        "tls_id": "-17684",
+        "phase": 4,
+        "state": "GGgggrrrrrrGGGgrrrrr",
+        "queued_vehicles": 21,
+        "queue_length_m": 130.0221824861045,
+        "remaining_s": 6.0
+      },
+      {
+        "tls_id": "-11222",
+        "phase": 4,
+        "state": "GGgGrrrrGGgGrrrr",
+        "queued_vehicles": 16,
+        "queue_length_m": 115.03915225738511,
+        "remaining_s": 6.0
+      },
+      {
+        "tls_id": "-26640",
+        "phase": 4,
+        "state": "GGgrrrrrGGgrrrrr",
+        "queued_vehicles": 18,
+        "queue_length_m": 109.51877916390168,
+        "remaining_s": 6.0
+      },
+      {
+        "tls_id": "-27336",
+        "phase": 4,
+        "state": "GGgGrrrrGGgrrrrr",
+        "queued_vehicles": 17,
+        "queue_length_m": 107.01763840754114,
+        "remaining_s": 6.0
+      },
+      {
+        "tls_id": "-11144",
+        "phase": 4,
+        "state": "GGgrrrrrGGgrrrrr",
+        "queued_vehicles": 16,
+        "queue_length_m": 106.53532885430612,
+        "remaining_s": 6.0
+      },
+      {
+        "tls_id": "-24852",
+        "phase": 4,
+        "state": "rrrrGGgrrrrrGGg",
+        "queued_vehicles": 15,
+        "queue_length_m": 104.01822445145518,
+        "remaining_s": 6.0
+      },
+      {
+        "tls_id": "-19346",
+        "phase": 4,
+        "state": "rrrrrrrrGGGG",
+        "queued_vehicles": 15,
+        "queue_length_m": 100.0293780183338,
+        "remaining_s": 26.0
+      },
+      {
+        "tls_id": "-18406",
+        "phase": 4,
+        "state": "GGgrrrrrGGgrrrrr",
+        "queued_vehicles": 15,
+        "queue_length_m": 99.05682595401049,
+        "remaining_s": 6.0
+      },
+      {
+        "tls_id": "-29288",
+        "phase": 4,
+        "state": "rrrrrGGgrrrrGGg",
+        "queued_vehicles": 15,
+        "queue_length_m": 95.01923708447246,
+        "remaining_s": 6.0
+      }
+    ]
+  }
+}

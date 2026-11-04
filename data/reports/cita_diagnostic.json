@@ -1,0 +1,611 @@
+{
+ "traffic_historical": {
+  "sep": ",",
+  "rows": 2717,
+  "n_cols": 10,
+  "columns": [
+   "collection_time",
+   "road",
+   "measurement_site",
+   "timestamp",
+   "latitude",
+   "longitude",
+   "speed_kmh",
+   "occupancy_percent",
+   "vehicle_flow",
+   "vehicle_flow_rate"
+  ],
+  "field_count_distribution": {
+   "10": 2717
+  },
+  "bad_rows_sample": [],
+  "exact_duplicates": 54,
+  "missing": {
+   "measurement_site": "2717 (100.0%)",
+   "latitude": "137 (5.0%)",
+   "longitude": "137 (5.0%)",
+   "speed_kmh": "2717 (100.0%)",
+   "occupancy_percent": "2717 (100.0%)",
+   "vehicle_flow": "2717 (100.0%)"
+  },
+  "fully_empty_cols": [
+   "measurement_site",
+   "speed_kmh",
+   "occupancy_percent",
+   "vehicle_flow"
+  ],
+  "collection_time_range": [
+   "2026-10-07T18:31:02.844955",
+   "2026-10-07T18:41:05.656861",
+   "150 distinct"
+  ],
+  "timestamp_range": [
+   "2026-10-07T19:28:00+02:00",
+   "2026-10-07T19:38:00+02:00",
+   "3 distinct"
+  ],
+  "roads": {
+   "A13": 561,
+   "A7": 528,
+   "A1": 440,
+   "A6": 396,
+   "A3": 319,
+   "A4": 275,
+   "B40": 198
+  },
+  "speed_kmh_stats": {
+   "min": NaN,
+   "max": NaN,
+   "mean": null,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "occupancy_percent_stats": {
+   "min": NaN,
+   "max": NaN,
+   "mean": null,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "vehicle_flow_stats": {
+   "min": NaN,
+   "max": NaN,
+   "mean": null,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "vehicle_flow_rate_stats": {
+   "min": "0",
+   "max": "3323",
+   "mean": 1123.97,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "latitude_stats": {
+   "min": 49.47144,
+   "max": 49.81487,
+   "mean": 49.59,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "longitude_stats": {
+   "min": 5.9029856,
+   "max": 6.4897113,
+   "mean": 6.12,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "measurement_site_distinct": 0
+ },
+ "traffic_fixed": {
+  "sep": ";",
+  "rows": 106808,
+  "n_cols": 11,
+  "columns": [
+   "collection_time",
+   "road",
+   "measurement_site",
+   "timestamp",
+   "latitude",
+   "longitude",
+   "direction",
+   "speed_kmh",
+   "occupancy_percent",
+   "vehicle_flow",
+   "vehicle_flow_rate"
+  ],
+  "field_count_distribution": {
+   "11": 106808
+  },
+  "bad_rows_sample": [],
+  "exact_duplicates": 0,
+  "missing": {
+   "vehicle_flow": "106808 (100.0%)"
+  },
+  "fully_empty_cols": [
+   "vehicle_flow"
+  ],
+  "collection_time_range": [
+   "2026-10-07T18:45:27.546975",
+   "2026-10-09T09:58:17.485119",
+   "102817 distinct"
+  ],
+  "timestamp_range": [
+   "2026-10-07T19:38:00+02:00",
+   "2026-10-09T10:53:00+02:00",
+   "269 distinct"
+  ],
+  "roads": {
+   "A13": 26868,
+   "A7": 22762,
+   "A1": 18060,
+   "A6": 16046,
+   "A3": 9381,
+   "A4": 8541,
+   "B40": 5150
+  },
+  "speed_kmh_stats": {
+   "min": 0.0,
+   "max": 153.0,
+   "mean": 92.21,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "occupancy_percent_stats": {
+   "min": 0.0,
+   "max": 56.0,
+   "mean": 4.23,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "vehicle_flow_stats": {
+   "min": NaN,
+   "max": NaN,
+   "mean": null,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "vehicle_flow_rate_stats": {
+   "min": "0",
+   "max": "3933",
+   "mean": 1247.98,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "latitude_stats": {
+   "min": 49.47144,
+   "max": 49.81487,
+   "mean": 49.6,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "longitude_stats": {
+   "min": 5.9029856,
+   "max": 6.4897113,
+   "mean": 6.12,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "direction_values": {
+   "outboundFromTown": 54024,
+   "inboundTowardsTown": 52784
+  },
+  "measurement_site_distinct": 64
+ },
+ "traffic_live": {
+  "sep": ",",
+  "rows": 31925,
+  "n_cols": 10,
+  "columns": [
+   "collection_time",
+   "road",
+   "measurement_site",
+   "timestamp",
+   "latitude",
+   "longitude",
+   "direction",
+   "speed_kmh",
+   "occupancy_percent",
+   "vehicle_flow_rate"
+  ],
+  "field_count_distribution": {
+   "10": 31925
+  },
+  "bad_rows_sample": [],
+  "exact_duplicates": 0,
+  "missing": {
+   "measurement_site": "31925 (100.0%)",
+   "timestamp": "31925 (100.0%)",
+   "latitude": "19580 (61.3%)",
+   "longitude": "19580 (61.3%)",
+   "direction": "20405 (63.9%)",
+   "speed_kmh": "19520 (61.1%)",
+   "occupancy_percent": "31925 (100.0%)",
+   "vehicle_flow_rate": "12405 (38.9%)"
+  },
+  "fully_empty_cols": [
+   "measurement_site",
+   "timestamp",
+   "occupancy_percent"
+  ],
+  "collection_time_range": [
+   "2026-10-07T18:59:32.387020",
+   "2026-10-09T09:58:08.208068",
+   "756 distinct"
+  ],
+  "timestamp_range": [
+   NaN,
+   NaN,
+   "0 distinct"
+  ],
+  "roads": {
+   "A6": 5956,
+   "A1": 5393,
+   "A13": 4832,
+   "A3": 4776,
+   "A4": 4611,
+   "A7": 4077,
+   "B40": 2280
+  },
+  "speed_kmh_stats": {
+   "min": 0.0,
+   "max": 250.0,
+   "mean": 84.24,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "occupancy_percent_stats": {
+   "min": NaN,
+   "max": NaN,
+   "mean": null,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "vehicle_flow_rate_stats": {
+   "min": 0.0,
+   "max": 3946.0,
+   "mean": 1540.61,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "latitude_stats": {
+   "min": 49.47144,
+   "max": 49.81487,
+   "mean": 49.59,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "longitude_stats": {
+   "min": 5.9029856,
+   "max": 6.4897113,
+   "mean": 6.11,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "direction_values": {
+   "NaN": 20405,
+   "outboundFromTown": 6280,
+   "inboundTowardsTown": 5240
+  },
+  "measurement_site_distinct": 0
+ },
+ "events_historical": {
+  "sep": ",",
+  "rows": 223,
+  "n_cols": 16,
+  "columns": [
+   "collection_time",
+   "event_type",
+   "creation_time",
+   "start_time",
+   "road",
+   "destination",
+   "latitude",
+   "longitude",
+   "impact",
+   "probability",
+   "lanes_restricted",
+   "operational_lanes",
+   "original_lanes",
+   "length_affected",
+   "comment",
+   "location_description"
+  ],
+  "field_count_distribution": {
+   "16": 223
+  },
+  "bad_rows_sample": [],
+  "exact_duplicates": 0,
+  "missing": {
+   "event_type": "175 (78.5%)",
+   "impact": "223 (100.0%)",
+   "original_lanes": "115 (51.6%)",
+   "comment": "223 (100.0%)",
+   "location_description": "223 (100.0%)"
+  },
+  "fully_empty_cols": [
+   "impact",
+   "comment",
+   "location_description"
+  ],
+  "collection_time_range": [
+   "2026-10-07T18:30:00.324388",
+   "2026-10-07T18:41:06.172293",
+   "16 distinct"
+  ],
+  "creation_time_range": [
+   "2025-03-30T14:20:12+02:00",
+   "2026-10-07T19:34:05+02:00",
+   "13 distinct"
+  ],
+  "start_time_range": [
+   "2023-03-24T18:30:00+01:00",
+   "2026-10-07T19:34:05+02:00",
+   "13 distinct"
+  ],
+  "roads": {
+   "A1": 91,
+   "A13": 72,
+   "A3": 36,
+   "A7": 12,
+   "A6": 12
+  },
+  "latitude_stats": {
+   "min": 49.47772,
+   "max": 49.706207,
+   "mean": 49.59,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "longitude_stats": {
+   "min": 5.904939,
+   "max": 6.438494,
+   "mean": 6.22,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "lanes_restricted_stats": {
+   "min": "0",
+   "max": "2",
+   "mean": 0.65,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "operational_lanes_stats": {
+   "min": "0",
+   "max": "2",
+   "mean": 1.73,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "original_lanes_stats": {
+   "min": 2.0,
+   "max": 3.0,
+   "mean": 2.22,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "length_affected_stats": {
+   "min": 10.0,
+   "max": 8987.0,
+   "mean": 1088.57,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "event_type_values": {
+   "NaN": 175,
+   "constructionWork": 36,
+   "obstructionOnTheRoad": 12
+  },
+  "impact_values": {
+   "NaN": 223
+  },
+  "probability_values": {
+   "certain": 223
+  }
+ },
+ "events_live": {
+  "sep": ",",
+  "rows": 36402,
+  "n_cols": 18,
+  "columns": [
+   "collection_time",
+   "event_type",
+   "creation_time",
+   "version_time",
+   "start_time",
+   "validity",
+   "road",
+   "destination",
+   "latitude",
+   "longitude",
+   "impact",
+   "probability",
+   "safety_message",
+   "lanes_restricted",
+   "operational_lanes",
+   "original_lanes",
+   "length_affected",
+   "comment"
+  ],
+  "field_count_distribution": {
+   "18": 36402
+  },
+  "bad_rows_sample": [],
+  "exact_duplicates": 0,
+  "missing": {
+   "event_type": "36402 (100.0%)",
+   "road": "36402 (100.0%)",
+   "impact": "36402 (100.0%)",
+   "original_lanes": "17943 (49.3%)",
+   "comment": "36402 (100.0%)"
+  },
+  "fully_empty_cols": [
+   "event_type",
+   "road",
+   "impact",
+   "comment"
+  ],
+  "collection_time_range": [
+   "2026-10-07T18:57:22.737813",
+   "2026-10-09T09:58:12.691942",
+   "2067 distinct"
+  ],
+  "creation_time_range": [
+   "2025-03-30T14:20:12+02:00",
+   "2026-10-09T10:45:31+02:00",
+   "55 distinct"
+  ],
+  "start_time_range": [
+   "2023-03-24T18:30:00+01:00",
+   "2026-10-09T10:45:31+02:00",
+   "55 distinct"
+  ],
+  "roads": {
+   "NaN": 36402
+  },
+  "latitude_stats": {
+   "min": 49.477467,
+   "max": 49.76378,
+   "mean": 49.57,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "longitude_stats": {
+   "min": 5.904939,
+   "max": 6.447156,
+   "mean": 6.21,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "lanes_restricted_stats": {
+   "min": "0",
+   "max": "2",
+   "mean": 0.71,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "operational_lanes_stats": {
+   "min": "0",
+   "max": "4",
+   "mean": 1.66,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "original_lanes_stats": {
+   "min": 1.0,
+   "max": 4.0,
+   "mean": 2.13,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "length_affected_stats": {
+   "min": 10.0,
+   "max": 8987.0,
+   "mean": 1167.58,
+   "non_numeric": 0,
+   "negative": 0
+  },
+  "event_type_values": {
+   "NaN": 36402
+  },
+  "impact_values": {
+   "NaN": 36402
+  },
+  "probability_values": {
+   "certain": 36402
+  },
+  "validity_values": {
+   "definedByValidityTimeSpec": 36402
+  },
+  "safety_message_values": {
+   "True": 36383,
+   "true": 19
+  }
+ },
+ "_key_duplicates": {
+  "traffic_fixed[measurement_site,timestamp,direction]": [
+   [
+    "measurement_site",
+    "timestamp",
+    "direction"
+   ],
+   104933
+  ],
+  "traffic_fixed[all except collection_time]": 104933,
+  "traffic_live[all except collection_time]": 0,
+  "traffic_historical[all except collection_time]": 2034,
+  "events_live[all except collection_time]": 36268,
+  "events_historical[all except collection_time]": 204
+ },
+ "_overlap": {
+  "traffic_historical vs fixed": {
+   "common_cols": [
+    "road",
+    "measurement_site",
+    "timestamp",
+    "latitude",
+    "longitude",
+    "speed_kmh",
+    "occupancy_percent",
+    "vehicle_flow",
+    "vehicle_flow_rate"
+   ],
+   "a_distinct": 683,
+   "b_distinct": 1875,
+   "shared": 0
+  },
+  "traffic_live vs fixed": {
+   "common_cols": [
+    "road",
+    "measurement_site",
+    "timestamp",
+    "latitude",
+    "longitude",
+    "direction",
+    "speed_kmh",
+    "occupancy_percent",
+    "vehicle_flow_rate"
+   ],
+   "a_distinct": 31925,
+   "b_distinct": 1875,
+   "shared": 0
+  },
+  "traffic_historical vs live": {
+   "common_cols": [
+    "road",
+    "measurement_site",
+    "timestamp",
+    "latitude",
+    "longitude",
+    "speed_kmh",
+    "occupancy_percent",
+    "vehicle_flow_rate"
+   ],
+   "a_distinct": 683,
+   "b_distinct": 31925,
+   "shared": 0
+  },
+  "events_historical vs live": {
+   "common_cols": [
+    "event_type",
+    "creation_time",
+    "start_time",
+    "road",
+    "destination",
+    "latitude",
+    "longitude",
+    "impact",
+    "probability",
+    "lanes_restricted",
+    "operational_lanes",
+    "original_lanes",
+    "length_affected",
+    "comment"
+   ],
+   "a_distinct": 19,
+   "b_distinct": 72,
+   "shared": 0
+  }
+ }
+}

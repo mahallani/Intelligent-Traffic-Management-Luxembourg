@@ -1,0 +1,20 @@
+﻿file;status;reason;replacement
+data/interim/cita/cita_traffic_combined.csv;INVALID;produced by prepare_cita.py with sep=';' forced: 4 of 5 sources read as a single column;data/processed/cita_traffic/cita_traffic_reference_v1.csv
+data/interim/cita/cita_events_combined.csv;INVALID;same cause (separator forced);data/processed/cita_events/cita_events_v1.csv
+data/reports/cita_traffic_combined_initial_report.json;INVALID;describes the invalid combined file;data/reports/cita_traffic_build_v1.json
+data/reports/cita_events_combined_initial_report.json;INVALID;describes the invalid combined file;data/reports/cita_events_completeness_v1.json
+data/interim/pch/pch_trafic_2025_export_v1.PARTIAL_INVALID_killed_20261010.csv.gz;INVALID;truncated export (process killed);data/interim/pch/pch_trafic_2025_export_v1.csv.xz
+data/processed/cita_traffic.csv;LEGACY;convert_cita.py output from one snapshot: no sensor id, no speed;data/processed/cita_traffic/cita_traffic_reference_v1.csv
+data/processed/cita_events.csv;LEGACY;convert_events.py output, no DATEX ids;data/processed/cita_events/cita_events_v1.csv
+data/processed/cita_traffic/cita_traffic_clean.csv;DIAGNOSTIC ONLY (superseded);built from the faulty v1 collector: sensor attribution unreliable;data/interim/cita/cita_traffic_legacy_diagnostic_v1.csv
+data/interim/cita/cita_traffic_fixed_unique.csv;DIAGNOSTIC ONLY (superseded);sensor attribution unreliable;data/interim/cita/cita_traffic_legacy_diagnostic_v1.csv
+data/processed/cita_events/cita_events_clean.csv;SUPERSEDED;reconstructed event keys without DATEX ids;data/processed/cita_events/cita_events_v1.csv
+data/interim/cita/cita_events_states.csv;SUPERSEDED;same;data/interim/cita/cita_events_legacy_states_v1.csv
+data/reports/cita_validation_collection_v1.json;SUPERSEDED;verifier bug (NaN compared to empty string) produced 3 false failures;data/reports/cita_validation_collection_v1b.json
+data/historical/cita/traffic/cita_traffic_historical.csv;SOURCE - LEGACY;faulty v1 collector, kept untouched, diagnostic only;-
+data/historical/cita/traffic/cita_traffic_historical_fixed.csv;SOURCE - LEGACY;faulty v1 collector (values of the last sensor, location of the first), kept untouched, diagnostic only;-
+data/historical/cita/traffic/cita_traffic_live.csv;SOURCE - LEGACY;no sensor id, no measurement time, kept untouched, diagnostic only;-
+data/reports/gtfs_vs_sumo_kirchberg_v1.csv;SUPERSEDED;bus-line regex and tram-lane test wrong in first run;data/reports/gtfs_vs_sumo_kirchberg_v1b.csv
+data/reports/gtfs_vs_sumo_kirchberg_v1.json;SUPERSEDED;same;data/reports/gtfs_vs_sumo_kirchberg_v1b.json
+sumo/lust_4_intersections/output/experiments_v1/emergency/ (S2_demand_gap *_priority runs and emergency_summary_v1.csv);SUPERSEDED;bug 2026-10-12: after an emergency release the actuator held the yellow 3600 s (stale phase) -> gridlock under S2; S0/S1 unaffected (identical in v2);sumo/lust_4_intersections/output/experiments_v1/emergency_v2/emergency_summary_v2.csv
+sumo/lust_4_intersections/output/experiments_v2/results/RESULTS_v2_a.md (section 3 safety);SUPERSEDED;safety monitor did not flag a yellow that never ends (fixed 2026-10-12); KPIs unchanged (96/96 identical in v2b);sumo/lust_4_intersections/output/experiments_v2b/results/RESULTS_v2_b.md

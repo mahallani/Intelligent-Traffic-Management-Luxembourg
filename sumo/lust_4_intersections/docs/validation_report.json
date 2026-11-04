@@ -1,0 +1,290 @@
+{
+ "all_passed": true,
+ "baseline_x1": {
+  "vehicles": 778,
+  "completed_trips": 752,
+  "avg_travel_time_s": 99.8,
+  "total_waiting_time_s": 14814.0,
+  "avg_waiting_per_vehicle_s": 19.0,
+  "mean_speed_kmh": 35.6,
+  "avg_total_queue_m": 32.8,
+  "max_lane_queue_m": 37.0,
+  "time_loss_s": 23001.0,
+  "co2_kg": 208.2,
+  "teleports": 0,
+  "pending_end": 0,
+  "emergency_travel_time_s": null
+ },
+ "congested_scale": 5.0,
+ "strategies": {
+  "S0": {
+   "vehicles": 3877,
+   "completed_trips": 3652,
+   "avg_travel_time_s": 134.9,
+   "total_waiting_time_s": 155476.0,
+   "avg_waiting_per_vehicle_s": 40.1,
+   "mean_speed_kmh": 25.5,
+   "avg_total_queue_m": 245.5,
+   "max_lane_queue_m": 211.6,
+   "time_loss_s": 258809.0,
+   "co2_kg": 1347.2,
+   "teleports": 0,
+   "pending_end": 14,
+   "emergency_travel_time_s": 159.0,
+   "extra": null
+  },
+  "S1": {
+   "vehicles": 3879,
+   "completed_trips": 3689,
+   "avg_travel_time_s": 134.5,
+   "total_waiting_time_s": 155129.0,
+   "avg_waiting_per_vehicle_s": 40.0,
+   "mean_speed_kmh": 25.9,
+   "avg_total_queue_m": 205.5,
+   "max_lane_queue_m": 205.6,
+   "time_loss_s": 252412.0,
+   "co2_kg": 1347.4,
+   "teleports": 0,
+   "pending_end": 12,
+   "emergency_travel_time_s": 180.0,
+   "extra": null
+  },
+  "S2_no_reroute": {
+   "vehicles": 3875,
+   "completed_trips": 3657,
+   "avg_travel_time_s": 143.4,
+   "total_waiting_time_s": 166274.0,
+   "avg_waiting_per_vehicle_s": 42.9,
+   "mean_speed_kmh": 24.0,
+   "avg_total_queue_m": 258.1,
+   "max_lane_queue_m": 185.5,
+   "time_loss_s": 281200.0,
+   "co2_kg": 1386.9,
+   "teleports": 0,
+   "pending_end": 15,
+   "emergency_travel_time_s": null,
+   "extra": {
+    "rerouted": 0,
+    "changed": 0
+   }
+  },
+  "S2_reroute": {
+   "vehicles": 3876,
+   "completed_trips": 3652,
+   "avg_travel_time_s": 137.7,
+   "total_waiting_time_s": 157601.0,
+   "avg_waiting_per_vehicle_s": 40.7,
+   "mean_speed_kmh": 25.1,
+   "avg_total_queue_m": 240.7,
+   "max_lane_queue_m": 176.5,
+   "time_loss_s": 265927.0,
+   "co2_kg": 1363.8,
+   "teleports": 0,
+   "pending_end": 14,
+   "emergency_travel_time_s": null,
+   "extra": {
+    "rerouted": 121,
+    "changed": 80
+   }
+  },
+  "S3": {
+   "vehicles": 3879,
+   "completed_trips": 3670,
+   "avg_travel_time_s": 130.6,
+   "total_waiting_time_s": 143882.0,
+   "avg_waiting_per_vehicle_s": 37.1,
+   "mean_speed_kmh": 26.4,
+   "avg_total_queue_m": 285.4,
+   "max_lane_queue_m": 226.6,
+   "time_loss_s": 241624.0,
+   "co2_kg": 1322.3,
+   "teleports": 0,
+   "pending_end": 12,
+   "emergency_travel_time_s": 105.0,
+   "extra": 1
+  }
+ },
+ "tests": [
+  {
+   "test": "T1 network loads in SUMO",
+   "passed": true,
+   "sumo_version": "Eclipse SUMO sumo 1.27.1",
+   "edges": 73,
+   "nodes": 33,
+   "stderr": ""
+  },
+  {
+   "test": "T2 exactly 4 traffic lights, LuST programs preserved",
+   "passed": true,
+   "tls_ids": [
+    "-20484",
+    "-23354",
+    "-28692",
+    "-29958"
+   ],
+   "identical_to_lust": {
+    "-20484": true,
+    "-23354": true,
+    "-28692": true,
+    "-29958": true
+   }
+  },
+  {
+   "test": "T3 all routes connected, bus stops on existing lanes",
+   "passed": true,
+   "vehicles": 778,
+   "avg_route_edges": 4.9,
+   "broken_links": [],
+   "bus_stops": 11
+  },
+  {
+   "test": "T4 simulation starts and progresses without error",
+   "passed": true,
+   "end_time": 28800.0,
+   "wall_clock_s": 9.6,
+   "departed": 778,
+   "arrived": 752,
+   "teleports": 0,
+   "collisions": 0
+  },
+  {
+   "test": "T5 vehicles actually drive through each of the 4 intersections",
+   "passed": true,
+   "vehicles_per_signal": {
+    "-20484": 154,
+    "-23354": 162,
+    "-28692": 322,
+    "-29958": 400
+   }
+  },
+  {
+   "test": "T6 buses run and serve the bus stops",
+   "passed": true,
+   "buses": 19,
+   "lines": [
+    "AVL---_12",
+    "AVL---_13",
+    "AVL---_18",
+    "AVL---_25",
+    "AVL---_7"
+   ],
+   "stop_events_sumo": 54,
+   "stop_events_traci_layer": 54,
+   "stops_served": [
+    "171",
+    "172",
+    "260",
+    "261",
+    "285",
+    "286",
+    "454",
+    "455",
+    "634",
+    "635",
+    "645"
+   ],
+   "mean_dwell_s": 20.0
+  },
+  {
+   "test": "T8 KPIs measured (waiting, travel time, speed, queues)",
+   "passed": true,
+   "scale": 1.0,
+   "vehicles": 778,
+   "completed_trips": 752,
+   "avg_travel_time_s": 99.8,
+   "total_waiting_time_s": 14814.0,
+   "avg_waiting_per_vehicle_s": 19.0,
+   "mean_speed_kmh": 35.6,
+   "avg_total_queue_m": 32.8,
+   "max_lane_queue_m": 37.0,
+   "time_loss_s": 23001.0,
+   "co2_kg": 208.2,
+   "teleports": 0,
+   "pending_end": 0,
+   "emergency_travel_time_s": null
+  },
+  {
+   "test": "T7 traffic lights readable and controllable with TraCI",
+   "passed": true,
+   "per_signal": {
+    "-20484": {
+     "read_state": "GGgrrGGG",
+     "setPhase": true,
+     "setPhaseDuration": true,
+     "setRedYellowGreenState": true,
+     "setProgram": true,
+     "setProgramLogic": true
+    },
+    "-23354": {
+     "read_state": "GGrGGG",
+     "setPhase": true,
+     "setPhaseDuration": true,
+     "setRedYellowGreenState": true,
+     "setProgram": true,
+     "setProgramLogic": true
+    },
+    "-28692": {
+     "read_state": "rrrrGGgrrrrGGg",
+     "setPhase": true,
+     "setPhaseDuration": true,
+     "setRedYellowGreenState": true,
+     "setProgram": true,
+     "setProgramLogic": true
+    },
+    "-29958": {
+     "read_state": "rrrGgGGG",
+     "setPhase": true,
+     "setPhaseDuration": true,
+     "setRedYellowGreenState": true,
+     "setProgram": true,
+     "setProgramLogic": true
+    }
+   }
+  },
+  {
+   "test": "S0 do-nothing baseline runs",
+   "passed": true,
+   "vehicles": 3877,
+   "completed_trips": 3652,
+   "avg_travel_time_s": 134.9,
+   "total_waiting_time_s": 155476.0,
+   "avg_waiting_per_vehicle_s": 40.1,
+   "mean_speed_kmh": 25.5,
+   "avg_total_queue_m": 245.5,
+   "max_lane_queue_m": 211.6,
+   "time_loss_s": 258809.0,
+   "co2_kg": 1347.2,
+   "teleports": 0,
+   "pending_end": 14,
+   "emergency_travel_time_s": 159.0,
+   "extra": null
+  },
+  {
+   "test": "S1 signal strategy changes the outcome",
+   "passed": true,
+   "waiting_S0": 155476.0,
+   "waiting_S1": 155129.0,
+   "travel_S0": 134.9,
+   "travel_S1": 134.5
+  },
+  {
+   "test": "S2 rerouting possible (alternative routes exist)",
+   "passed": true,
+   "reroute_calls": 121,
+   "routes_changed": 80,
+   "waiting_incident_no_reroute": 166274.0,
+   "waiting_incident_reroute": 157601.0,
+   "travel_no_reroute": 143.4,
+   "travel_reroute": 137.7
+  },
+  {
+   "test": "S3 emergency vehicle priority feasible",
+   "passed": true,
+   "ambulance_travel_S0_s": 159.0,
+   "ambulance_travel_S3_s": 105.0,
+   "preemptions": 1,
+   "total_waiting_S0": 155476.0,
+   "total_waiting_S3": 143882.0
+  }
+ ]
+}

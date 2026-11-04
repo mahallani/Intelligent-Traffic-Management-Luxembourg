@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-29T18:49:13.007383+01:00 by Eclipse SUMO sumo 1.27.1
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\net/kirchberg_4tls.net.xml"/>
+        <route-files value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\routes/kirchberg_0700_0800.rou.xml"/>
+        <additional-files value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\additional/vtypes.add.xml,C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\additional/emergency_vtypes.add.xml,C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\additional/busstops_kirchberg.add.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\output/summary.xml"/>
+        <tripinfo-output value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\output/tripinfo.xml"/>
+        <save-state.rng value="true"/>
+    </output>
+
+    <time>
+        <begin value="25200"/>
+        <end value="25400.0"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <ignore-junction-blocker value="20"/>
+        <scale value="1.0"/>
+        <time-to-teleport value="600"/>
+        <max-depart-delay value="600"/>
+    </processing>
+
+    <report>
+        <verbose value="false"/>
+        <no-warnings value="true"/>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <emissions>
+        <device.emissions.probability value="1"/>
+    </emissions>
+
+    <traci_server>
+        <remote-port value="50965"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="1"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\kirchberg.gui.xml"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- LuST bus stops located in the Kirchberg area -->
+<additional>
+    <busStop id="171" lane="--30444#1_0" startPos="31.7884810848" endPos="41.7884810848" line=" AVL---_13 AVL---_25 AVL---_CN_4" />
+    <busStop id="172" lane="-30444#1_0" startPos="32.1923756799" endPos="42.1923756799" line=" AVL---_13 AVL---_25 AVL---_CN_4" />
+    <busStop id="260" lane="-31070#7_0" startPos="117.413876867" endPos="127.413876867" line=" AVL---_12 AVL---_18 AVL---_25 AVL---_7 AVL---_CN_4" />
+    <busStop id="261" lane="--31070#7_0" startPos="80.4859378586" endPos="90.4859378586" line=" AVL---_12 AVL---_18 AVL---_25 AVL---_7 AVL---_CN_4" />
+    <busStop id="285" lane="-30730#3_0" startPos="167.791524836" endPos="177.791524836" line=" AVL---_13" />
+    <busStop id="286" lane="--30730#3_0" startPos="152.642663403" endPos="162.642663403" line=" AVL---_13" />
+    <busStop id="454" lane="-31070#4_0" startPos="65.1577785559" endPos="75.1577785559" line=" AVL---_18 AVL---_25 AVL---_7 AVL---_CN_4" />
+    <busStop id="455" lane="--31070#4_0" startPos="227.969454247" endPos="237.969454247" line=" AVL---_18 AVL---_25 AVL---_7 AVL---_CN_4" />
+    <busStop id="634" lane="-31070#5_0" startPos="132.841270652" endPos="142.841270652" line=" AVL---_13 AVL---_18 AVL---_25 AVL---_7 AVL---_CN_4" />
+    <busStop id="635" lane="--31070#5_0" startPos="96.3723447387" endPos="106.372344739" line=" AVL---_13 AVL---_18 AVL---_25 AVL---_7 AVL---_CN_4" />
+    <busStop id="645" lane="-32864#1_0" startPos="45.1532294893" endPos="55.1532294893" line=" AVL---_12 AVL---_13" />
+</additional>

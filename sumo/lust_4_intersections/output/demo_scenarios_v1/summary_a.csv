@@ -1,0 +1,13 @@
+scenario;S0_mean;S3_better_seeds;S3_mean;alerts_elsewhere;alerts_on_lane;ci_high;ci_low;data_origin;delay_s;detected;diff;halting_tls4_inc;halting_tls4_no;kpi;travel_inc;travel_no
+A;134.938;5;122.736;;;-11.494;-12.91;SIMULATED_sumo_lust_kirchberg_4tls;;;-12.202;;;avg_travel_time_s;;
+A;38.904;5;30.13;;;-7.527;-10.021;SIMULATED_sumo_lust_kirchberg_4tls;;;-8.774;;;avg_waiting_time_s;;
+A;40.44;5;32.808;;;-5.989;-9.275;SIMULATED_sumo_lust_kirchberg_4tls;;;-7.632;;;avg_queue_veh;;
+A;105.2;4;95.4;;;3.262;-22.862;SIMULATED_sumo_lust_kirchberg_4tls;;;-9.8;;;max_queue_veh;;
+A;1349.64;5;1268.03;;;-71.562;-91.658;SIMULATED_sumo_lust_kirchberg_4tls;;;-81.61;;;co2_kg;;
+A;3658.8;4;3688.4;;;53.65;5.55;SIMULATED_sumo_lust_kirchberg_4tls;;;29.6;;;arrived;;
+B;;;;0;6;;;SIMULATED_sumo_lust_kirchberg_4tls;86.0;True;;50.62;21.16;S0_fixed_time_seed61;148.21;136.83
+B;;;;0;7;;;SIMULATED_sumo_lust_kirchberg_4tls;86.0;True;;53.62;21.18;S0_fixed_time_seed62;148.18;134.05
+B;;;;0;8;;;SIMULATED_sumo_lust_kirchberg_4tls;86.0;True;;55.68;20.42;S0_fixed_time_seed63;149.15;134.31
+B;;;;2;9;;;SIMULATED_sumo_lust_kirchberg_4tls;131.0;True;;47.7;16.74;S3_rl_qlearning_seed61;142.73;125.53
+B;;;;3;12;;;SIMULATED_sumo_lust_kirchberg_4tls;136.0;True;;46.35;16.31;S3_rl_qlearning_seed62;138.24;121.97
+B;;;;2;7;;;SIMULATED_sumo_lust_kirchberg_4tls;151.0;True;;50.93;17.05;S3_rl_qlearning_seed63;139.76;121.89

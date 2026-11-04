@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Project additional file - emergency vehicle types for the LuST Luxembourg scenario.
+LuST contains NO emergency vehicle: these types are added on top of LuST (LuST itself is
+never modified). Load it with SumoConfig(additional_files=[EMERGENCY_VTYPES_FILE]).
+
+emergency_bluelight : vClass "emergency" + bluelight device (siren: other vehicles form a
+                      rescue lane / give way). Realistic "blue lights on" ambulance.
+emergency_plain     : vClass "emergency" without device: behaves like a normal fast car.
+                      Useful as a pessimistic baseline to measure what S2 (signal
+                      pre-emption) brings on its own.
+-->
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <vType id="emergency_bluelight" vClass="emergency" guiShape="emergency" color="1,0,0"
+           length="6.5" minGap="2.5" accel="2.6" decel="4.5" maxSpeed="44.44" speedFactor="1.5" speedDev="0">
+        <param key="has.bluelight.device" value="true"/>
+        <param key="has.rerouting.device" value="false"/>
+    </vType>
+    <vType id="emergency_plain" vClass="emergency" guiShape="emergency" color="1,0.5,0"
+           length="6.5" minGap="2.5" accel="2.6" decel="4.5" maxSpeed="44.44" speedFactor="1.2" speedDev="0">
+        <param key="has.rerouting.device" value="false"/>
+    </vType>
+</additional>

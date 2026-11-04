@@ -1,0 +1,43 @@
+{
+ "generated_utc": "2026-10-12T14:02:52+00:00",
+ "indicator": "vehicles/hour, both directions, 07:00-08:00",
+ "real": "PCH 2025, Tue-Thu mean, DIRECTION 3, VEHICULE U",
+ "simulated": "LuST (~2015) run 07:00-08:30, entries per edge",
+ "matched_posts": 19,
+ "global_factor_fitted_on_fit_half": 1.242,
+ "before": {
+  "fit": {
+   "n_posts": 10,
+   "mean_GEH": 13.19,
+   "share_GEH_lt_5": 0.2,
+   "MAPE_pct": 52.6
+  },
+  "test": {
+   "n_posts": 9,
+   "mean_GEH": 13.95,
+   "share_GEH_lt_5": 0.11,
+   "MAPE_pct": 51.7
+  }
+ },
+ "after_global_factor": {
+  "fit": {
+   "n_posts": 10,
+   "mean_GEH": 13.18,
+   "share_GEH_lt_5": 0.4,
+   "MAPE_pct": 60.6
+  },
+  "test": {
+   "n_posts": 9,
+   "mean_GEH": 14.92,
+   "share_GEH_lt_5": 0.22,
+   "MAPE_pct": 63.6
+  }
+ },
+ "interpretation_rule": "GEH < 5 is the usual acceptance threshold for hourly link counts",
+ "limits": [
+  "edge matching by distance only (road names listed for manual check)",
+  "2025 counts vs ~2015 LuST demand",
+  "no PCH post inside the Kirchberg 4-signal zone",
+  "a single global factor cannot fix local mismatches; not applied to the scenario automatically"
+ ]
+}

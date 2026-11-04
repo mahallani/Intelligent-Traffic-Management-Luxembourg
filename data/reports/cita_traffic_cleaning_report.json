@@ -1,0 +1,248 @@
+{
+ "source": "data/historical/cita/traffic/cita_traffic_historical_fixed.csv",
+ "separator": ";",
+ "input_rows": 106808,
+ "input_missing": {
+  "collection_time": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "road": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "measurement_site": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "timestamp": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "latitude": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "longitude": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "direction": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "speed_kmh": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "occupancy_percent": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "vehicle_flow": {
+   "missing": 106808,
+   "pct": 100.0
+  },
+  "vehicle_flow_rate": {
+   "missing": 0,
+   "pct": 0.0
+  }
+ },
+ "uniqueness": {
+  "key": [
+   "measurement_site",
+   "timestamp",
+   "direction"
+  ],
+  "distinct_keys": 1875,
+  "rows_with_identical_values_repeated": 104933,
+  "keys_with_conflicting_values": 0,
+  "rows_with_missing_key_part": 0,
+  "distinct_(road,timestamp)": 1875,
+  "explanation": "the collector polled every 60 s while CITA updates every 5 min: the same measurement was written up to N times with identical values"
+ },
+ "rows_removed_as_polling_duplicates": 104933,
+ "polls_per_measurement": {
+  "count": 1875.0,
+  "mean": 56.96,
+  "std": 110.34,
+  "min": 2.0,
+  "25%": 5.0,
+  "50%": 6.0,
+  "75%": 56.0,
+  "max": 825.0
+ },
+ "columns_decisions": {
+  "vehicle_flow": "NOT carried to processed: 100% empty in all 106,808 rows. The XML element <vehicleFlow> is a container whose only content is <vehicleFlowRate>; the parser could never fill it. Kept as-is in the interim file.",
+  "measurement_site": "renamed measurement_site_alertc in processed: it is an ALERT-C location code of the FIRST sensor of the road, not a sensor id.",
+  "collection_time": "original naive text kept (collection_time_original); collection_time_utc assumes the collecting PC clock was UTC+1 (verified by the 2-8 min lag).",
+  "timestamp": "original text with +02:00 offset kept (timestamp_original); timestamp_utc derived."
+ },
+ "excluded_rows": {
+  "timestamp_unparseable": 0
+ },
+ "output_rows": 1875,
+ "anomaly_flags": {
+  "flag_timestamp_unparseable": 0,
+  "flag_speed_above_limit": 16,
+  "flag_speed_zero": 2,
+  "flag_speed_zero_with_flow": 2,
+  "flag_occupancy_out_of_range": 0,
+  "flag_negative_flow": 0,
+  "flag_outside_luxembourg": 0,
+  "flag_collection_lag_unusual": 0
+ },
+ "collection_lag_min": {
+  "count": 1875.0,
+  "mean": 3.13,
+  "std": 0.5,
+  "min": 2.25,
+  "25%": 2.65,
+  "50%": 3.27,
+  "75%": 3.28,
+  "max": 7.64
+ },
+ "value_ranges": {
+  "speed_kmh": {
+   "count": 1875.0,
+   "mean": 90.39,
+   "std": 21.95,
+   "min": 0.0,
+   "25%": 78.0,
+   "50%": 94.0,
+   "75%": 106.0,
+   "max": 153.0
+  },
+  "occupancy_percent": {
+   "count": 1875.0,
+   "mean": 3.67,
+   "std": 4.61,
+   "min": 0.0,
+   "25%": 1.0,
+   "50%": 3.0,
+   "75%": 5.0,
+   "max": 56.0
+  },
+  "vehicle_flow_rate_veh_h": {
+   "count": 1875.0,
+   "mean": 1020.98,
+   "std": 941.34,
+   "min": 0.0,
+   "25%": 171.0,
+   "50%": 813.0,
+   "75%": 1651.0,
+   "max": 3933.0
+  }
+ },
+ "output_missing": {},
+ "coverage": {
+  "first_utc": "2026-10-07 17:38:00+00:00",
+  "last_utc": "2026-10-09 08:53:00+00:00",
+  "span_hours": 39.25,
+  "distinct_5min_timestamps": 269,
+  "expected_5min_timestamps_in_span": 472,
+  "gaps_over_5min": [
+   {
+    "after_utc": "2026-10-07 18:28:00+00:00",
+    "before_utc": "2026-10-07 18:43:00+00:00",
+    "minutes": 15.0
+   },
+   {
+    "after_utc": "2026-10-07 20:03:00+00:00",
+    "before_utc": "2026-10-08 08:08:00+00:00",
+    "minutes": 725.0
+   },
+   {
+    "after_utc": "2026-10-08 16:53:00+00:00",
+    "before_utc": "2026-10-08 21:38:00+00:00",
+    "minutes": 285.0
+   },
+   {
+    "after_utc": "2026-10-09 08:08:00+00:00",
+    "before_utc": "2026-10-09 08:18:00+00:00",
+    "minutes": 10.0
+   }
+  ],
+  "rows_per_timestamp": {
+   "7": 267,
+   "3": 2
+  },
+  "rows_per_road": {
+   "A13": 269,
+   "B40": 269,
+   "A7": 268,
+   "A4": 268,
+   "A1": 267,
+   "A3": 267,
+   "A6": 267
+  },
+  "sensors_per_road_in_one_raw_xml_snapshot": {
+   "A1": 40,
+   "A3": 29,
+   "A4": 25,
+   "A6": 36,
+   "A7": 48,
+   "A13": 51,
+   "B40": 18
+  },
+  "share_of_sensor_measurements_captured_pct": 2.83
+ },
+ "not_integrated_sources": {
+  "traffic_historical": {
+   "file": "data/historical/cita/traffic/cita_traffic_historical.csv",
+   "separator": ",",
+   "rows": 2717,
+   "columns": [
+    "collection_time",
+    "road",
+    "measurement_site",
+    "timestamp",
+    "latitude",
+    "longitude",
+    "speed_kmh",
+    "occupancy_percent",
+    "vehicle_flow",
+    "vehicle_flow_rate"
+   ],
+   "exact_duplicates": 54,
+   "missing_pct": {
+    "measurement_site": 100.0,
+    "latitude": 5.0,
+    "longitude": 5.0,
+    "speed_kmh": 100.0,
+    "occupancy_percent": 100.0,
+    "vehicle_flow": 100.0
+   },
+   "reason_not_integrated": "first 10 min only (19:28-19:38 local), no sensor id, no speed/occupancy, written by the first collector (collect_cita.py)"
+  },
+  "traffic_live": {
+   "file": "data/historical/cita/traffic/cita_traffic_live.csv",
+   "separator": ",",
+   "rows": 31925,
+   "columns": [
+    "collection_time",
+    "road",
+    "measurement_site",
+    "timestamp",
+    "latitude",
+    "longitude",
+    "direction",
+    "speed_kmh",
+    "occupancy_percent",
+    "vehicle_flow_rate"
+   ],
+   "exact_duplicates": 0,
+   "missing_pct": {
+    "measurement_site": 100.0,
+    "timestamp": 100.0,
+    "latitude": 61.3,
+    "longitude": 61.3,
+    "direction": 63.9,
+    "speed_kmh": 61.1,
+    "occupancy_percent": 100.0,
+    "vehicle_flow_rate": 38.9
+   },
+   "reason_not_integrated": "collect_all_luxembourg.py read each <basicData> alone: speed rows and flow rows are separate and carry neither sensor id nor measurement time"
+  }
+ }
+}

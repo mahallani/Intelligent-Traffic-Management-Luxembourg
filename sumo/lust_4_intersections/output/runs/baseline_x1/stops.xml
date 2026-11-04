@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-22T12:45:57.416992+01:00 by Eclipse SUMO sumo 1.27.1
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\net/kirchberg_4tls.net.xml"/>
+        <route-files value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\routes/kirchberg_0700_0800.rou.xml"/>
+        <additional-files value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\additional/vtypes.add.xml,C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\additional/emergency_vtypes.add.xml,C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\additional/busstops_kirchberg.add.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\output\runs\baseline_x1\summary.xml"/>
+        <tripinfo-output value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\output\runs\baseline_x1\tripinfo.xml"/>
+        <stop-output value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\output\runs\baseline_x1\stops.xml"/>
+        <save-state.rng value="true"/>
+    </output>
+
+    <time>
+        <begin value="25200"/>
+        <end value="28800"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <ignore-junction-blocker value="20"/>
+        <scale value="1.0"/>
+        <time-to-teleport value="600"/>
+        <max-depart-delay value="600"/>
+    </processing>
+
+    <report>
+        <verbose value="false"/>
+        <no-warnings value="true"/>
+        <log value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\output\runs\baseline_x1\sumo.log"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="53238"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="C:\Users\ASUS\Intelligent-Traffic-Management-Luxembourg\sumo\lust_4_intersections\kirchberg.gui.xml"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<stops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/stopinfo_file.xsd">
+    <stopinfo id="AVL---_13_12" type="bus" lane="--30444#1_0" pos="41.79" parking="0" started="25513.00" ended="25533.00" busStop="171" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_13_12" type="bus" lane="-30730#3_0" pos="177.78" parking="0" started="25601.00" ended="25621.00" busStop="285" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_18_13" type="bus" lane="-31070#4_0" pos="75.15" parking="0" started="25655.00" ended="25675.00" busStop="454" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_13" type="bus" lane="--30444#1_0" pos="41.78" parking="0" started="25679.00" ended="25699.00" busStop="171" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_13_12" type="bus" lane="-31070#5_0" pos="142.84" parking="0" started="25708.00" ended="25728.00" busStop="634" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_13" type="bus" lane="--31070#7_0" pos="90.47" parking="0" started="25735.00" ended="25755.00" busStop="261" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_18_13" type="bus" lane="-31070#5_0" pos="142.84" parking="0" started="25758.00" ended="25778.00" busStop="634" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_13" type="bus" lane="--31070#5_0" pos="106.36" parking="0" started="25799.00" ended="25819.00" busStop="635" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_13_12" type="bus" lane="-32864#1_0" pos="55.15" parking="0" started="25814.00" ended="25834.00" busStop="645" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_18_13" type="bus" lane="-31070#7_0" pos="127.41" parking="0" started="25828.00" ended="25848.00" busStop="260" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_7_13" type="bus" lane="-31070#4_0" pos="75.15" parking="0" started="25841.00" ended="25861.00" busStop="454" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_13" type="bus" lane="--31070#4_0" pos="237.95" parking="0" started="25854.00" ended="25874.00" busStop="455" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_12_13" type="bus" lane="-31070#7_0" pos="127.41" parking="0" started="25869.00" ended="25889.00" busStop="260" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_7_13" type="bus" lane="-31070#5_0" pos="142.82" parking="0" started="25928.00" ended="25948.00" busStop="634" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_7_13" type="bus" lane="-31070#7_0" pos="127.41" parking="0" started="25993.00" ended="26013.00" busStop="260" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_12" type="bus" lane="-31070#4_0" pos="75.16" parking="0" started="26218.00" ended="26238.00" busStop="454" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_12_12" type="bus" lane="--31070#7_0" pos="90.48" parking="0" started="26223.00" ended="26243.00" busStop="261" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_12" type="bus" lane="-31070#5_0" pos="142.81" parking="0" started="26272.00" ended="26292.00" busStop="634" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_12_12" type="bus" lane="-32864#1_0" pos="55.14" parking="0" started="26273.00" ended="26293.00" busStop="645" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_13_13" type="bus" lane="--31070#5_0" pos="106.34" parking="0" started="26329.00" ended="26349.00" busStop="635" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_12" type="bus" lane="-31070#7_0" pos="127.39" parking="0" started="26384.00" ended="26404.00" busStop="260" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_13_13" type="bus" lane="--30730#3_0" pos="162.62" parking="0" started="26392.00" ended="26412.00" busStop="286" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_12" type="bus" lane="-30444#1_0" pos="42.18" parking="0" started="26438.00" ended="26458.00" busStop="172" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_13_13" type="bus" lane="-30444#1_0" pos="42.18" parking="0" started="26489.00" ended="26509.00" busStop="172" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_18_12" type="bus" lane="--31070#7_0" pos="90.48" parking="0" started="26994.00" ended="27014.00" busStop="261" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_18_12" type="bus" lane="--31070#5_0" pos="106.37" parking="0" started="27104.00" ended="27124.00" busStop="635" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_18_12" type="bus" lane="--31070#4_0" pos="237.97" parking="0" started="27159.00" ended="27179.00" busStop="455" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_7_12" type="bus" lane="--31070#7_0" pos="90.48" parking="0" started="27210.00" ended="27230.00" busStop="261" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_7_12" type="bus" lane="--31070#5_0" pos="106.34" parking="0" started="27282.00" ended="27302.00" busStop="635" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_13_14" type="bus" lane="--30444#1_0" pos="41.77" parking="0" started="27306.00" ended="27326.00" busStop="171" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_7_12" type="bus" lane="--31070#4_0" pos="237.95" parking="0" started="27340.00" ended="27360.00" busStop="455" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_13_14" type="bus" lane="-30730#3_0" pos="177.79" parking="0" started="27393.00" ended="27413.00" busStop="285" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_13_14" type="bus" lane="-31070#5_0" pos="142.84" parking="0" started="27449.00" ended="27469.00" busStop="634" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_15" type="bus" lane="--30444#1_0" pos="41.78" parking="0" started="27505.00" ended="27525.00" busStop="171" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_18_15" type="bus" lane="-31070#4_0" pos="75.14" parking="0" started="27549.00" ended="27569.00" busStop="454" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_13_14" type="bus" lane="-32864#1_0" pos="55.15" parking="0" started="27567.00" ended="27587.00" busStop="645" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_7_15" type="bus" lane="-31070#4_0" pos="75.16" parking="0" started="27574.00" ended="27594.00" busStop="454" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="6.00"/>
+    <stopinfo id="AVL---_25_15" type="bus" lane="--31070#7_0" pos="90.46" parking="0" started="27615.00" ended="27635.00" busStop="261" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_18_15" type="bus" lane="-31070#5_0" pos="142.83" parking="0" started="27646.00" ended="27666.00" busStop="634" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_12_15" type="bus" lane="-31070#7_0" pos="127.40" parking="0" started="27664.00" ended="27684.00" busStop="260" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_7_15" type="bus" lane="-31070#5_0" pos="142.84" parking="0" started="27674.00" ended="27694.00" busStop="634" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="25.00"/>
+    <stopinfo id="AVL---_25_15" type="bus" lane="--31070#5_0" pos="106.37" parking="0" started="27688.00" ended="27708.00" busStop="635" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_18_15" type="bus" lane="-31070#7_0" pos="127.41" parking="0" started="27708.00" ended="27728.00" busStop="260" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_15" type="bus" lane="--31070#4_0" pos="237.95" parking="0" started="27743.00" ended="27763.00" busStop="455" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_7_15" type="bus" lane="-31070#7_0" pos="127.41" parking="0" started="27781.00" ended="27801.00" busStop="260" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_14" type="bus" lane="-31070#4_0" pos="75.14" parking="0" started="28030.00" ended="28050.00" busStop="454" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_12_14" type="bus" lane="--31070#7_0" pos="90.47" parking="0" started="28047.00" ended="28067.00" busStop="261" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_12_14" type="bus" lane="-32864#1_0" pos="55.14" parking="0" started="28101.00" ended="28121.00" busStop="645" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_14" type="bus" lane="-31070#5_0" pos="142.84" parking="0" started="28138.00" ended="28158.00" busStop="634" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_14" type="bus" lane="-31070#7_0" pos="127.40" parking="0" started="28207.00" ended="28227.00" busStop="260" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_25_14" type="bus" lane="-30444#1_0" pos="42.19" parking="0" started="28266.00" ended="28286.00" busStop="172" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_13_15" type="bus" lane="--31070#5_0" pos="106.36" parking="0" started="28706.00" ended="28726.00" busStop="635" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_18_14" type="bus" lane="--31070#7_0" pos="90.48" parking="0" started="28718.00" ended="28738.00" busStop="261" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+    <stopinfo id="AVL---_13_15" type="bus" lane="--30730#3_0" pos="162.63" parking="0" started="28772.00" ended="28792.00" busStop="286" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0" blockedDuration="0.00"/>
+</stops>

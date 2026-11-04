@@ -1,0 +1,7 @@
+strategy;runs;runs_with_monitor;transitions_checked;total_violations;state_in_program;green_to_red_without_yellow;min_green;yellow_duration;max_green;collisions;teleports;controller_decisions;rl_fallback_share;rl_updates_during_eval;rl_explorations_during_eval;data_origin
+S0_fixed_time;16;16;16528;0;0;0;0;0;0;0;0;0;;;;SIMULATED_sumo_lust_kirchberg_4tls
+S1_actuated;16;16;42475;0;0;0;0;0;0;0;0;0;;;;SIMULATED_sumo_lust_kirchberg_4tls
+S2_demand_gap;16;16;14846;0;0;0;0;0;0;0;0;0;;;;SIMULATED_sumo_lust_kirchberg_4tls
+S2F_forecast_gap;16;16;14871;0;0;0;0;0;0;0;0;38585;;;;SIMULATED_sumo_lust_kirchberg_4tls
+S2b_max_pressure;16;16;11762;0;0;0;0;0;0;0;0;0;;;;SIMULATED_sumo_lust_kirchberg_4tls
+S3_rl_qlearning;16;16;17625;0;0;0;0;0;0;0;0;37211;0.428;0;0;SIMULATED_sumo_lust_kirchberg_4tls

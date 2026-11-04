@@ -1,0 +1,465 @@
+{
+ "generated_utc": "2026-10-10T20:58:22+00:00",
+ "dataset_tag": "v1",
+ "passed": 73,
+ "total": 73,
+ "thresholds_missing_pct": {
+  "traffic": {
+   "sensor_id": 0,
+   "measurement_timestamp": 0,
+   "speed_kmh": 15,
+   "occupancy_percent": 15,
+   "vehicle_flow_rate": 5,
+   "latitude": 15,
+   "source_file": 0,
+   "data_origin": 0
+  },
+  "events": {
+   "record_id": 0,
+   "situation_id": 0,
+   "record_type": 0,
+   "creation_time": 0,
+   "overall_start_time": 0
+  }
+ },
+ "results": [
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "file exists",
+   "passed": true,
+   "detail": "data/processed/cita_traffic/cita_traffic_reference_v1.csv"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "recommended columns present",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "no fabricated vehicle_flow column",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "numeric columns parse",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "speed 0-250 km/h",
+   "passed": true,
+   "detail": "{'count': 463.0, 'mean': 92.40388768898488, 'std': 22.09334158584702, 'min': 9.0, '25%': 83.0, '50%': 95.0, '75%': 108.0, 'max': 140.0}"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "occupancy 0-100 %",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "flow >= 0 veh/h",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "flow period 3600 s (unit)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "coordinates inside Luxembourg bbox",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "measurement_timestamp keeps explicit offset",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "*_utc timestamps end in +00:00",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "collection after measurement",
+   "passed": true,
+   "detail": "min lag 170.985809 s"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "key sensor_id+measurement_timestamp unique (no artificial duplicate)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "sensor id prefix matches road",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "data_origin real only",
+   "passed": true,
+   "detail": "['real_cita_datex2_v2']"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "no legacy rows",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "every source_file exists",
+   "passed": true,
+   "detail": "['data/interim/cita/validation_20261010/cita_traffic_sites_v2_validation.csv', 'data/raw/cita/trafficstatus_a1.xml', 'data/raw/cita/trafficstatus_a13.xml', 'data/raw/cita/trafficstatus_a3.xml', 'data/raw/cita/trafficstatus_a4.xml']"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "missing sensor_id <= 0%",
+   "passed": true,
+   "detail": "0.0%"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "missing measurement_timestamp <= 0%",
+   "passed": true,
+   "detail": "0.0%"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "missing speed_kmh <= 15%",
+   "passed": true,
+   "detail": "5.9%"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "missing occupancy_percent <= 15%",
+   "passed": true,
+   "detail": "4.5%"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "missing vehicle_flow_rate <= 5%",
+   "passed": true,
+   "detail": "0.0%"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "missing latitude <= 15%",
+   "passed": true,
+   "detail": "6.3%"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "missing source_file <= 0%",
+   "passed": true,
+   "detail": "0.0%"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "missing data_origin <= 0%",
+   "passed": true,
+   "detail": "0.0%"
+  },
+  {
+   "dataset": "cita_traffic_reference_v1",
+   "check": "no CITA sensor inside the Kirchberg 4-signal zone (documented fact)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "file exists cita_events_record_versions_v1.csv",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "file exists cita_events_v1.csv",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "file exists cita_events_correspondence_v1.csv",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "states: (record_id, record_version) unique",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "events: record_id unique",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "record_id prefixed by situation_id",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "every event has its states",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "versions are integers",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "DATEX times keep explicit offsets",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "safety_related_message normalised (true/false/NA)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "correspondence record_ids exist",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "correspondence confidence in exact/uncertain/none",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "missing record_id <= 0%",
+   "passed": true,
+   "detail": "0.0%"
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "missing situation_id <= 0%",
+   "passed": true,
+   "detail": "0.0%"
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "missing record_type <= 0%",
+   "passed": true,
+   "detail": "0.0%"
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "missing creation_time <= 0%",
+   "passed": true,
+   "detail": "0.0%"
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "missing overall_start_time <= 0%",
+   "passed": true,
+   "detail": "0.0%"
+  },
+  {
+   "dataset": "cita_events_v1",
+   "check": "data_origin real only",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "pch_v1",
+   "check": "posts file exists",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "pch_v1",
+   "check": "daily file exists",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "pch_v1",
+   "check": "POSTE_ID unique in posts",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "pch_v1",
+   "check": "WGS84 coordinates inside Luxembourg bbox (+border posts margin)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "pch_v1",
+   "check": "daily: key post+date+direction+vehicle unique",
+   "passed": true,
+   "detail": "0"
+  },
+  {
+   "dataset": "pch_v1",
+   "check": "daily: hours sum == SUM_TRAF",
+   "passed": true,
+   "detail": "0"
+  },
+  {
+   "dataset": "pch_v1",
+   "check": "daily: counts >= 0",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "pch_v1",
+   "check": "daily: no speed column (counts are not speeds)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "pch_v1",
+   "check": "daily: data_origin real_pch_2025",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "pch_v1",
+   "check": "daily: row count equals source export (815739)",
+   "passed": true,
+   "detail": "815739"
+  },
+  {
+   "dataset": "gtfs_v1",
+   "check": "report exists",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "gtfs_v1",
+   "check": "primary keys unique",
+   "passed": true,
+   "detail": "{'agency': True, 'routes': True, 'trips': True, 'stops': True, 'calendar': True, 'calendar_dates': True, 'stop_times': True}"
+  },
+  {
+   "dataset": "gtfs_v1",
+   "check": "foreign keys: no orphan",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "gtfs_v1",
+   "check": "times parse, no decrease inside trips",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "gtfs_v1",
+   "check": "trips prepared = trips source",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "gtfs_v1",
+   "check": ">24h times kept (not wrapped)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "tasks_v1",
+   "check": "task files exist",
+   "passed": true,
+   "detail": "7"
+  },
+  {
+   "dataset": "tasks_v1",
+   "check": "task_A_event_label_inventory_v1.csv: only real rows",
+   "passed": true,
+   "detail": "{'real_cita_datex2_v3.6'}"
+  },
+  {
+   "dataset": "tasks_v1",
+   "check": "task_A_traffic_with_event_context_v1.csv: only real rows",
+   "passed": true,
+   "detail": "{'real_cita'}"
+  },
+  {
+   "dataset": "tasks_v1",
+   "check": "task_B_forecast_panel_v1.csv: only real rows",
+   "passed": true,
+   "detail": "{'real_cita'}"
+  },
+  {
+   "dataset": "tasks_v1",
+   "check": "task_C_SIMULATED_kpis_kirchberg_v1.csv: only simulated rows",
+   "passed": true,
+   "detail": "{'SIMULATED_sumo_lust_kirchberg_4tls'}"
+  },
+  {
+   "dataset": "tasks_v1",
+   "check": "task_C_SIMULATED_kpis_kirchberg_v1.csv: no legacy source",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "tasks_v1",
+   "check": "task_C_real_cita_observables_lust_bbox_v1.csv: only real rows",
+   "passed": true,
+   "detail": "{'real_cita'}"
+  },
+  {
+   "dataset": "tasks_v1",
+   "check": "task_C_real_pch_potential_demand_profiles_v1.csv: only real rows",
+   "passed": true,
+   "detail": "{'real_pch_2025'}"
+  },
+  {
+   "dataset": "tasks_v1",
+   "check": "task_D_kpi_catalogue_v1.csv: simulated values labelled",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "tasks_v1",
+   "check": "B: split chronological (max train < min test)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "tasks_v1",
+   "check": "B: lag only when previous step exactly 5 min",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "tasks_v1",
+   "check": "B: targets only where the exact future step exists (no filled gaps)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "dataset": "tasks_v1",
+   "check": "B: chronological order inside each sensor",
+   "passed": true,
+   "detail": ""
+  }
+ ]
+}

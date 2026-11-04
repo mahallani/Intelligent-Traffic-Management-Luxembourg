@@ -1,0 +1,65 @@
+﻿legacy_event_uid;record_id;confidence;matched_on;legacy_states
+LEG006c5b6f6a;232972-1;exact;creation_time+start_time+latitude+longitude+destination;3
+LEG0196bd6593;222918-1;exact;creation_time+start_time+latitude+longitude+destination;2
+LEG07dc6bf3b2;;none;no record with same creation_time+start_time in id-bearing snapshots;3
+LEG0b2d7b2c36;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEG0dd9814325;;none;no record with same creation_time+start_time in id-bearing snapshots;3
+LEG0f88990d15;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEG10f02712db;;none;no record with same creation_time+start_time in id-bearing snapshots;5
+LEG11cfa00ca0;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEG11e19defb6;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEG16ec970e68;;none;no record with same creation_time+start_time in id-bearing snapshots;5
+LEG18db37d278;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEG19ba66e01c;;none;no record with same creation_time+start_time in id-bearing snapshots;3
+LEG1cee10ae3a;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEG252cfd88c7;;none;no record with same creation_time+start_time in id-bearing snapshots;7
+LEG2701b5bdd2;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEG271fb8b9b2;227943-2;exact;creation_time+start_time+latitude+longitude+destination;2
+LEG2ee9649d75;232689-1;exact;creation_time+start_time+latitude+longitude+destination;2
+LEG2fe99dd5cc;;none;no record with same creation_time+start_time in id-bearing snapshots;3
+LEG41b0d3f1e1;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEG4cb453a3f9;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEG4d486bad5d;;none;no record with same creation_time+start_time in id-bearing snapshots;3
+LEG4fe6ddc96b;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEG57233bec99;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEG639a84ee06;227943-1;exact;creation_time+start_time+latitude+longitude+destination;2
+LEG658e705ff5;237589-2;exact;creation_time+start_time+latitude+longitude+destination;2
+LEG68ee80700b;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEG6ada883a03;237589-1;exact;creation_time+start_time+latitude+longitude+destination;2
+LEG6c80c493c2;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEG6ed63f1d23;237530-2;exact;creation_time+start_time+latitude+longitude+destination;2
+LEG74096c0d23;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEG74583e54a5;231225-1;exact;creation_time+start_time+latitude+longitude+destination;2
+LEG788269b9a0;232972-2;exact;creation_time+start_time+latitude+longitude+destination;3
+LEG8148b9d90a;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEG82707ce0b8;222918-2;exact;creation_time+start_time+latitude+longitude+destination;2
+LEG83ec59f4f3;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEG84095ad205;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEG8528824c30;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEG89957b7786;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEG89e41decd2;231671-2;exact;creation_time+start_time+latitude+longitude+destination;2
+LEG8bfc2cdb2b;227054-2;exact;creation_time+start_time+latitude+longitude+destination;2
+LEG8e3ed9d96c;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEG8ed9c83eee;232689-2;exact;creation_time+start_time+latitude+longitude+destination;2
+LEG9f489a3fcc;233964-2;exact;creation_time+start_time+latitude+longitude+destination;2
+LEGa11054f3c3;225945-1;exact;creation_time+start_time+latitude+longitude+destination;2
+LEGa21a40476a;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEGa3ac99cb9d;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEGa3f99672d4;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEGa769442d14;233964-1;exact;creation_time+start_time+latitude+longitude+destination;2
+LEGa90c4b3448;;none;no record with same creation_time+start_time in id-bearing snapshots;6
+LEGb0319c90d5;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEGcd85fd3725;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEGd0a16ea4fb;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEGdc1eb2d9b0;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEGde03f7b595;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEGe8f8a5a1df;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEGe93be83093;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEGec40a4c74c;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEGf6148ad9fe;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEGf6426d654f;;none;no record with same creation_time+start_time in id-bearing snapshots;1
+LEGf8bea485cd;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEGfb1748d5fe;;none;no record with same creation_time+start_time in id-bearing snapshots;5
+LEGfbe69c35e9;237604-2;exact;creation_time+start_time+latitude+longitude+destination;3
+LEGfd1f89c1cc;;none;no record with same creation_time+start_time in id-bearing snapshots;2
+LEGfe2e06ad8d;;none;no record with same creation_time+start_time in id-bearing snapshots;1

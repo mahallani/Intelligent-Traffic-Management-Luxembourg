@@ -1,0 +1,994 @@
+{
+ "generated_utc": "2026-10-10T20:32:08+00:00",
+ "root": "/sessions/rcw-01wboamju8hhbfg6bwusaw74/mnt/Intelligent-Traffic-Management-Luxembourg",
+ "sources": {
+  "data/historical/cita/events/cita_events_historical.csv": {
+   "type": "CITA csv",
+   "path": "data/historical/cita/events/cita_events_historical.csv",
+   "bytes": 37684,
+   "separator": ",",
+   "rows": 223,
+   "columns": [
+    "collection_time",
+    "event_type",
+    "creation_time",
+    "start_time",
+    "road",
+    "destination",
+    "latitude",
+    "longitude",
+    "impact",
+    "probability",
+    "lanes_restricted",
+    "operational_lanes",
+    "original_lanes",
+    "length_affected",
+    "comment",
+    "location_description"
+   ],
+   "n_columns": 16,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [
+    "impact",
+    "comment",
+    "location_description"
+   ],
+   "missing_pct": {
+    "event_type": 78.48,
+    "impact": 100.0,
+    "original_lanes": 51.57,
+    "comment": 100.0,
+    "location_description": 100.0
+   },
+   "period": {
+    "collection_time": {
+     "min": "2026-10-07T18:30:00.324388",
+     "max": "2026-10-07T18:41:06.172293",
+     "distinct": 16
+    },
+    "creation_time": {
+     "min": "2025-03-30T14:20:12+02:00",
+     "max": "2026-10-07T19:34:05+02:00",
+     "distinct": 13
+    },
+    "start_time": {
+     "min": "2023-03-24T18:30:00+01:00",
+     "max": "2026-10-07T19:34:05+02:00",
+     "distinct": 13
+    }
+   },
+   "candidate_keys": [
+    {
+     "key": [
+      "creation_time",
+      "start_time",
+      "destination",
+      "latitude",
+      "longitude"
+     ],
+     "distinct": 19,
+     "duplicated_rows_on_key": 204,
+     "unique": false
+    }
+   ],
+   "sha256": "b22a6d5924b38c183566eb231b1bcb5922f3b8b8dccbab72182df70fd069b7d3"
+  },
+  "data/historical/cita/events/cita_events_live.csv": {
+   "type": "CITA csv",
+   "path": "data/historical/cita/events/cita_events_live.csv",
+   "bytes": 7996737,
+   "separator": ",",
+   "rows": 36402,
+   "columns": [
+    "collection_time",
+    "event_type",
+    "creation_time",
+    "version_time",
+    "start_time",
+    "validity",
+    "road",
+    "destination",
+    "latitude",
+    "longitude",
+    "impact",
+    "probability",
+    "safety_message",
+    "lanes_restricted",
+    "operational_lanes",
+    "original_lanes",
+    "length_affected",
+    "comment"
+   ],
+   "n_columns": 18,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [
+    "event_type",
+    "road",
+    "impact",
+    "comment"
+   ],
+   "missing_pct": {
+    "event_type": 100.0,
+    "road": 100.0,
+    "impact": 100.0,
+    "original_lanes": 49.29,
+    "comment": 100.0
+   },
+   "period": {
+    "collection_time": {
+     "min": "2026-10-07T18:57:22.737813",
+     "max": "2026-10-09T09:58:12.691942",
+     "distinct": 2067
+    },
+    "creation_time": {
+     "min": "2025-03-30T14:20:12+02:00",
+     "max": "2026-10-09T10:45:31+02:00",
+     "distinct": 55
+    },
+    "start_time": {
+     "min": "2023-03-24T18:30:00+01:00",
+     "max": "2026-10-09T10:45:31+02:00",
+     "distinct": 55
+    },
+    "version_time": {
+     "min": "2025-05-12T10:38:13+02:00",
+     "max": "2026-10-09T10:45:45+02:00",
+     "distinct": 99
+    }
+   },
+   "candidate_keys": [
+    {
+     "key": [
+      "creation_time",
+      "start_time",
+      "destination",
+      "latitude",
+      "longitude",
+      "version_time"
+     ],
+     "distinct": 115,
+     "duplicated_rows_on_key": 36287,
+     "unique": false
+    }
+   ],
+   "sha256": "9f152cb0881288fca324c875f65a54a0fbe7db7b849e41752625ad967f51e9e6"
+  },
+  "data/historical/cita/traffic/cita_traffic_historical.csv": {
+   "type": "CITA csv",
+   "path": "data/historical/cita/traffic/cita_traffic_historical.csv",
+   "bytes": 228048,
+   "separator": ",",
+   "rows": 2717,
+   "columns": [
+    "collection_time",
+    "road",
+    "measurement_site",
+    "timestamp",
+    "latitude",
+    "longitude",
+    "speed_kmh",
+    "occupancy_percent",
+    "vehicle_flow",
+    "vehicle_flow_rate"
+   ],
+   "n_columns": 10,
+   "exact_duplicate_rows": 54,
+   "fully_empty_columns": [
+    "measurement_site",
+    "speed_kmh",
+    "occupancy_percent",
+    "vehicle_flow"
+   ],
+   "missing_pct": {
+    "measurement_site": 100.0,
+    "latitude": 5.04,
+    "longitude": 5.04,
+    "speed_kmh": 100.0,
+    "occupancy_percent": 100.0,
+    "vehicle_flow": 100.0
+   },
+   "period": {
+    "collection_time": {
+     "min": "2026-10-07T18:31:02.844955",
+     "max": "2026-10-07T18:41:05.656861",
+     "distinct": 150
+    },
+    "timestamp": {
+     "min": "2026-10-07T19:28:00+02:00",
+     "max": "2026-10-07T19:38:00+02:00",
+     "distinct": 3
+    }
+   },
+   "candidate_keys": [
+    {
+     "key": [
+      "road",
+      "timestamp",
+      "latitude",
+      "longitude"
+     ],
+     "distinct": 677,
+     "duplicated_rows_on_key": 2040,
+     "unique": false
+    }
+   ],
+   "sha256": "637f6094ffbb0a0bacbb7d5a1228ce569bcd0f6e4eb62bd5fed268f4d1658ca4"
+  },
+  "data/historical/cita/traffic/cita_traffic_historical_fixed.csv": {
+   "type": "CITA csv",
+   "path": "data/historical/cita/traffic/cita_traffic_historical_fixed.csv",
+   "bytes": 12209164,
+   "separator": ";",
+   "rows": 106808,
+   "columns": [
+    "collection_time",
+    "road",
+    "measurement_site",
+    "timestamp",
+    "latitude",
+    "longitude",
+    "direction",
+    "speed_kmh",
+    "occupancy_percent",
+    "vehicle_flow",
+    "vehicle_flow_rate"
+   ],
+   "n_columns": 11,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [
+    "vehicle_flow"
+   ],
+   "missing_pct": {
+    "vehicle_flow": 100.0
+   },
+   "period": {
+    "collection_time": {
+     "min": "2026-10-07T18:45:27.546975",
+     "max": "2026-10-09T09:58:17.485119",
+     "distinct": 102817
+    },
+    "timestamp": {
+     "min": "2026-10-07T19:38:00+02:00",
+     "max": "2026-10-09T10:53:00+02:00",
+     "distinct": 269
+    }
+   },
+   "candidate_keys": [
+    {
+     "key": [
+      "measurement_site",
+      "timestamp",
+      "direction"
+     ],
+     "distinct": 1875,
+     "duplicated_rows_on_key": 104933,
+     "unique": false
+    }
+   ],
+   "sha256": "61b163bef02407c50592d4e3aa3ae1b3b42a8a4789aa499c856f6c82605272d2"
+  },
+  "data/historical/cita/traffic/cita_traffic_live.csv": {
+   "type": "CITA csv",
+   "path": "data/historical/cita/traffic/cita_traffic_live.csv",
+   "bytes": 1821282,
+   "separator": ",",
+   "rows": 31925,
+   "columns": [
+    "collection_time",
+    "road",
+    "measurement_site",
+    "timestamp",
+    "latitude",
+    "longitude",
+    "direction",
+    "speed_kmh",
+    "occupancy_percent",
+    "vehicle_flow_rate"
+   ],
+   "n_columns": 10,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [
+    "measurement_site",
+    "timestamp",
+    "occupancy_percent"
+   ],
+   "missing_pct": {
+    "measurement_site": 100.0,
+    "timestamp": 100.0,
+    "latitude": 61.33,
+    "longitude": 61.33,
+    "direction": 63.92,
+    "speed_kmh": 61.14,
+    "occupancy_percent": 100.0,
+    "vehicle_flow_rate": 38.86
+   },
+   "period": {
+    "collection_time": {
+     "min": "2026-10-07T18:59:32.387020",
+     "max": "2026-10-09T09:58:08.208068",
+     "distinct": 756
+    }
+   },
+   "candidate_keys": [
+    {
+     "key": [
+      "collection_time",
+      "road",
+      "latitude",
+      "longitude",
+      "direction"
+     ],
+     "distinct": 14701,
+     "duplicated_rows_on_key": 17224,
+     "unique": false
+    }
+   ],
+   "sha256": "5a9f9a108de5f479416e6354bae6c7c5e9680d1c1bd436f046c62afb245f2dd8"
+  },
+  "data/raw/cita/trafficstatus_a1.xml": {
+   "type": "XML",
+   "path": "data/raw/cita/trafficstatus_a1.xml",
+   "bytes": 172109,
+   "root": "{http://datex2.eu/schema/2/2_0}d2LogicalModel",
+   "publicationTime": "2026-10-07T19:00:05.043533681+02:00",
+   "kind": "DATEX II v2 MeasuredDataPublication (traffic status)",
+   "sites": 40,
+   "unique_site_ids": 40,
+   "measurement_times": [
+    "2026-10-07T18:58:00+02:00"
+   ],
+   "sha256": "b62b40af43753c7a8ebbaf10625041813442e54637b43081314efeb57ff8ec6e"
+  },
+  "data/raw/cita/trafficstatus_a13.xml": {
+   "type": "XML",
+   "path": "data/raw/cita/trafficstatus_a13.xml",
+   "bytes": 224159,
+   "root": "{http://datex2.eu/schema/2/2_0}d2LogicalModel",
+   "publicationTime": "2026-10-07T18:55:06.670038524+02:00",
+   "kind": "DATEX II v2 MeasuredDataPublication (traffic status)",
+   "sites": 51,
+   "unique_site_ids": 51,
+   "measurement_times": [
+    "2026-10-07T18:53:00+02:00"
+   ],
+   "sha256": "6cdd7ad17d4516391e1f4467dd2221d9724288182c4494dc641134db052fc112"
+  },
+  "data/raw/cita/trafficstatus_a3.xml": {
+   "type": "XML",
+   "path": "data/raw/cita/trafficstatus_a3.xml",
+   "bytes": 112465,
+   "root": "{http://datex2.eu/schema/2/2_0}d2LogicalModel",
+   "publicationTime": "2026-10-07T18:55:05.066283639+02:00",
+   "kind": "DATEX II v2 MeasuredDataPublication (traffic status)",
+   "sites": 29,
+   "unique_site_ids": 29,
+   "measurement_times": [
+    "2026-10-07T18:53:00+02:00"
+   ],
+   "sha256": "374aaa5d328899a09a71f94ab8c338816ecadf192bc48f20f4fa459b9015c65d"
+  },
+  "data/raw/cita/trafficstatus_a4.xml": {
+   "type": "XML",
+   "path": "data/raw/cita/trafficstatus_a4.xml",
+   "bytes": 113009,
+   "root": "{http://datex2.eu/schema/2/2_0}d2LogicalModel",
+   "publicationTime": "2026-10-07T18:55:05.313905118+02:00",
+   "kind": "DATEX II v2 MeasuredDataPublication (traffic status)",
+   "sites": 25,
+   "unique_site_ids": 25,
+   "measurement_times": [
+    "2026-10-07T18:53:00+02:00"
+   ],
+   "sha256": "8cac90e29b3d6a47c1a548b21eef9d7e3ec3ac810aa9527d1d3984c96dd68ded"
+  },
+  "data/raw/cita/trafficstatus_a6.xml": {
+   "type": "XML",
+   "path": "data/raw/cita/trafficstatus_a6.xml",
+   "bytes": 165214,
+   "root": "{http://datex2.eu/schema/2/2_0}d2LogicalModel",
+   "publicationTime": "2026-10-07T18:55:05.613197366+02:00",
+   "kind": "DATEX II v2 MeasuredDataPublication (traffic status)",
+   "sites": 36,
+   "unique_site_ids": 36,
+   "measurement_times": [
+    "2026-10-07T18:53:00+02:00"
+   ],
+   "sha256": "cc75d21b9f5044b5f3dffac36f1e7e0961c59b5d27552a502bacd3fe1eb919b9"
+  },
+  "data/raw/cita/trafficstatus_a7.xml": {
+   "type": "XML",
+   "path": "data/raw/cita/trafficstatus_a7.xml",
+   "bytes": 204641,
+   "root": "{http://datex2.eu/schema/2/2_0}d2LogicalModel",
+   "publicationTime": "2026-10-07T19:00:07.792096042+02:00",
+   "kind": "DATEX II v2 MeasuredDataPublication (traffic status)",
+   "sites": 48,
+   "unique_site_ids": 48,
+   "measurement_times": [
+    "2026-10-07T18:58:00+02:00"
+   ],
+   "sha256": "f45dc237d165edfcaa050763b68abcc988d2aba203f1382d7b1a3143f3e2e17f"
+  },
+  "data/raw/cita/trafficstatus_b40.xml": {
+   "type": "XML",
+   "path": "data/raw/cita/trafficstatus_b40.xml",
+   "bytes": 79317,
+   "root": "{http://datex2.eu/schema/2/2_0}d2LogicalModel",
+   "publicationTime": "2026-10-07T18:55:07.074554346+02:00",
+   "kind": "DATEX II v2 MeasuredDataPublication (traffic status)",
+   "sites": 18,
+   "unique_site_ids": 18,
+   "measurement_times": [
+    "2026-10-07T18:53:00+02:00"
+   ],
+   "sha256": "d8f1ed005b32686613f51da231590862de84d3b7786a9bdc19cd040e593af31e"
+  },
+  "data/raw/cita_events/situationrecord36.xml": {
+   "type": "XML",
+   "path": "data/raw/cita_events/situationrecord36.xml",
+   "bytes": 68844,
+   "root": "{http://datex2.eu/schema/3/d2Payload}payload",
+   "publicationTime": "2026-10-07T19:20:02+02:00",
+   "kind": "DATEX II v3 SituationPublication (events)",
+   "situations": 12,
+   "records": 18,
+   "unique_record_ids": 18,
+   "sha256": "2f7761b72ff330a6dbc8f0d0069ccaa9764e1fe5d03568b7091ba44cae47def1"
+  },
+  "data/raw/weather/weather_static.xml": {
+   "type": "XML",
+   "path": "data/raw/weather/weather_static.xml",
+   "bytes": 83820,
+   "root": "{http://datex2.eu/schema/2/2_0}d2LogicalModel",
+   "publicationTime": "2026-10-07T19:20:09+02:00",
+   "kind": "DATEX II v2 MeasurementSiteTablePublication (static site table, no values)",
+   "site_records": 21,
+   "sha256": "f3030773dbb5ccb65dce6d029463c3b539c631904c0aebcbea1fd6c58164602c"
+  },
+  "data/raw/gtfs/extracted/agency.txt": {
+   "type": "GTFS",
+   "path": "data/raw/gtfs/extracted/agency.txt",
+   "bytes": 600,
+   "separator": ",",
+   "rows": 6,
+   "columns": [
+    "agency_id",
+    "agency_name",
+    "agency_url",
+    "agency_timezone",
+    "agency_lang",
+    "agency_phone"
+   ],
+   "n_columns": 6,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [
+    "agency_lang",
+    "agency_phone"
+   ],
+   "missing_pct": {
+    "agency_lang": 100.0,
+    "agency_phone": 100.0
+   },
+   "candidate_keys": [
+    {
+     "key": [
+      "agency_id"
+     ],
+     "distinct": 6,
+     "duplicated_rows_on_key": 0,
+     "unique": true
+    }
+   ]
+  },
+  "data/raw/gtfs/extracted/calendar.txt": {
+   "type": "GTFS",
+   "path": "data/raw/gtfs/extracted/calendar.txt",
+   "bytes": 9880,
+   "separator": ",",
+   "rows": 267,
+   "columns": [
+    "service_id",
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday",
+    "sunday",
+    "start_date",
+    "end_date"
+   ],
+   "n_columns": 10,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [],
+   "missing_pct": {},
+   "candidate_keys": [
+    {
+     "key": [
+      "service_id"
+     ],
+     "distinct": 267,
+     "duplicated_rows_on_key": 0,
+     "unique": true
+    }
+   ]
+  },
+  "data/raw/gtfs/extracted/calendar_dates.txt": {
+   "type": "GTFS",
+   "path": "data/raw/gtfs/extracted/calendar_dates.txt",
+   "bytes": 29097,
+   "separator": ",",
+   "rows": 1858,
+   "columns": [
+    "service_id",
+    "date",
+    "exception_type"
+   ],
+   "n_columns": 3,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [],
+   "missing_pct": {},
+   "candidate_keys": [
+    {
+     "key": [
+      "service_id",
+      "date"
+     ],
+     "distinct": 1858,
+     "duplicated_rows_on_key": 0,
+     "unique": true
+    }
+   ]
+  },
+  "data/raw/gtfs/extracted/frequencies.txt": {
+   "type": "GTFS",
+   "path": "data/raw/gtfs/extracted/frequencies.txt",
+   "bytes": 64,
+   "separator": ",",
+   "rows": 0,
+   "columns": [
+    "trip_id",
+    "start_time",
+    "end_time",
+    "headway_secs",
+    "exact_times"
+   ],
+   "n_columns": 5,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [
+    "trip_id",
+    "start_time",
+    "end_time",
+    "headway_secs",
+    "exact_times"
+   ],
+   "missing_pct": {},
+   "candidate_keys": []
+  },
+  "data/raw/gtfs/extracted/routes.txt": {
+   "type": "GTFS",
+   "path": "data/raw/gtfs/extracted/routes.txt",
+   "bytes": 21610,
+   "separator": ",",
+   "rows": 716,
+   "columns": [
+    "route_id",
+    "agency_id",
+    "route_short_name",
+    "route_long_name",
+    "route_type",
+    "route_color",
+    "route_text_color",
+    "route_desc"
+   ],
+   "n_columns": 8,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [
+    "route_long_name"
+   ],
+   "missing_pct": {
+    "route_long_name": 100.0,
+    "route_color": 99.44,
+    "route_text_color": 99.72,
+    "route_desc": 99.72
+   },
+   "candidate_keys": [
+    {
+     "key": [
+      "route_id"
+     ],
+     "distinct": 716,
+     "duplicated_rows_on_key": 0,
+     "unique": true
+    }
+   ]
+  },
+  "data/raw/gtfs/extracted/shapes.txt": {
+   "type": "GTFS",
+   "path": "data/raw/gtfs/extracted/shapes.txt",
+   "bytes": 40821888,
+   "separator": ",",
+   "rows": 1437953,
+   "columns": [
+    "shape_id",
+    "shape_pt_lat",
+    "shape_pt_lon",
+    "shape_pt_sequence"
+   ],
+   "n_columns": 4,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [],
+   "missing_pct": {},
+   "candidate_keys": [
+    {
+     "key": [
+      "shape_id",
+      "shape_pt_sequence"
+     ],
+     "distinct": 1437953,
+     "duplicated_rows_on_key": 0,
+     "unique": true
+    }
+   ]
+  },
+  "data/raw/gtfs/extracted/stop_times.txt": {
+   "type": "GTFS",
+   "path": "data/raw/gtfs/extracted/stop_times.txt",
+   "bytes": 33047961,
+   "separator": ",",
+   "rows": 660706,
+   "columns": [
+    "trip_id",
+    "stop_id",
+    "stop_sequence",
+    "pickup_type",
+    "drop_off_type",
+    "stop_headsign",
+    "arrival_time",
+    "departure_time"
+   ],
+   "n_columns": 8,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [
+    "stop_headsign"
+   ],
+   "missing_pct": {
+    "stop_headsign": 100.0
+   },
+   "candidate_keys": [
+    {
+     "key": [
+      "trip_id",
+      "stop_sequence"
+     ],
+     "distinct": 660706,
+     "duplicated_rows_on_key": 0,
+     "unique": true
+    }
+   ]
+  },
+  "data/raw/gtfs/extracted/stops.txt": {
+   "type": "GTFS",
+   "path": "data/raw/gtfs/extracted/stops.txt",
+   "bytes": 241653,
+   "separator": ",",
+   "rows": 2805,
+   "columns": [
+    "stop_id",
+    "stop_code",
+    "stop_name",
+    "stop_desc",
+    "stop_lat",
+    "stop_lon",
+    "location_type",
+    "parent_station",
+    "wheelchair_boarding",
+    "platform_code"
+   ],
+   "n_columns": 10,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [
+    "stop_code",
+    "stop_desc",
+    "parent_station",
+    "platform_code"
+   ],
+   "missing_pct": {
+    "stop_code": 100.0,
+    "stop_desc": 100.0,
+    "parent_station": 100.0,
+    "platform_code": 100.0
+   },
+   "candidate_keys": [
+    {
+     "key": [
+      "stop_id"
+     ],
+     "distinct": 2805,
+     "duplicated_rows_on_key": 0,
+     "unique": true
+    }
+   ]
+  },
+  "data/raw/gtfs/extracted/transfers.txt": {
+   "type": "GTFS",
+   "path": "data/raw/gtfs/extracted/transfers.txt",
+   "bytes": 109379,
+   "separator": ",",
+   "rows": 2903,
+   "columns": [
+    "from_stop_id",
+    "to_stop_id",
+    "transfer_type",
+    "min_transfer_time",
+    "from_route_id",
+    "to_route_id",
+    "from_trip_id",
+    "to_trip_id"
+   ],
+   "n_columns": 8,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [
+    "from_trip_id",
+    "to_trip_id"
+   ],
+   "missing_pct": {
+    "min_transfer_time": 8.13,
+    "from_route_id": 92.66,
+    "to_route_id": 92.66,
+    "from_trip_id": 100.0,
+    "to_trip_id": 100.0
+   },
+   "candidate_keys": [
+    {
+     "key": [
+      "from_stop_id",
+      "to_stop_id",
+      "from_route_id",
+      "to_route_id",
+      "from_trip_id",
+      "to_trip_id"
+     ],
+     "distinct": 2903,
+     "duplicated_rows_on_key": 0,
+     "unique": true
+    }
+   ]
+  },
+  "data/raw/gtfs/extracted/trips.txt": {
+   "type": "GTFS",
+   "path": "data/raw/gtfs/extracted/trips.txt",
+   "bytes": 1781950,
+   "separator": ",",
+   "rows": 28993,
+   "columns": [
+    "route_id",
+    "service_id",
+    "trip_id",
+    "trip_headsign",
+    "trip_short_name",
+    "direction_id",
+    "block_id",
+    "shape_id",
+    "wheelchair_accessible",
+    "bikes_allowed"
+   ],
+   "n_columns": 10,
+   "exact_duplicate_rows": 0,
+   "fully_empty_columns": [],
+   "missing_pct": {
+    "trip_short_name": 91.97,
+    "block_id": 90.83
+   },
+   "candidate_keys": [
+    {
+     "key": [
+      "trip_id"
+     ],
+     "distinct": 28993,
+     "duplicated_rows_on_key": 0,
+     "unique": true
+    }
+   ]
+  },
+  "data/raw/gtfs/luxembourg_gtfs.zip": {
+   "type": "GTFS zip",
+   "bytes": 16847778,
+   "sha256": "8b4ea53d9c315dce3ca45d6610a624ebaa58f0069abcec9ce4523c8b43583876"
+  },
+  "data/raw/traffic/trafic_2025.xlsx": {
+   "type": "PCH xlsx",
+   "bytes": 150902823,
+   "sheets": {
+    "Data": {
+     "max_row": 815740,
+     "max_column": 36
+    },
+    "SQL": {
+     "max_row": 2,
+     "max_column": 1
+    }
+   },
+   "data_rows": 815739,
+   "columns": [
+    "POSTE_ID",
+    "DATECOM",
+    "DIRECTION",
+    "VEHICULE",
+    "P00_01",
+    "P01_02",
+    "P02_03",
+    "P03_04",
+    "P04_05",
+    "P05_06",
+    "P06_07",
+    "P07_08",
+    "P08_09",
+    "P09_10",
+    "P10_11",
+    "P11_12",
+    "P12_13",
+    "P13_14",
+    "P14_15",
+    "P15_16",
+    "P16_17",
+    "P17_18",
+    "P18_19",
+    "P19_20",
+    "P20_21",
+    "P21_22",
+    "P22_23",
+    "P23_24",
+    "SUM_TRAF",
+    "LOCALITE",
+    "ROUTE",
+    "SENS",
+    "D1",
+    "D2",
+    "COORD_X",
+    "COORD_Y"
+   ],
+   "sql_sheet": "select POSTE_ID POSTE_ID, DATECOM DATECOM, DIRECTION DIRECTION, VEHICULE VEHICULE, P00_01 P00_01, P01_02 P01_02, P02_03 P02_03, P03_04 P03_04, P04_05 P04_05, P05_06 P05_06, P06_07 P06_07, P07_08 P07_08, P08_09 P08_09, P09_10 P09_10, P10_11 P10_11, P11_12 P11_12, P12_13 P12_13, P13_14 P13_14, P14_15 P14_15, P15_16 P15_16, P16_17 P16_17, P17_18 P17_18, P18_19 P18_19, P19_20 P19_20, P20_21 P20_21, P21_22 P21_22, P22_23 P22_23, P23_24 P23_24, SUM_TRAF SUM_TRAF, LOCALITE LOCALITE, ROUTE ROUTE, SENS SENS, D1 D1, D2 D2, COORD_X COORD_X, COORD_Y COORD_Y from (select * from \"TRAFIC\".\"TRA_OPENDAT_V2\")",
+   "sha256": "65c6b061803a8f7c847e03a0f8471549927ef152ab7e0e2216ac4331732cb8d8",
+   "export": {
+    "path": "data/interim/pch/pch_trafic_2025_export_v1.csv.xz",
+    "rows": 815739,
+    "exact_duplicate_rows_excl_source_row": 0,
+    "missing_pct": {},
+    "DATECOM_range": [
+     "2025-01-01T00:00:00",
+     "2025-12-31T00:00:00"
+    ],
+    "POSTE_ID_distinct": 272,
+    "DIRECTION_values": {
+     "1": 281429,
+     "2": 267414,
+     "3": 266896
+    },
+    "VEHICULE_values": {
+     "C": 272169,
+     "U": 271947,
+     "V": 271623
+    },
+    "duplicated_rows_on_POSTE_ID_DATECOM_DIRECTION_VEHICULE": 0
+   }
+  }
+ },
+ "outputs": {
+  "data/interim/pch/pch_trafic_2025_export_v1.PARTIAL_INVALID_killed_20261010.csv.gz": {
+   "status": "INVALID - truncated partial export (process killed), kept, not used"
+  },
+  "data/interim/cita/cita_events_combined.csv": {
+   "bytes": 8611347,
+   "status": "INVALID - produced by prepare_cita.py with sep=';' forced (4/5 sources read as 1 column)",
+   "header_columns_when_split_on_;": 3
+  },
+  "data/interim/cita/cita_events_states.csv": {
+   "bytes": 35072,
+   "status": "current"
+  },
+  "data/interim/cita/cita_traffic_combined.csv": {
+   "bytes": 16849781,
+   "status": "INVALID - produced by prepare_cita.py with sep=';' forced (4/5 sources read as 1 column)",
+   "header_columns_when_split_on_;": 14
+  },
+  "data/interim/cita/cita_traffic_fixed_unique.csv": {
+   "bytes": 573967,
+   "status": "DIAGNOSTIC ONLY - site attribution unreliable"
+  },
+  "data/interim/pch/pch_trafic_2025_export_v1.csv.xz": {
+   "bytes": 25870652,
+   "status": "current"
+  },
+  "data/processed/cita_events/cita_events_clean.csv": {
+   "bytes": 56043,
+   "status": "current"
+  },
+  "data/processed/cita_events.csv": {
+   "bytes": 2867,
+   "status": "LEGACY - convert_events.py output from one XML snapshot, no ids; superseded"
+  },
+  "data/processed/cita_traffic/cita_traffic_clean.csv": {
+   "bytes": 436231,
+   "status": "DIAGNOSTIC ONLY - site attribution unreliable (faulty v1 collector); never for spatial models"
+  },
+  "data/processed/cita_traffic.csv": {
+   "bytes": 14185,
+   "status": "LEGACY - convert_cita.py output from one XML snapshot: no sensor id, no speed; not used"
+  },
+  "data/reports/CITA_DATA_QUALITY.md": {
+   "bytes": 6395,
+   "status": "current"
+  },
+  "data/reports/cita_diagnostic.json": {
+   "bytes": 11331,
+   "status": "current"
+  },
+  "data/reports/cita_events_cleaning_report.json": {
+   "bytes": 3018,
+   "status": "current"
+  },
+  "data/reports/cita_events_combined_initial_report.json": {
+   "bytes": 1211,
+   "status": "INVALID - same cause as the *_combined.csv files"
+  },
+  "data/reports/cita_events_matching.csv": {
+   "bytes": 3488,
+   "status": "current"
+  },
+  "data/reports/cita_traffic_cleaning_report.json": {
+   "bytes": 5745,
+   "status": "current"
+  },
+  "data/reports/cita_traffic_combined_initial_report.json": {
+   "bytes": 1565,
+   "status": "INVALID - same cause as the *_combined.csv files"
+  }
+ },
+ "empty_source_folders": [
+  "data/raw/accidents",
+  "data/raw/cita/events",
+  "data/raw/cita/traffic",
+  "data/raw/pch",
+  "data/historical/cita/travel_time"
+ ],
+ "scripts": [
+  "collect_all_luxembourg.py",
+  "collect_cita.py",
+  "collect_cita_fixed.py",
+  "convert_cita.py",
+  "convert_events.py",
+  "inspect_cita.py",
+  "inspect_events.py",
+  "inspect_measurement.py",
+  "inspect_traffic.py",
+  "scripts/data_pipeline/clean_cita_events.py",
+  "scripts/data_pipeline/clean_cita_traffic.py",
+  "scripts/data_pipeline/common.py",
+  "scripts/data_pipeline/diagnose_cita.py",
+  "scripts/data_pipeline/export_pch_xlsx.py",
+  "scripts/data_pipeline/inventory_sources.py",
+  "scripts/data_pipeline/prepare_cita.py",
+  "test_cita_parser.py"
+ ],
+ "tests": [
+  "tests/test_collect_cita_fixed.py"
+ ],
+ "inherited_findings": [
+  {
+   "finding": "cita_traffic_historical_fixed.csv: values of the LAST sensor of each road XML with the position of the FIRST one (faulty v1 collector)",
+   "source": "diagnostic 2026-10-10",
+   "rechecked": "by tests/test_collect_cita_fixed.py (old parser executed on raw XML)"
+  },
+  {
+   "finding": "cita_traffic_live.csv: speed rows and flow rows separate, no sensor id, no measurement time",
+   "source": "diagnostic 2026-10-10",
+   "rechecked": "here (fully empty columns)"
+  },
+  {
+   "finding": "data/interim/cita/*_combined.csv and *_combined_initial_report.json produced with sep=';' forced: INVALID",
+   "source": "diagnostic 2026-10-10",
+   "rechecked": "here (column count of the combined files)"
+  }
+ ]
+}

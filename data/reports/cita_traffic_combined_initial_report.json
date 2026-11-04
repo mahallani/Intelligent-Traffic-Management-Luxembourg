@@ -1,0 +1,55 @@
+{
+  "traffic_historical": {
+    "rows": 2717,
+    "columns": [
+      "collection_time,road,measurement_site,timestamp,latitude,longitude,speed_kmh,occupancy_percent,vehicle_flow,vehicle_flow_rate",
+      "source_file"
+    ],
+    "exact_duplicate_rows": 54,
+    "missing_by_column": {
+      "collection_time,road,measurement_site,timestamp,latitude,longitude,speed_kmh,occupancy_percent,vehicle_flow,vehicle_flow_rate": 0
+    }
+  },
+  "traffic_fixed": {
+    "rows": 106808,
+    "columns": [
+      "collection_time",
+      "road",
+      "measurement_site",
+      "timestamp",
+      "latitude",
+      "longitude",
+      "direction",
+      "speed_kmh",
+      "occupancy_percent",
+      "vehicle_flow",
+      "vehicle_flow_rate",
+      "source_file"
+    ],
+    "exact_duplicate_rows": 0,
+    "missing_by_column": {
+      "collection_time": 0,
+      "road": 0,
+      "measurement_site": 0,
+      "timestamp": 0,
+      "latitude": 0,
+      "longitude": 0,
+      "direction": 0,
+      "speed_kmh": 0,
+      "occupancy_percent": 0,
+      "vehicle_flow": 106808,
+      "vehicle_flow_rate": 0
+    }
+  },
+  "traffic_live": {
+    "rows": 31925,
+    "columns": [
+      "collection_time,road,measurement_site,timestamp,latitude,longitude,direction,speed_kmh,occupancy_percent,vehicle_flow_rate",
+      "source_file"
+    ],
+    "exact_duplicate_rows": 0,
+    "missing_by_column": {
+      "collection_time,road,measurement_site,timestamp,latitude,longitude,direction,speed_kmh,occupancy_percent,vehicle_flow_rate": 0
+    }
+  }
+}

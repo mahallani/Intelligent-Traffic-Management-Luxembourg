@@ -1,0 +1,82 @@
+{
+ "generated_utc": "2026-10-10T20:38:07+00:00",
+ "folder": "data/interim/cita/validation_20261010",
+ "traffic": {
+  "rows": 245,
+  "sensors_in_xml": 245,
+  "mismatches": [],
+  "rows_per_road": {
+   "A13": 49,
+   "A7": 48,
+   "A1": 40,
+   "A6": 36,
+   "A3": 29,
+   "A4": 25,
+   "B40": 18
+  },
+  "missing": {
+   "speed_kmh": 17,
+   "occupancy_percent": 12,
+   "vehicle_flow_rate": 0,
+   "latitude": 18,
+   "longitude": 18
+  },
+  "sensors_without_location_in_xml": [
+   "A1.GT.1560",
+   "A1.T12N.194",
+   "A1.T9AN.1502",
+   "A13.PS.3111",
+   "A13.PS.31618",
+   "A3.BMBG.1094",
+   "A3.M2G.6120",
+   "A3.MV.11397",
+   "A3.MV.1482",
+   "A3.VM.10437",
+   "A3.VM.11397",
+   "A3.VM.1482",
+   "A6.GW.1260",
+   "A6.GW.2178",
+   "A7.FN.16250",
+   "A7.FN.21600",
+   "A7.NF.20540",
+   "A7.NF.21600"
+  ],
+  "measurement_ts_values": {
+   "2026-10-10T22:33:00+02:00": 245
+  },
+  "collection_utc": [
+   "2026-10-10T20:37:06.948075+00:00"
+  ]
+ },
+ "events": {
+  "records": 21,
+  "situations": 14,
+  "records_in_xml": 21,
+  "record_types": {
+   "MaintenanceWorks": 14,
+   "EquipmentOrSystemFault": 3,
+   "ConstructionWorks": 3,
+   "GeneralObstruction": 1
+  },
+  "validity_status": {
+   "definedByValidityTimeSpec": 21
+  }
+ },
+ "checks": {
+  "rows_equal_sensors_in_xml": true,
+  "values_match_xml": true,
+  "unique_sensor_measurement_key": true,
+  "sensor_prefix_matches_road": true,
+  "measurement_ts_has_explicit_offset": true,
+  "collection_ts_utc": true,
+  "speed_in_0_250": true,
+  "occupancy_in_0_100": true,
+  "flow_nonneg": true,
+  "coords_in_luxembourg_bbox_when_present": true,
+  "flow_period_3600_s": true,
+  "events_records_equal_xml": true,
+  "events_unique_record_version": true,
+  "events_type_present": true
+ },
+ "all_passed": true
+}

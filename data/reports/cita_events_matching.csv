@@ -1,0 +1,29 @@
+﻿historical_event_uid;live_event_uid;confidence;matched_on
+EV006c5b6f6a;EV006c5b6f6a;exact;creation_time+start_time+destination+latitude+longitude
+EV0196bd6593;EV0196bd6593;exact;creation_time+start_time+destination+latitude+longitude
+EV271fb8b9b2;EV271fb8b9b2;exact;creation_time+start_time+destination+latitude+longitude
+EV2ee9649d75;EV2ee9649d75;exact;creation_time+start_time+destination+latitude+longitude
+EV639a84ee06;EV639a84ee06;exact;creation_time+start_time+destination+latitude+longitude
+EV658e705ff5;EV658e705ff5;exact;creation_time+start_time+destination+latitude+longitude
+EV6ada883a03;EV6ada883a03;exact;creation_time+start_time+destination+latitude+longitude
+EV6ed63f1d23;EV6ed63f1d23;exact;creation_time+start_time+destination+latitude+longitude
+EV74583e54a5;EV74583e54a5;exact;creation_time+start_time+destination+latitude+longitude
+EV788269b9a0;EV788269b9a0;exact;creation_time+start_time+destination+latitude+longitude
+EV82707ce0b8;EV82707ce0b8;exact;creation_time+start_time+destination+latitude+longitude
+EV89e41decd2;EV89e41decd2;exact;creation_time+start_time+destination+latitude+longitude
+EV8bfc2cdb2b;EV8bfc2cdb2b;exact;creation_time+start_time+destination+latitude+longitude
+EV8ed9c83eee;EV8ed9c83eee;exact;creation_time+start_time+destination+latitude+longitude
+EV9f489a3fcc;EV9f489a3fcc;exact;creation_time+start_time+destination+latitude+longitude
+EVa11054f3c3;EVa11054f3c3;exact;creation_time+start_time+destination+latitude+longitude
+EVa21a40476a;EVa21a40476a;exact;creation_time+start_time+destination+latitude+longitude
+EVa769442d14;EVa769442d14;exact;creation_time+start_time+destination+latitude+longitude
+EVfbe69c35e9;EVfbe69c35e9;exact;creation_time+start_time+destination+latitude+longitude
+;EV0196bd6593 / EV82707ce0b8;uncertain;live-live: same creation_time 2025-03-30T14:20:12+02:00 and start_time, different location -> probably 2 records of one DATEX situation (ids not collected)
+;EV271fb8b9b2 / EV639a84ee06;uncertain;live-live: same creation_time 2025-10-16T07:40:17+02:00 and start_time, different location -> probably 2 records of one DATEX situation (ids not collected)
+;EV2ee9649d75 / EV8ed9c83eee;uncertain;live-live: same creation_time 2026-04-10T19:26:01+02:00 and start_time, different location -> probably 2 records of one DATEX situation (ids not collected)
+;EV006c5b6f6a / EV788269b9a0;uncertain;live-live: same creation_time 2026-04-22T08:12:20+02:00 and start_time, different location -> probably 2 records of one DATEX situation (ids not collected)
+;EV9f489a3fcc / EVa769442d14;uncertain;live-live: same creation_time 2026-05-25T21:34:01+02:00 and start_time, different location -> probably 2 records of one DATEX situation (ids not collected)
+;EV658e705ff5 / EV6ada883a03;uncertain;live-live: same creation_time 2026-10-07T09:30:26+02:00 and start_time, different location -> probably 2 records of one DATEX situation (ids not collected)
+;EV16ec970e68 / EVfb1748d5fe;uncertain;live-live: same creation_time 2026-10-08T19:34:24+02:00 and start_time, different location -> probably 2 records of one DATEX situation (ids not collected)
+;EV0f88990d15 / EVec40a4c74c;uncertain;live-live: same creation_time 2026-10-08T19:51:16+02:00 and start_time, different location -> probably 2 records of one DATEX situation (ids not collected)
+;EVa3ac99cb9d / EVf8bea485cd;uncertain;live-live: same creation_time 2026-10-08T20:51:24+02:00 and start_time, different location -> probably 2 records of one DATEX situation (ids not collected)

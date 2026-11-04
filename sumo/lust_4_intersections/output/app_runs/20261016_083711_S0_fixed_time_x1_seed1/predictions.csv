@@ -1,0 +1,9 @@
+origin_s;target_s;tls;horizon_min;forecast;observed;error;persistence;error_persistence;data_origin
+25561.0;25861.0;-28692;5;1.455;2.583;-1.128;2.583;0.0;SIMULATED_sumo_lust_kirchberg_4tls
+25561.0;25861.0;-23354;5;0.0;0.083;-0.083;0.083;0.0;SIMULATED_sumo_lust_kirchberg_4tls
+25561.0;25861.0;-20484;5;0.247;0.5;-0.253;0.917;0.417;SIMULATED_sumo_lust_kirchberg_4tls
+25561.0;25861.0;-29958;5;1.893;1.25;0.643;1.833;0.583;SIMULATED_sumo_lust_kirchberg_4tls
+25621.0;25921.0;-28692;5;1.506;1.833;-0.327;0.917;-0.917;SIMULATED_sumo_lust_kirchberg_4tls
+25621.0;25921.0;-23354;5;0.0;0.25;-0.25;0.0;-0.25;SIMULATED_sumo_lust_kirchberg_4tls
+25621.0;25921.0;-20484;5;0.189;0.0;0.189;0.583;0.583;SIMULATED_sumo_lust_kirchberg_4tls
+25621.0;25921.0;-29958;5;1.829;4.583;-2.754;1.833;-2.75;SIMULATED_sumo_lust_kirchberg_4tls
